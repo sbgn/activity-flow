@@ -4,8 +4,8 @@
 \section{Introduction}
 
 The previous chapters describe the appearance and meaning of
-\SBGNAFLone components. Objects are \glyph{AFNs}, \glyph{container nodes}, 
-\glyph{logical operators} as well as \glyph{connecting arcs}. 
+\SBGNAFLone components. Objects are \glyph{AFNs}, \glyph{container nodes},
+\glyph{logical operators} as well as \glyph{connecting arcs}.
 The components of a \AF have to be placed in a meaningful way -- a random
 distribution with spaghetti-like connections will most likely hide
 the information encoded in the underlying model, whereas an elegant
@@ -25,13 +25,13 @@ into two categories:
   \item recommendations, \ie rules which \textbf{should} be followed if
   possible.
 \end{enumerate}
-In addition, we provide a list of additional suggestions which may help in 
+In addition, we provide a list of additional suggestions which may help in
 producing aesthetically more pleasant layouts, possibly easier to understand.
 
 Those layout guidelines are independent of the method used to produce
 the diagram, and apply to both manually drawn diagrams as well as
 diagrams produced by an automatic layout algorithm. The guidelines do
-not deal with interactive aspects (\eg the effect of zooming). 
+not deal with interactive aspects (\eg the effect of zooming).
 Further information about automatic network layout
 (graph drawing) can be found, for example, in the books of Di Battista and
 co-authors~\cite{DiBattista:1998} and Kaufmann and Wagner~\cite{Kaufmann:2001}.
@@ -123,25 +123,6 @@ rotation of elements is not allowed (\fig{af:layout5}).
   vertically.}\label{fig:af:layout5}
 \end{figure}
 
-\subsubsection{Node-edge connection}
-
-The arcs linking the square glyph of a \glyph{transition} 
-to the \glyph{consumption} and \glyph{production arcs}
-are attached to the center of opposite sides (\fig{af:layout6}). 
-The modulatory arcs are attached to the other two sides, but not necessarily
-all to the center, as several modifiers can affect the same \glyph{transition
-node}. A \glyph{transition} connected to \glyph{production arcs} on opposite
-sides is a reversible transition.
-
-\begin{figure}[h!]
-  \centering
-  \includegraphics[scale=0.3]{images/layout-connecting-arcs}
-  \caption{Arcs between a \glyph{transition}  and the 
-  \glyph{consumption} and \glyph{production arcs} must be attached 
-  to the center of opposite sides, modulatory
-  arcs must be attached to the other two sides.}\label{fig:af:layout6}
-\end{figure}
-
 \subsubsection{Node labels}
 
 At least a part of the label (unbordered box containing a string of
@@ -156,11 +137,11 @@ of nodes.
 
 \subsubsection{Compartments}
 
-If a transition has all participants in the same compartment the
-transition node and all edges/arcs have to be in this compartment.
-If a transition has participants in at least two different
-compartments, the transition node has to be either in a compartment
-where the transition has at least one participant or in the empty
+If an activity has all participants in the same compartment the
+activity node and all edges/arcs have to be in this compartment.
+If an activity has participants in at least two different
+compartments, the activity node has to be either in a compartment
+where the activity has at least one participant or in the empty
 space.
 
 \subsection{Recommendations}
@@ -173,48 +154,20 @@ produce layouts may be easier to understand.
 
 Crossings between edges and nodes should be avoided. Some crossings
 may be unavoidable, \eg the crossing between an edge and a
-compartment border or an edge and a complex (if the edge connects an
-element inside the complex with something outside). See also
+compartment border. See also
 requirement \ref{af:crosEdNoRe} (in case of node-edge crossings the
 edge must be drawn on the top of the node).
 
 \subsubsection{Labels}
 
 Labels should be horizontal. Node labels should be placed completely
-inside the node if possible.3 Edge labels should be placed close to
+inside the node if possible. Edge labels should be placed close to
 the edge and avoid overlapping the edge as well as other edge
 labels.
 
 \subsubsection{Avoid edge crossings}
 
 The amount of crossings between edges should be minimized.
-
-\subsubsection{Branching of \glyph{association} and \glyph{dissociation}}
-
-The branching points of \glyph{association} and \glyph{dissociation} nodes 
-should be placed closed to the symbol of the transition, if possible 
-at a distance comparable than, or smaller to, the diameter of the 
-symbol defining the transition (\fig{af:branching}).
-
-\begin{figure}[h!]
-  \centering
-  \includegraphics[scale=0.3]{images/layout-branching}
-  \caption{Branching points should be close to association and 
-  dissociation symbols.}\label{fig:af:branching}
-\end{figure}
-
-\subsubsection{Units of information}
-
-Units of information should not hide the structure of the
-corresponding node and should not overlap other
-elements (\fig{af:layout7}).
-
-\begin{figure}[h!]
-  \centering
-  \includegraphics[scale=0.5]{images/layout-unit-information}
-  \caption{Units of information should not overlap with any
-  other element.}\label{fig:af:layout7}
-\end{figure}
 
 \subsection{Additional suggestions}
 
@@ -225,9 +178,6 @@ understand.
 \begin{itemize}
   \item Angle of edge crossings: If edge crossings are not avoidable
   edges should cross with an angle close to 90 degrees.
-  \item Placement of substrates and products of a transition:
-  Substrate and product nodes should be placed
-  on different sides of the transition node.
   \item Drawing area and width/height ratio: The drawing should
   be compact and the ratio between the width and the height
   of the drawing should be close to 1.
@@ -238,10 +188,10 @@ understand.
   should be drawn in a similar way, and symmetric parts
   should be drawn symmetrically.
   \item Proximity information: Related elements (\eg nodes
-  connected by a transition or all elements within a compartment)
+  connected by edges within a compartment)
   should be drawn close together.
   \item Directional information: Subsequent processes (\eg a sequence
-  of reactions) should be drawn in one direction (\eg from
+  of activities) should be drawn in one direction (\eg from
   top to bottom or from left to right).
   \item Compartments: Different compartments should have different
   background shade or color.

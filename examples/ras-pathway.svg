@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="210mm"
+   height="297mm"
+   id="svg2547">
+  <defs
+     id="defs3">
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="EmptyTriangleOutL"
+       style="overflow:visible">
+      <path
+         d="M 5.77,0 L -2.88,5 L -2.88,-5 L 5.77,0 z"
+         transform="matrix(0.8,0,0,0.8,-4.8,0)"
+         id="path3564"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow1Lend"
+       style="overflow:visible">
+      <path
+         d="M 0,0 L 5,-5 L -12.5,0 L 5,5 L 0,0 z"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         id="path3406"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none" />
+    </marker>
+  </defs>
+  <g
+     id="layer1">
+    <g
+       transform="translate(2,-10)"
+       id="g2592">
+      <rect
+         width="121.42641"
+         height="71.50666"
+         x="315.70865"
+         y="-140.82312"
+         transform="scale(1,-1)"
+         id="rect2555"
+         style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:1.60000002;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         x="344.08902"
+         y="112.34766"
+         id="text2576"
+         xml:space="preserve"
+         style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"><tspan
+           x="344.08902"
+           y="112.34766"
+           id="tspan2578"
+           style="font-size:32px">RAS</tspan></text>
+    </g>
+    <g
+       transform="translate(-1.3491821,0)"
+       id="g2597">
+      <rect
+         width="121.42641"
+         height="71.50666"
+         x="317.05783"
+         y="-316.89142"
+         transform="scale(1,-1)"
+         id="rect2561"
+         style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:1.60000002;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         x="347.4382"
+         y="288.43973"
+         id="text2580"
+         xml:space="preserve"
+         style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"><tspan
+           x="347.4382"
+           y="288.43973"
+           id="tspan2582"
+           style="font-size:32px">RAF</tspan></text>
+    </g>
+    <g
+       transform="translate(1.3491821,0)"
+       id="g2602">
+      <rect
+         width="121.42641"
+         height="71.50666"
+         x="314.35947"
+         y="-503.68185"
+         transform="scale(1,-1)"
+         id="rect2559"
+         style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:1.60000002;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         x="340.78738"
+         y="475.97607"
+         id="text2584"
+         xml:space="preserve"
+         style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"><tspan
+           x="340.78738"
+           y="475.97607"
+           id="tspan2586">MEK</tspan></text>
+    </g>
+    <g
+       transform="translate(-1.3491821,-6)"
+       id="g2607">
+      <rect
+         width="121.42641"
+         height="71.50666"
+         x="317.05783"
+         y="-697.36084"
+         transform="scale(1,-1)"
+         id="rect2563"
+         style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:1.60000002;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         x="349.67596"
+         y="666.86157"
+         id="text2588"
+         xml:space="preserve"
+         style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"><tspan
+           x="349.67596"
+           y="666.86157"
+           id="tspan2590">ERK</tspan></text>
+    </g>
+    <path
+       d="M 376.62099,320.17515 L 376.62099,428.08012"
+       id="path5218"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.37878466px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#EmptyTriangleOutL);stroke-opacity:1;display:inline" />
+    <path
+       d="M 376.62099,131.54811 L 376.62099,239.45308"
+       id="path6773"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.37878466px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#EmptyTriangleOutL);stroke-opacity:1;display:inline" />
+    <path
+       d="M 376.62099,508.65653 L 376.62099,616.5615"
+       id="path6775"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.37878466px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#EmptyTriangleOutL);stroke-opacity:1;display:inline" />
+  </g>
+</svg>

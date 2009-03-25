@@ -15,7 +15,10 @@
    sodipodi:version="0.32"
    inkscape:version="0.46"
    sodipodi:docname="biologicalActivity.svg"
-   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="/Users/mi/Documents/SBGN/subversion/sbgn-af/images/biologicalActivity.png"
+   inkscape:export-xdpi="429.33994"
+   inkscape:export-ydpi="429.33994">
   <metadata
      id="metadata2390">
     <rdf:RDF>
@@ -43,9 +46,9 @@
      inkscape:zoom="0.66923571"
      inkscape:cx="43.719514"
      inkscape:cy="21.138023"
-     inkscape:window-x="0"
+     inkscape:window-x="1344"
      inkscape:window-y="22"
-     inkscape:current-layer="svg2" />
+     inkscape:current-layer="layer1" />
   <defs
      id="defs4">
     <inkscape:perspective
@@ -69,14 +72,14 @@
        id="rect2383"
        style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:4.71904516;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <text
-       x="243.42856"
+       x="231.42856"
        y="404.36218"
        id="text3724"
        xml:space="preserve"
        style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"><tspan
-         x="243.42856"
+         x="231.42856"
          y="404.36218"
          id="tspan3726"
-         style="font-size:64px">Label</tspan></text>
+         style="font-size:64px">LABEL</tspan></text>
   </g>
 </svg>

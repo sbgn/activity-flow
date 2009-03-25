@@ -16,11 +16,11 @@ This chapter provides a catalog of the graphical symbols available for represent
 %%%%                   Activity nodes
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Activity nodes}\label{af:sec:ANs}
+\section{Activity nodes}\label{sec:af:ANs}
 
 An activity node (AN) represents the activity of an entity or an entity pool, but not the entities themselves. For instance, multiple activity nodes can be used to represent different activities of a particular entity, while one activity node can be used to represent the activity of a complex multimer.
+In addition to activities of material entities, \SBGNAFLone represents activity from two conceptual entities: \emph{perturbation}, \emph{observable}.  Auxiliary units such as state variables are not shown on the activity nodes.  Each activity is displayed only once in one compartment.
 
-\SBGNAFLone uses one glyph to represent activities from all biological entities, collectively called \emph{biological activity}. The nature of the molecule that the activity comes from can be encoded in the \emph{units of information} (\sect{af:unitInfo}).  Activities of specific types of macromolecules, such as protein, RNA, DNA, polysaccharide, and specific simple chemicals are not defined by \SBGNAFLone but may be part of future levels of SBGN. In addition to activities of material entities, \SBGNAFLone represents activity from two conceptual entities: \emph{perturbation}, \emph{observable}.  Auxiliary units such as units of information, state variables are not shown on the activity nodes.  Each activity is displayed only once in one compartment.
 
 \input{sources/biologicalActivity.tex}
 \input{sources/perturbation.tex}
@@ -44,6 +44,8 @@ An activity node (AN) represents the activity of an entity or an entity pool, bu
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Modulation arcs}\label{sec:af:arcs}
+
+Modulation arcs are lines that link ANs together.  The symbols attached to their end extremities indicate their semantics.  The modulation arcs can be used to represent direct influence from one activity to another, such as nicotine to nicotinic acetylecholine receptor activity, or indirect influence, such as .......
 
 \input{sources/positive_infl.tex}
 \input{sources/negative_infl.tex}

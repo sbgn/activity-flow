@@ -6,7 +6,7 @@
 The previous chapters describe the appearance and meaning of
 \SBGNAFLone components. Objects are \glyph{AFNs}, \glyph{container nodes},
 \glyph{logical operators} as well as \glyph{connecting arcs}.
-The components of a \AF have to be placed in a meaningful way -- a random
+The components of an \AF diagram have to be placed in a meaningful way -- a random
 distribution with spaghetti-like connections will most likely hide
 the information encoded in the underlying model, whereas an elegant
 placement of the objects, giving a congenial appearance of the
@@ -51,22 +51,20 @@ should be conserved upon scaling as far as possible.
 \subsection{Requirements}
 
 Requirements are rules which \textbf{must} be fulfilled by a layout to
-produce a valid \SBGNAFLone graph.
+produce a valid \SBGNAFLone diagram.
 
 \subsubsection{Node-node overlaps}
 \label{af:NoNoOv}
 
 Nodes are only allowed to overlap in two cases:
 \begin{enumerate}
-  \item the overlapping nodes define a glyph (\eg a \glyph{multimer}
-  composed by stacking of two containers representing the monomers).
+  \item the overlapping nodes define a glyph (\eg a stacking of \glyph{biological activity}
+  and \glyph{unit of information}).
   \item nodes overlapping compartments
   (\eg a complex placed on the compartment border).
 \end{enumerate}
 Otherwise, nodes are not allowed to overlap (\fig{af:layout1}). This includes the
-touching of nodes. Touching is not allowed apart from the case where
-it has a specific meaning, \eg two macromolecules touching each
-other within a complex because they form the complex. Submaps
+touching of nodes, which is also not allowed. Submaps
 are not allowed to overlap.
 
 \begin{figure}[h!]

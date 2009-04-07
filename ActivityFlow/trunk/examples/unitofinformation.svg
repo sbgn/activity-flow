@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="1002.09"
+   height="534.35999"
+   id="svg2">
+  <defs
+     id="defs4">
+    <title
+       id="title5497">Canvas 1</title>
+    <title
+       id="title5501">Layer 1</title>
+    <title
+       id="title3382">Canvas 1</title>
+    <title
+       id="title3385">Layer 1</title>
+  </defs>
+  <g
+     id="layer1">
+    <rect
+       width="207.68242"
+       height="96.253868"
+       ry="0"
+       x="750.71002"
+       y="125.16443"
+       id="rect2529"
+       style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:3.03186512;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="M 297.14286,410.93362 A 37.142857,38.57143 0 1 1 222.85714,410.93362 A 37.142857,38.57143 0 1 1 297.14286,410.93362 z"
+       transform="matrix(0.7078864,0,0,0.6794237,625.09818,-159.22269)"
+       id="path2385"
+       style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       x="850.83691"
+       y="169.86281"
+       id="text2387"
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"><tspan
+         x="850.83691"
+         y="169.86281"
+         id="tspan2389"
+         style="font-size:28px;text-align:center;text-anchor:middle">cAMP</tspan><tspan
+         x="850.83691"
+         y="204.86281"
+         id="tspan11426"
+         style="font-size:28px;text-align:center;text-anchor:middle">activity</tspan></text>
+    <text
+       x="797.47284"
+       y="124.33897"
+       transform="scale(0.9838593,1.0164055)"
+       id="text2391"
+       xml:space="preserve"
+       style="font-size:19.67747688px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"><tspan
+         x="797.47284"
+         y="124.33897"
+         id="tspan2393"
+         style="font-size:18px">cAMP</tspan></text>
+    <rect
+       width="207.68242"
+       height="96.253868"
+       ry="0"
+       x="52.73019"
+       y="125.75616"
+       id="rect2536"
+       style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:3.03186512;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       x="160.85715"
+       y="168.45456"
+       id="text2540"
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"><tspan
+         x="160.85715"
+         y="168.45456"
+         id="tspan2542"
+         style="font-size:28px;text-align:center;text-anchor:middle">MAPK</tspan><tspan
+         x="160.85715"
+         y="203.45456"
+         id="tspan2554"
+         style="font-size:28px;text-align:center;text-anchor:middle">activity</tspan></text>
+    <rect
+       width="70.949196"
+       height="38.092056"
+       ry="8.6572857"
+       x="77.382545"
+       y="106.60187"
+       id="rect2548"
+       style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:4.47937107;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       x="81.714287"
+       y="131.79074"
+       id="text2550"
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"><tspan
+         x="81.714287"
+         y="131.79074"
+         id="tspan2552"
+         style="font-size:20px">MAPK</tspan></text>
+    <rect
+       width="207.68242"
+       height="96.253868"
+       ry="0"
+       x="416.71149"
+       y="122.57458"
+       id="rect2556"
+       style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:3.03186512;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="M 667.81923,346.19236 L 667.81923,451.03784 L 667.84897,451.03784 L 667.84897,509.48299 C 667.84897,527.94822 670.88227,542.81771 674.64906,542.81771 L 733.66643,542.81771 C 737.43321,542.81771 740.46654,527.94822 740.46652,509.48299 L 740.46652,380.16877 C 740.46652,378.59963 740.44347,377.04184 740.40108,375.53167 L 740.40108,346.19236 L 667.81923,346.19236 z"
+       id="path5503"
+       style="fill:#ffffff;fill-opacity:1;stroke-dasharray:none;stroke-opacity:1" />
+    <g
+       transform="matrix(1.2487374,0,0,1,-43.581034,-361.37497)"
+       id="g3432">
+      <rect
+         width="54.249008"
+         height="32.907093"
+         ry="6.3874917"
+         x="385.68933"
+         y="468.05151"
+         id="rect3426"
+         style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         width="54.41777"
+         height="21.545759"
+         ry="0"
+         x="385.70447"
+         y="467.18375"
+         id="rect3428"
+         style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         width="51.109238"
+         height="7.672677"
+         x="387.34525"
+         y="484.54727"
+         id="rect3430"
+         style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:5.03639269;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0" />
+    </g>
+    <rect
+       width="207.68242"
+       height="96.253868"
+       ry="0"
+       x="62.031082"
+       y="401.09094"
+       id="rect3437"
+       style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:3.03186512;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="M 447.14285,358.79074 A 55,20.714287 0 1 1 337.14285,358.79074 A 55,20.714287 0 1 1 447.14285,358.79074 z"
+       transform="matrix(0.7106657,0,0,0.88694,-154.23876,82.277716)"
+       id="path3439"
+       style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       width="207.68242"
+       height="96.253868"
+       ry="0"
+       x="425.40619"
+       y="396.9212"
+       id="rect3441"
+       style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:3.03186512;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="M 459.32463,376.29805 L 444.35851,386.78156 L 445.05481,408.61461 L 456.88102,419.51402 L 508.01927,418.92017 L 518.42196,409.25673 L 517.76164,388.08017 L 502.75997,376.29652 L 459.32463,376.29805 z"
+       id="path4566"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:3.77368379;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       x="390"
+       y="422.36218"
+       id="text3495"
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"><tspan
+         x="390"
+         y="422.36218"
+         id="tspan3497" /></text>
+    <text
+       x="169.73418"
+       y="444.01392"
+       id="text3499"
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"><tspan
+         x="169.73418"
+         y="444.01392"
+         id="tspan3501"
+         style="font-size:28px;text-align:center;text-anchor:middle">kinase</tspan><tspan
+         x="169.73418"
+         y="479.01392"
+         id="tspan3503"
+         style="font-size:28px;text-align:center;text-anchor:middle">activity</tspan></text>
+    <text
+       x="479.81879"
+       y="444.76245"
+       id="text11428"
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"><tspan
+         x="479.81879"
+         y="444.76245"
+         id="tspan11430"
+         style="font-size:28px">SNARE</tspan><tspan
+         x="479.81879"
+         y="479.76245"
+         id="tspan11436"
+         style="font-size:28px">activity</tspan></text>
+    <text
+       x="448.67593"
+       y="403.33386"
+       id="text11432"
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"><tspan
+         x="448.67593"
+         y="403.33386"
+         id="tspan11434"
+         style="font-size:18px">SNARE</tspan></text>
+    <text
+       x="523.6955"
+       y="167.27292"
+       id="text11438"
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"><tspan
+         x="523.6955"
+         y="167.27292"
+         id="tspan11440"
+         style="font-size:28px;text-align:center;text-anchor:middle">MAPK</tspan><tspan
+         x="523.6955"
+         y="202.27292"
+         id="tspan11446"
+         style="font-size:28px;text-align:center;text-anchor:middle">activity</tspan></text>
+    <text
+       x="443.98126"
+       y="128.98721"
+       id="text11442"
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"><tspan
+         x="443.98126"
+         y="128.98721"
+         id="tspan11444"
+         style="font-size:20px">MAPK</tspan></text>
+    <text
+       x="24.243662"
+       y="62.229942"
+       id="text11448"
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"><tspan
+         x="24.243662"
+         y="62.229942"
+         id="tspan11450"
+         style="font-weight:bold;-inkscape-font-specification:Bitstream Vera Sans Bold">A</tspan></text>
+    <text
+       x="398.00009"
+       y="62.229942"
+       id="text11452"
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"><tspan
+         x="398.00009"
+         y="62.229942"
+         id="tspan11454"
+         style="font-weight:bold;-inkscape-font-specification:Bitstream Vera Sans Bold">B</tspan></text>
+    <text
+       x="737.41138"
+       y="62.214317"
+       id="text11456"
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"><tspan
+         x="737.41138"
+         y="62.214317"
+         id="tspan11458"
+         style="font-weight:bold;-inkscape-font-specification:Bitstream Vera Sans Bold">C</tspan></text>
+    <text
+       x="34.345188"
+       y="343.68695"
+       id="text11460"
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"><tspan
+         x="34.345188"
+         y="343.68695"
+         id="tspan11462"
+         style="font-weight:bold;-inkscape-font-specification:Bitstream Vera Sans Bold">D</tspan></text>
+    <text
+       x="407"
+       y="339.68695"
+       id="text11468"
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"><tspan
+         x="407"
+         y="339.68695"
+         id="tspan11470"
+         style="font-weight:bold;-inkscape-font-specification:Bitstream Vera Sans Bold">E</tspan></text>
+  </g>
+</svg>

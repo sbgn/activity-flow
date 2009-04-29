@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="294.09"
+   height="434"
+   id="svg3887">
+  <defs
+     id="defs3889">
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="EmptyTriangleOutL"
+       style="overflow:visible">
+      <path
+         d="M 5.77,0 L -2.88,5 L -2.88,-5 L 5.77,0 z"
+         transform="matrix(0.8,0,0,0.8,-4.8,0)"
+         id="path3565"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none" />
+    </marker>
+  </defs>
+  <g
+     id="layer1">
+    <path
+       d="M 80.187534,114.91643 C 80.175334,114.77425 50.269144,68.103249 50.269144,68.103249 L 248.64623,68.441259 L 215.41317,114.43637 L 248.2744,160.00075 L 49.925194,160.00075 L 80.187534,114.91643 z"
+       id="path3155"
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       x="143.35329"
+       y="90.921249"
+       id="text2460"
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"><tspan
+         x="143.35329"
+         y="90.921249"
+         id="tspan2462"
+         style="font-size:24px;text-align:center;text-anchor:middle">Nutrient/</tspan><tspan
+         x="143.35329"
+         y="120.92125"
+         id="tspan2464"
+         style="font-size:24px;text-align:center;text-anchor:middle">metabolic</tspan><tspan
+         x="143.35329"
+         y="150.92125"
+         id="tspan2466"
+         style="font-size:24px;text-align:center;text-anchor:middle">signals</tspan></text>
+    <rect
+       width="184.85791"
+       height="91.923882"
+       x="50.764442"
+       y="-373.76401"
+       transform="scale(1,-1)"
+       id="rect2468"
+       style="fill:#ffffff;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       x="96.119759"
+       y="337.19547"
+       id="text3240"
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Symbol;-inkscape-font-specification:Symbol"><tspan
+         x="96.119759"
+         y="337.19547"
+         id="tspan3242"><tspan
+   id="tspan3248"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">PPAR</tspan>d</tspan><tspan
+         x="96.119759"
+         y="381.77701"
+         id="tspan3389" /></text>
+    <path
+       d="M 145.07734,162.26515 C 144.42974,278.1764 144.42974,278.1764 144.42974,278.1764 L 144.42974,278.1764 L 144.42974,278.1764 L 144.42974,278.1764 L 144.42974,278.1764"
+       id="path3399"
+       style="fill:#010000;fill-opacity:1;fill-rule:evenodd;stroke:#f80000;stroke-width:4.24599981;stroke-linecap:butt;stroke-linejoin:miter;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="M 144.34069,277.32609 L 158.19483,250.67391 L 130.37659,250.67391 L 144.34069,277.32609 z"
+       id="path4738"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#fb0504;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+</svg>

@@ -9,7 +9,7 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="1052.3622"
-   height="744.09448"
+   height="865.09003"
    id="svg2"
    sodipodi:version="0.32"
    inkscape:version="0.46"
@@ -19,6 +19,32 @@
    inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <defs
      id="defs4">
+    <marker
+       inkscape:stockid="StopL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="StopL"
+       style="overflow:visible">
+      <path
+         id="path3534"
+         d="M 0,5.65 L 0,-5.65"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.8,0.8)" />
+    </marker>
+    <marker
+       inkscape:stockid="EmptyTriangleOutL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="EmptyTriangleOutL"
+       style="overflow:visible">
+      <path
+         id="path3525"
+         d="M 5.77,0 L -2.88,5 L -2.88,-5 L 5.77,0 z"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.8,0,0,0.8,-4.8,0)" />
+    </marker>
     <inkscape:perspective
        sodipodi:type="inkscape:persp3d"
        inkscape:vp_x="0 : 372.04724 : 1"
@@ -29,28 +55,28 @@
     <marker
        inkscape:stockid="Arrow1Mend"
        orient="auto"
-       refY="0.0"
-       refX="0.0"
+       refY="0"
+       refX="0"
        id="Arrow1Mend"
-       style="overflow:visible;">
+       style="overflow:visible">
       <path
          id="path2972"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
-         transform="scale(0.4) rotate(180) translate(10,0)" />
+         d="M 0,0 L 5,-5 L -12.5,0 L 5,5 L 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
     </marker>
     <marker
        inkscape:stockid="Arrow1Lend"
        orient="auto"
-       refY="0.0"
-       refX="0.0"
+       refY="0"
+       refX="0"
        id="Arrow1Lend"
-       style="overflow:visible;">
+       style="overflow:visible">
       <path
          id="path2978"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
-         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+         d="M 0,0 L 5,-5 L -12.5,0 L 5,5 L 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
     </marker>
   </defs>
   <sodipodi:namedview
@@ -64,16 +90,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.77353741"
-     inkscape:cx="651.78199"
-     inkscape:cy="193.04637"
+     inkscape:cx="548.36101"
+     inkscape:cy="399.88834"
      inkscape:document-units="px"
-     inkscape:current-layer="g3248"
+     inkscape:current-layer="layer2"
      width="1052.3622px"
      height="744.09448px"
-     inkscape:window-width="1680"
-     inkscape:window-height="995"
-     inkscape:window-x="0"
-     inkscape:window-y="31"
+     inkscape:window-width="1440"
+     inkscape:window-height="878"
+     inkscape:window-x="20"
+     inkscape:window-y="20"
      showguides="true"
      inkscape:guide-bbox="true"
      showgrid="true">
@@ -91,7 +117,9 @@
        id="guide3518" />
     <inkscape:grid
        type="xygrid"
-       id="grid3234" />
+       id="grid3234"
+       visible="true"
+       enabled="true" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -120,28 +148,46 @@
        ry="0" />
     <path
        id="path3955"
-       d="M 1004.9452,618.56925 L 976.31444,618.69667 L 957.37804,640.3589 L 976.24984,661.76628 L 1004.9452,661.76628 L 1004.9452,618.56925 z"
-       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       d="M 1004.9452,746.56925 L 976.31444,746.69667 L 957.37804,768.3589 L 976.24984,789.76628 L 1004.9452,789.76628 L 1004.9452,746.56925 z"
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="/Users/mi/Documents/SBGN/subversion/sbgn-af/images/submap.png"
+       inkscape:export-xdpi="429.33994"
+       inkscape:export-ydpi="429.33994" />
     <path
        style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 1004.9452,452.11219 L 976.31444,452.23961 L 957.37804,473.90184 L 976.24984,495.3092 L 1004.9452,495.3092 L 1004.9452,452.11219 z "
-       id="path3959" />
+       d="M 1004.9452,580.11219 L 976.31444,580.23961 L 957.37804,601.90184 L 976.24984,623.3092 L 1004.9452,623.3092 L 1004.9452,580.11219 z"
+       id="path3959"
+       inkscape:export-filename="/Users/mi/Documents/SBGN/subversion/sbgn-af/images/submap.png"
+       inkscape:export-xdpi="429.33994"
+       inkscape:export-ydpi="429.33994" />
     <path
        style="fill:#ffffff;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 58.96388,533.98942 L 87.59465,534.11684 L 106.53107,555.77907 L 87.65928,577.18643 L 58.96388,577.18643 L 58.96388,533.98942 z "
-       id="path3965" />
+       d="M 58.96388,661.98942 L 87.59465,662.11684 L 106.53107,683.77907 L 87.65928,705.18643 L 58.96388,705.18643 L 58.96388,661.98942 z"
+       id="path3965"
+       inkscape:export-filename="/Users/mi/Documents/SBGN/subversion/sbgn-af/images/submap.png"
+       inkscape:export-xdpi="429.33994"
+       inkscape:export-ydpi="429.33994" />
     <path
        style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 158.77308,555.7716 C 107.1543,555.7716 107.1543,555.7716 107.1543,555.7716"
-       id="path4145" />
+       d="M 158.77308,683.7716 C 107.1543,683.7716 107.1543,683.7716 107.1543,683.7716"
+       id="path4145"
+       inkscape:export-filename="/Users/mi/Documents/SBGN/subversion/sbgn-af/images/submap.png"
+       inkscape:export-xdpi="429.33994"
+       inkscape:export-ydpi="429.33994" />
     <path
        style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 959.77307,473.77157 C 908.15428,473.77157 908.15428,473.77157 908.15428,473.77157"
-       id="path4177" />
+       d="M 959.77307,601.77157 C 908.15428,601.77157 908.15428,601.77157 908.15428,601.77157"
+       id="path4177"
+       inkscape:export-filename="/Users/mi/Documents/SBGN/subversion/sbgn-af/images/submap.png"
+       inkscape:export-xdpi="429.33994"
+       inkscape:export-ydpi="429.33994" />
     <path
        id="path4179"
-       d="M 959.77307,640.22863 C 908.15428,640.22863 908.15428,640.22863 908.15428,640.22863"
-       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       d="M 959.77307,768.22863 C 908.15428,768.22863 908.15428,768.22863 908.15428,768.22863"
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="/Users/mi/Documents/SBGN/subversion/sbgn-af/images/submap.png"
+       inkscape:export-xdpi="429.33994"
+       inkscape:export-ydpi="429.33994" />
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
@@ -152,7 +198,7 @@
          x="159.6422"
          y="207.87895"
          style="font-size:36px;font-weight:normal;text-align:center;text-anchor:middle;fill:#969696;fill-opacity:1"
-         id="tspan3755">EPN</tspan><tspan
+         id="tspan3755">AN</tspan><tspan
          id="tspan3757"
          sodipodi:role="line"
          x="159.6422"
@@ -160,13 +206,13 @@
          style="font-size:36px;font-weight:normal;text-align:center;text-anchor:middle;fill:#969696;fill-opacity:1">or CN</tspan></text>
     <path
        sodipodi:type="arc"
-       style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#969696;stroke-width:1.9218898;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#969696;stroke-width:1.92188978;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path3759"
        sodipodi:cx="170.71428"
        sodipodi:cy="290.52304"
        sodipodi:rx="86.428574"
        sodipodi:ry="47.857143"
-       d="M 257.14285 290.52304 A 86.428574 47.857143 0 1 1  84.285706,290.52304 A 86.428574 47.857143 0 1 1  257.14285 290.52304 z"
+       d="M 257.14285,290.52304 A 86.428574,47.857143 0 1 1 84.285706,290.52304 A 86.428574,47.857143 0 1 1 257.14285,290.52304 z"
        transform="matrix(-1.6393825,0,0,1.4862958,436.67022,-212.70243)" />
     <path
        id="path3799"
@@ -174,12 +220,15 @@
        style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#969696;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <text
        id="text4801"
-       y="566.04517"
+       y="694.04517"
        x="65.272713"
        style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-       xml:space="preserve"><tspan
+       xml:space="preserve"
+       inkscape:export-filename="/Users/mi/Documents/SBGN/subversion/sbgn-af/images/submap.png"
+       inkscape:export-xdpi="429.33994"
+       inkscape:export-ydpi="429.33994"><tspan
          style="font-size:32px;font-weight:bold"
-         y="566.04517"
+         y="694.04517"
          x="65.272713"
          id="tspan4803"
          sodipodi:role="line">A</tspan></text>
@@ -187,21 +236,27 @@
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        x="973.6449"
-       y="485.64838"
-       id="text4805"><tspan
+       y="613.64838"
+       id="text4805"
+       inkscape:export-filename="/Users/mi/Documents/SBGN/subversion/sbgn-af/images/submap.png"
+       inkscape:export-xdpi="429.33994"
+       inkscape:export-ydpi="429.33994"><tspan
          sodipodi:role="line"
          id="tspan4807"
          x="973.6449"
-         y="485.64838"
+         y="613.64838"
          style="font-size:32px;font-weight:bold">B</tspan></text>
     <text
        id="text4809"
-       y="651.93365"
+       y="779.93365"
        x="972.55902"
        style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-       xml:space="preserve"><tspan
+       xml:space="preserve"
+       inkscape:export-filename="/Users/mi/Documents/SBGN/subversion/sbgn-af/images/submap.png"
+       inkscape:export-xdpi="429.33994"
+       inkscape:export-ydpi="429.33994"><tspan
          style="font-size:32px;font-weight:bold"
-         y="651.93365"
+         y="779.93365"
          x="972.55902"
          id="tspan4811"
          sodipodi:role="line">C</tspan></text>
@@ -218,7 +273,7 @@
          id="tspan4850">LABEL</tspan></text>
     <path
        id="path2236"
-       d="M 347.76463,197.81323 L 376.3954,197.94065 L 395.33182,219.60288 L 376.46003,241.01024 L 347.76463,241.01024 L 347.76463,197.81323 z "
+       d="M 347.76463,197.81323 L 376.3954,197.94065 L 395.33182,219.60288 L 376.46003,241.01024 L 347.76463,241.01024 L 347.76463,197.81323 z"
        style="fill:#ffffff;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <text
        xml:space="preserve"
@@ -233,11 +288,11 @@
          style="font-size:32px;font-weight:bold">A</tspan></text>
     <path
        style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 655.60359,276.21564 L 626.97279,276.34306 L 608.03639,298.00529 L 626.90819,319.41267 L 655.60359,319.41267 L 655.60359,276.21564 z "
+       d="M 655.60359,276.21564 L 626.97279,276.34306 L 608.03639,298.00529 L 626.90819,319.41267 L 655.60359,319.41267 L 655.60359,276.21564 z"
        id="path2242" />
     <path
        id="path2244"
-       d="M 655.60359,122.21567 L 626.97279,122.34309 L 608.03639,144.00529 L 626.90819,165.41265 L 655.60359,165.41265 L 655.60359,122.21567 z "
+       d="M 655.60359,122.21567 L 626.97279,122.34309 L 608.03639,144.00529 L 626.90819,165.41265 L 655.60359,165.41265 L 655.60359,122.21567 z"
        style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <text
        id="text2246"
@@ -261,28 +316,6 @@
          x="625.21735"
          y="309.58026"
          style="font-size:32px;font-weight:bold">C</tspan></text>
-    <path
-       style="opacity:1;fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#969696;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 439.78863,557.08331 L 553.80035,557.08331"
-       id="path2839" />
-    <rect
-       y="544.76208"
-       x="513.48865"
-       height="22.844452"
-       width="24.419931"
-       id="rect2829"
-       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#969696;stroke-width:2.75708914;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    <text
-       xml:space="preserve"
-       style="font-size:6.61701345px;font-style:normal;font-weight:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-       x="519.86926"
-       y="563.43152"
-       id="text3282"><tspan
-         sodipodi:role="line"
-         id="tspan3284"
-         x="519.86926"
-         y="563.43152"
-         style="font-size:19.85103988999999913px;font-weight:bold;stroke:none;stroke-opacity:1;fill:#969696;fill-opacity:1">?</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-weight:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
@@ -293,7 +326,7 @@
          x="851.88434"
          y="132.17627"
          style="font-size:36px;font-weight:normal;text-align:center;text-anchor:middle;fill:#969696;fill-opacity:1"
-         id="tspan5193">EPN</tspan><tspan
+         id="tspan5193">AN</tspan><tspan
          id="tspan5195"
          sodipodi:role="line"
          x="851.88434"
@@ -307,7 +340,7 @@
        sodipodi:cy="290.52304"
        sodipodi:rx="86.428574"
        sodipodi:ry="47.857143"
-       d="M 257.14285 290.52304 A 86.428574 47.857143 0 1 1  84.285706,290.52304 A 86.428574 47.857143 0 1 1  257.14285 290.52304 z"
+       d="M 257.14285,290.52304 A 86.428574,47.857143 0 1 1 84.285706,290.52304 A 86.428574,47.857143 0 1 1 257.14285,290.52304 z"
        transform="matrix(-1.6393825,0,0,1.4862958,1128.9124,-288.40511)" />
     <path
        id="path5199"
@@ -323,7 +356,7 @@
          style="font-size:36px;font-weight:normal;text-align:center;text-anchor:middle;fill:#969696;fill-opacity:1"
          y="286.17627"
          x="851.88434"
-         sodipodi:role="line">EPN</tspan><tspan
+         sodipodi:role="line">AN</tspan><tspan
          style="font-size:36px;font-weight:normal;text-align:center;text-anchor:middle;fill:#969696;fill-opacity:1"
          y="331.17627"
          x="851.88434"
@@ -331,7 +364,7 @@
          id="tspan5215">or CN</tspan></text>
     <path
        transform="matrix(-1.6393825,0,0,1.4862958,1128.9124,-134.40511)"
-       d="M 257.14285 290.52304 A 86.428574 47.857143 0 1 1  84.285706,290.52304 A 86.428574 47.857143 0 1 1  257.14285 290.52304 z"
+       d="M 257.14285,290.52304 A 86.428574,47.857143 0 1 1 84.285706,290.52304 A 86.428574,47.857143 0 1 1 257.14285,290.52304 z"
        sodipodi:ry="47.857143"
        sodipodi:rx="86.428574"
        sodipodi:cy="290.52304"
@@ -345,45 +378,54 @@
        id="path5219" />
     <text
        id="text5221"
-       y="545.02362"
+       y="673.02362"
        x="302.41107"
        style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-       xml:space="preserve"><tspan
+       xml:space="preserve"
+       inkscape:export-filename="/Users/mi/Documents/SBGN/subversion/sbgn-af/images/submap.png"
+       inkscape:export-xdpi="429.33994"
+       inkscape:export-ydpi="429.33994"><tspan
          id="tspan5223"
          style="font-size:36px;font-weight:normal;text-align:center;text-anchor:middle;fill:#969696;fill-opacity:1"
-         y="545.02362"
+         y="673.02362"
          x="302.41107"
-         sodipodi:role="line">EPN</tspan><tspan
+         sodipodi:role="line">AN</tspan><tspan
          style="font-size:36px;font-weight:normal;text-align:center;text-anchor:middle;fill:#969696;fill-opacity:1"
-         y="590.02362"
+         y="718.02362"
          x="302.41107"
          sodipodi:role="line"
          id="tspan5225">or CN</tspan></text>
     <path
-       transform="matrix(-1.6393825,0,0,1.4862958,579.43909,124.44222)"
-       d="M 257.14285 290.52304 A 86.428574 47.857143 0 1 1  84.285706,290.52304 A 86.428574 47.857143 0 1 1  257.14285 290.52304 z"
+       transform="matrix(-1.6393825,0,0,1.4862958,579.43909,252.44222)"
+       d="M 257.14285,290.52304 A 86.428574,47.857143 0 1 1 84.285706,290.52304 A 86.428574,47.857143 0 1 1 257.14285,290.52304 z"
        sodipodi:ry="47.857143"
        sodipodi:rx="86.428574"
        sodipodi:cy="290.52304"
        sodipodi:cx="170.71428"
        id="path5227"
        style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#969696;stroke-width:1.92188978;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       sodipodi:type="arc" />
+       sodipodi:type="arc"
+       inkscape:export-filename="/Users/mi/Documents/SBGN/subversion/sbgn-af/images/submap.png"
+       inkscape:export-xdpi="429.33994"
+       inkscape:export-ydpi="429.33994" />
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        x="768.27502"
-       y="463.03516"
-       id="text5229"><tspan
+       y="591.03516"
+       id="text5229"
+       inkscape:export-filename="/Users/mi/Documents/SBGN/subversion/sbgn-af/images/submap.png"
+       inkscape:export-xdpi="429.33994"
+       inkscape:export-ydpi="429.33994"><tspan
          sodipodi:role="line"
          x="768.27502"
-         y="463.03516"
+         y="591.03516"
          style="font-size:36px;font-weight:normal;text-align:center;text-anchor:middle;fill:#969696;fill-opacity:1"
-         id="tspan5231">EPN</tspan><tspan
+         id="tspan5231">AN</tspan><tspan
          id="tspan5233"
          sodipodi:role="line"
          x="768.27502"
-         y="508.03516"
+         y="636.03516"
          style="font-size:36px;font-weight:normal;text-align:center;text-anchor:middle;fill:#969696;fill-opacity:1">or CN</tspan></text>
     <path
        sodipodi:type="arc"
@@ -393,26 +435,32 @@
        sodipodi:cy="290.52304"
        sodipodi:rx="86.428574"
        sodipodi:ry="47.857143"
-       d="M 257.14285 290.52304 A 86.428574 47.857143 0 1 1  84.285706,290.52304 A 86.428574 47.857143 0 1 1  257.14285 290.52304 z"
-       transform="matrix(-1.6393825,0,0,1.4862958,1045.303,42.453752)" />
+       d="M 257.14285,290.52304 A 86.428574,47.857143 0 1 1 84.285706,290.52304 A 86.428574,47.857143 0 1 1 257.14285,290.52304 z"
+       transform="matrix(-1.6393825,0,0,1.4862958,1045.303,170.45375)"
+       inkscape:export-filename="/Users/mi/Documents/SBGN/subversion/sbgn-af/images/submap.png"
+       inkscape:export-xdpi="429.33994"
+       inkscape:export-ydpi="429.33994" />
     <text
        id="text5237"
-       y="627.49219"
+       y="755.49219"
        x="768.27502"
        style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-       xml:space="preserve"><tspan
+       xml:space="preserve"
+       inkscape:export-filename="/Users/mi/Documents/SBGN/subversion/sbgn-af/images/submap.png"
+       inkscape:export-xdpi="429.33994"
+       inkscape:export-ydpi="429.33994"><tspan
          id="tspan5239"
          style="font-size:36px;font-weight:normal;text-align:center;text-anchor:middle;fill:#969696;fill-opacity:1"
-         y="627.49219"
+         y="755.49219"
          x="768.27502"
-         sodipodi:role="line">EPN</tspan><tspan
+         sodipodi:role="line">AN</tspan><tspan
          style="font-size:36px;font-weight:normal;text-align:center;text-anchor:middle;fill:#969696;fill-opacity:1"
-         y="672.49219"
+         y="800.49219"
          x="768.27502"
          sodipodi:role="line"
          id="tspan5241">or CN</tspan></text>
     <path
-       transform="matrix(-1.6393825,0,0,1.4862958,1045.303,206.91081)"
+       transform="matrix(-1.6393825,0,0,1.4862958,1045.303,334.91081)"
        d="M 257.14285,290.52304 A 86.428574,47.857143 0 1 1 84.285706,290.52304 A 86.428574,47.857143 0 1 1 257.14285,290.52304 z"
        sodipodi:ry="47.857143"
        sodipodi:rx="86.428574"
@@ -420,35 +468,30 @@
        sodipodi:cx="170.71428"
        id="path5243"
        style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#969696;stroke-width:1.92188978;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       sodipodi:type="arc" />
-    <g
-       id="g3248">
-      <g
-         id="g3252"
-         transform="matrix(0.3753382,0.9268879,-0.9268879,0.3753382,892.29135,-200.79099)">
-        <path
-           sodipodi:nodetypes="cc"
-           id="path3226"
-           d="M 575,599.09448 C 574.97946,599.08079 575,504.09448 575,504.09448"
-           style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#969696;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-        <path
-           style="fill:#969696;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           d="M 575,499.09448 L 585,519.09448 L 565,519.09448 L 575,499.09448 z"
-           id="path3238" />
-      </g>
-      <g
-         transform="matrix(0.3753382,-0.9268879,-0.9268879,-0.3753382,892.29135,1314.9504)"
-         id="g3256">
-        <path
-           style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#969696;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="M 575,599.09448 C 574.97946,599.08079 575,504.09448 575,504.09448"
-           id="path3258"
-           sodipodi:nodetypes="cc" />
-        <path
-           id="path3260"
-           d="M 575,499.09448 L 585,519.09448 L 565,519.09448 L 575,499.09448 z"
-           style="fill:#969696;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      </g>
-    </g>
+       sodipodi:type="arc"
+       inkscape:export-filename="/Users/mi/Documents/SBGN/subversion/sbgn-af/images/submap.png"
+       inkscape:export-xdpi="429.33994"
+       inkscape:export-ydpi="429.33994" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#969696;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#EmptyTriangleOutL);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 440,684.69968 C 620,612.09448 620,612.09448 620,612.09448 L 620,612.09448 L 620,612.09448"
+       id="path3359"
+       inkscape:export-filename="/Users/mi/Documents/SBGN/subversion/sbgn-af/images/submap.png"
+       inkscape:export-xdpi="429.33994"
+       inkscape:export-ydpi="429.33994" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#969696;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#StopL);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 440,684.69968 C 620,732.09448 620,732.09448 620,732.09448"
+       id="path4151"
+       inkscape:export-filename="/Users/mi/Documents/SBGN/subversion/sbgn-af/images/submap.png"
+       inkscape:export-xdpi="429.33994"
+       inkscape:export-ydpi="429.33994" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 620,732.09448 L 620,732.09448 z"
+       id="path4153"
+       inkscape:export-filename="/Users/mi/Documents/SBGN/subversion/sbgn-af/images/submap.png"
+       inkscape:export-xdpi="429.33994"
+       inkscape:export-ydpi="429.33994" />
   </g>
 </svg>

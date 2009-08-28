@@ -1,8 +1,11 @@
-\chapter{Activity Flow Diagram glyphs}
+\chapter{Activity Flow glyphs}
 
-%[Note on the color code: \textcolor{blue}{The glyphs that have been thorougly discussed, and are considered frozen, are represented in blue}. \textcolor{green}{The glyphs that have been thorougly discussed, but are still posing problems are represented in green}. \textcolor{red}{The glyphs that have been proposed but for which in-depth discussion is yet to come are represented in red}.]
+%[Note on the color code: 
+%\textcolor{blue}{The glyphs that have been thoroughly discussed, and are considered frozen, are represented in blue}. 
+%\textcolor{green}{The glyphs that have been thoroughly discussed, but are still posing problems are represented in green}. 
+%\textcolor{red}{The glyphs that have been proposed but for which in-depth discussion is yet to come are represented in red}.]
 
-This chapter provides a catalog of the graphical symbols available for representing entities in \AFs. In \chap{af:grammar} beginning on page~\pageref{chp:af:grammar}, we describe the rules for combining these glyphs into a legal SBGN \AF, and in \chap{af:layout} beginning on page~\pageref{chp:af:layout}, we describe requirements and guidelines for the way that diagrams are visually organized.
+This chapter provides a catalog of the graphical symbols available for representing entities in \AFs. In \chap{af:grammar} beginning on page~\pageref{chp:af:grammar}, we describe the rules for combining these glyphs into a legal SBGN \AF, and in \chap{af:layout} beginning on page~\pageref{chp:af:layout}, we describe requirements and guidelines for the way that \AFms are visually organized.
 
 \section{Overview}
 
@@ -18,8 +21,7 @@ This chapter provides a catalog of the graphical symbols available for represent
 
 \section{Activity nodes}\label{sec:af:ANs}
 
-An activity node (AN) represents the activity of an entity or an entity pool, but not the entities themselves. For instance, multiple activity nodes can be used to represent different activities of a particular entity, while one activity node can be used to represent the activity of a complex multimer.
-In addition to activities of material entities, \SBGNAFLone represents activity from two conceptual entities: \emph{perturbation}, \emph{observable}.  Auxiliary units such as state variables are not shown on the activity nodes.  Each activity is displayed only once in one compartment.
+An Activity Node (AN) represents the activity of an entity or an entity pool, but not the entities themselves. For instance, multiple activity nodes can be used to represent different activities of a particular entity, while one activity node can be used to represent the activity of a complex multimer. In addition to activities of material entities, \SBGNAFLone represents activity from two conceptual entities: \emph{perturbation}, \emph{phenotype}.  Auxiliary units such as state variables are not shown on the activity nodes.  Each activity is displayed only once in one compartment.
 
 
 \input{sources/biologicalActivity.tex}
@@ -41,7 +43,7 @@ In addition to activities of material entities, \SBGNAFLone represents activity 
 \section{Container nodes}
 \label{sec:af:CNs}
 
-\glyph{Containers} are SBGN constructions that contain one or several other SBGN constructs.  Right now, \glyph{compartment} is the only container node in \SBGNAFLone.
+\glyph{Containers} are SBGN constructions that contain one or several other SBGN constructs.  In \SBGNAFLone \glyph{compartment} and \glyph{submap} are the only container nodes.
 
 \input{sources/compartment.tex}
 
@@ -53,7 +55,7 @@ In addition to activities of material entities, \SBGNAFLone represents activity 
 
 \section{Modulation arcs}\label{sec:af:arcs}
 
-Modulation arcs are lines that link ANs together.  The symbols attached to their end extremities indicate their semantics.  The modulation arcs can be used to represent direct influence from one activity to another, such as nicotine to nicotinic acetylecholine receptor activity, or indirect influence, such as .......
+Modulation arcs are lines that link ANs together.  The symbols attached to their end extremities indicate their semantics.  The modulation arcs can be used to represent direct influence from one activity to another, such as nicotine to nicotinic acetylecholine receptor activity, or indirect influence.
 
 \input{sources/positive_infl.tex}
 \input{sources/negative_infl.tex}

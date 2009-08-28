@@ -3,12 +3,14 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \color{red}
-
-What controlled vocabulary should we use to describe the activity?  SBO?  GO Molecular function?
-
+What controlled vocabulary should we use? SBO? GO molecular function?
 \normalcolor
 
-Some glyphs in SBGN \AF can contain particular kinds of textual annotations conveying information relevant to the purpose of the glyph.  These annotations are \glyph{units of information} (\sect{af:unitInfo}).  An example is in the case of multimers, which can have a unit of information conveying the number of monomers composing the multimer.  Other cases are described throughout the rest of this chapter.
+Some glyphs in SBGN \AF can contain particular kinds of textual annotations conveying information relevant to the purpose of the glyph.  These annotations are \glyph{units of information} (\sect{af:unitInfo}).  An example is in the case of a compartment, which can have a unit of information conveying physical characteristics of the compartment .
+
+The text that appears as the unit of information decorating an Activity Node (AN) od Container Node (CN) must in most cases be prefixed with a controlled vocabulary term indicating the type of information being expressed. Without the use of controlled vocabulary prefixes, it would be necessary to have different glyphs to indicate different classes of information; this would lead to an explosion in the number of symbols needed. 
+
+In the rest of this section, we describe the controlled vocabularies (CVs) used in \SBGNAFLone. Some CV terms are predefined by SBGN, but unless otherwise noted, they are not the only terms permitted. Authors may use other CV values not listed here, but in such cases, they should explain the term's meanings in a Figure legend or other text accompanying the map.
 
 \subsection{Activity node material types}
 \label{sec:af:material-types-cv}
@@ -80,23 +82,23 @@ An AFN's \emph{conceptual type} indicates its function within the context of a g
   \label{tab:af:physical-characteristics-cv}
 \end{table}
 
-\subsection{Cardinality}
-\label{sec:af:cardinality-cv}
-
-\SBGNAFLone defines a special unit of information usable on multimers for describing the number of monomers composing the multimer.  \tab{af:cardinality-cv} shows the way in which the values must be written.  Note that the value is a unitary number, and not (for example) a range.  There is no provision in \SBGNAFLone for specifying a range in this context because it leads to problems of entity identifiability.
-
-\begin{table}[h]
-  \centering
-  \begin{tabular}{l>{\ttfamily}l>{\ttfamily}l}
-    \toprule
-    \textbf{Name}   & \textbf{\rmfamily Label} & \textbf{\rmfamily SBO term} \\
-    \midrule
-    cardinality    & N:\#  & SBO:0000364\\
-    \bottomrule
-  \end{tabular}
-  \caption{The format of the possible values for the
-    \emph{cardinality} unit of information
-    (\sect{af:cardinality-cv}).  Here, \texttt{\#} stands for the
-    number; for example, ``\texttt{N:5}''.}
-  \label{tab:af:cardinality-cv}
-\end{table}
+%\subsection{Cardinality}
+%\label{sec:af:cardinality-cv}
+%
+%\SBGNAFLone defines a special unit of information usable on multimers for describing the number of monomers composing the multimer.  \tab{af:cardinality-cv} shows the way in which the values must be written.  Note that the value is a unitary number, and not (for example) a range.  There is no provision in \SBGNAFLone for specifying a range in this context because it leads to problems of entity identifiability.
+%
+%\begin{table}[h]
+%  \centering
+%  \begin{tabular}{l>{\ttfamily}l>{\ttfamily}l}
+%    \toprule
+%    \textbf{Name}   & \textbf{\rmfamily Label} & \textbf{\rmfamily SBO term} \\
+%    \midrule
+%    cardinality    & N:\#  & SBO:0000364\\
+%    \bottomrule
+%  \end{tabular}
+%  \caption{The format of the possible values for the
+%    \emph{cardinality} unit of information
+%    (\sect{af:cardinality-cv}).  Here, \texttt{\#} stands for the
+%    number; for example, ``\texttt{N:5}''.}
+%  \label{tab:af:cardinality-cv}
+%\end{table}

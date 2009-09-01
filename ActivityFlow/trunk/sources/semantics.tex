@@ -10,11 +10,11 @@ in table \ref{tab:namespacedefs}.
 \label{tab:namespacedefs}
 \begin{small}
 \tablefirsthead{\hline
-  Namespace Scope & Entities affected & Notes\\\hline}
+  Namespace Scope & Activity influenced & Notes\\\hline}
 \tablehead{\hline
 \multicolumn{3}{|l|}{\small\sl continued from previous page}\\
 \hline\hline
-  Namespace scope & Entities Effected & Notes\\\hline\hline}
+  Namespace scope & Activity influenced & Notes\\\hline\hline}
 \tabletail{\hline
 \multicolumn{3}{|r|}{\small\sl continued on next page}\\
 \hline}
@@ -23,8 +23,8 @@ in table \ref{tab:namespacedefs}.
 %
 MapDiagram & CompartmentNode, SubMapDiagram, EquivalenceNode & \\\hline
 %
-CompartmentShape & BasicEntityNode & If no \glyph{compartment} is drawn then all BasicEntityNodes are assumed to belong to an invisible ``default'' compartment.\\\hline
-EntityType & Annotation & \\\hline
+CompartmentShape & ActivityNode & If no \glyph{compartment} is drawn then all ActivityNodes are assumed to belong to an invisible ``default'' compartment.\\\hline
+ActivityType & UnitOfInformation & \\\hline
 \end{supertabular}
 \end{small}
 \end{center}
@@ -33,7 +33,7 @@ EntityType & Annotation & \\\hline
 
 In all cases an AN cannot \emph{belong} to more than one compartment. However, an AN can be \emph{drawn} over more than one compartment. In such cases the decision on which is the owning compartment is deferred to the drawing tool or the author. 
 
-The layout of compartments in an SBGN diagram does not imply anything about the topology of compartments in the cell. Compartments should be bounded and may overlap. However, adjacency and the nesting of compartments does not imply that these compartments are next to each other physically or hat one compartment contains the other.
+The layout of compartments in an SBGN diagram does not imply anything about the topology of compartments in the cell. Compartments should be bounded and may overlap. However, adjacency and the nesting of compartments does not imply that these compartments are next to each other physically or that one compartment contains the other.
 
 \subsection{Modulation}
 
@@ -43,7 +43,7 @@ It is implied, but not defined explicitly that an activity has a rate at which t
 \item Positive influence is a modulation that's effect is to increase the basal rate.
 \item Negative influence is a modulation that's effect is to decrease the basal rate.
 \item Unknown influence is a modulation where the effect and basal rate is unknown.
-\item At most one trigger can be assigned to a process. Two triggers
+\item At most one necessary stimulation can be assigned to a process. Two triggers
   would imply an implicit Boolean AND or OR operator. For clarity only
   one trigger can be assigned to a process and such combinations must be
   explicitly expressed as the Boolean operators.

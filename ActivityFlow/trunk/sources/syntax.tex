@@ -23,21 +23,21 @@ There are two node types allowing containment of AF in SBGN: \glyph{compartment}
 \begin{tabular}{||c|c|c||}
 \hline
 \hline
-$ elements \backslash Containers$     & \glyph{compartment}   & \glyph{submap}    \\ \hline
-\glyph{biological activity}     &         +             &          +        \\ \hline
-\glyph{pertubation}             &         +             &          +        \\ \hline
-\glyph{phenotype}               &         +             &          +        \\ \hline
-\glyph{tag}                     &         +             &          +        \\ \hline
-\glyph{compartment}             &         -             &          +        \\ \hline
-\glyph{submap}                  &         +             &          +        \\ \hline
-\glyph{positive influence}      &         +             &          +        \\ \hline
-\glyph{negative influence}      &         +             &          +        \\ \hline
-\glyph{unknown influence}       &         +             &          +        \\ \hline
-\glyph{logic arc}               &         +             &          +        \\ \hline
-\glyph{equivalence arc}         &         +             &          +        \\ \hline
-\glyph{and}                     &         +             &          +        \\ \hline
-\glyph{or}                      &         +             &          +        \\ \hline
-\glyph{not}                     &         +             &          +        \\ \hline
+$ elements \backslash Containers$     & \glyph{compartment}     \\ \hline
+\glyph{biological activity}     &         +             \\ \hline
+\glyph{pertubation}             &         +               \\ \hline
+\glyph{phenotype}               &         +               \\ \hline
+\glyph{tag}                     &         +              \\ \hline
+\glyph{compartment}             &         -             \\ \hline
+\glyph{submap}                  &         +             \\ \hline
+\glyph{positive influence}      &         +             \\ \hline
+\glyph{negative influence}      &         +              \\ \hline
+\glyph{unknown influence}       &         +                \\ \hline
+\glyph{logic arc}               &         +                 \\ \hline
+\glyph{equivalence arc}         &         +        \\ \hline
+\glyph{and}                     &         +              \\ \hline
+\glyph{or}                      &         +            \\ \hline
+\glyph{not}                     &         +               \\ \hline
 \hline
 \end{tabular}
 
@@ -51,7 +51,7 @@ There are additional syntactic rules that must be applied in addition to those d
  \begin{enumerate}
     \item Each \glyph{biological activity} has at most one \glyph{unit of information}.
     \item \glyph{Pertubation} is never target of a modulation arc.
-    \item \glyph{Phenotype} is never source of a modulation arc.
+    \item \glyph{Phenotype} is never origin of a modulation arc.
  \end{enumerate}
 
 

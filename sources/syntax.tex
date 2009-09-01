@@ -11,33 +11,33 @@ The syntax of the SBGN \AFl is defined in the form of an incidence matrix. An in
 \glyph{negative influence}              & I \& O                        & I                     & O                     &               &   & I & I & I & I \\ \hline
 \glyph{unknown influence}               & I \& O                        & I                     & O                     &               &   & I & I & I & I \\ \hline
 \glyph{necessary stimulation}           & I \& O                        & I                     & O                     &               &   & I & I & I & I \\ \hline
-\glyph{logic arc}                       & I                             &                       &                       &               &   & O & O & O & O \\ \hline
+\glyph{logic arc}                       & I                             &                       &                       &               &   & O & O & O(1) & O \\ \hline
 \glyph{equivalence arc}                 & I                             &                       &                       & O             & O & & & &  \\ 
 \hline 
 \hline
 \end{tabular}
 
 \subsection{Containment definition}
-There are two node types allowing containment of AF in SBGN: \glyph{compartment} and \glyph{submap}. The next table describe relationship between AF elements of SBGN and these two containers. Plus sign means that the element is able to be contained within a container. An empty cell means containment is not allowed. \\
+There are two node types allowing containment of AF in SBGN: \glyph{container (compartment)} and \glyph{submap}. The next table describes relationship between AF elements of SBGN and these two nodes. Plus sign means that the element is able to be contained within a node. An empty cell means containment is not allowed. \\
 
 \begin{tabular}{||c|c|c||}
 \hline
 \hline
-$ elements \backslash Containers$     & \glyph{compartment}     \\ \hline
-\glyph{biological activity}     &         +             \\ \hline
-\glyph{pertubation}             &         +               \\ \hline
-\glyph{phenotype}               &         +               \\ \hline
-\glyph{tag}                     &         +              \\ \hline
-\glyph{compartment}             &         -             \\ \hline
-\glyph{submap}                  &         +             \\ \hline
-\glyph{positive influence}      &         +             \\ \hline
-\glyph{negative influence}      &         +              \\ \hline
-\glyph{unknown influence}       &         +                \\ \hline
-\glyph{logic arc}               &         +                 \\ \hline
-\glyph{equivalence arc}         &         +        \\ \hline
-\glyph{and}                     &         +              \\ \hline
-\glyph{or}                      &         +            \\ \hline
-\glyph{not}                     &         +               \\ \hline
+$ elements \backslash Containers$     & \glyph{compartment}   & \glyph{submap}    \\ \hline
+\glyph{biological activity}     &         +             &          +        \\ \hline
+\glyph{pertubation}             &         +             &          +        \\ \hline
+\glyph{phenotype}               &         +             &          +        \\ \hline
+\glyph{tag}                     &         +             &          +        \\ \hline
+\glyph{compartment}             &         -             &          +        \\ \hline
+\glyph{submap}                  &         +             &          +        \\ \hline
+\glyph{positive influence}      &         +             &          +        \\ \hline
+\glyph{negative influence}      &         +             &          +        \\ \hline
+\glyph{unknown influence}       &         +             &          +        \\ \hline
+\glyph{logic arc}               &         +             &          +        \\ \hline
+\glyph{equivalence arc}         &         +             &          +        \\ \hline
+\glyph{and}                     &         +             &          +        \\ \hline
+\glyph{or}                      &         +             &          +        \\ \hline
+\glyph{not}                     &         +             &          +        \\ \hline
 \hline
 \end{tabular}
 

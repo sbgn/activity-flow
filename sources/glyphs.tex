@@ -5,7 +5,7 @@
 %\textcolor{green}{The glyphs that have been thoroughly discussed, but are still posing problems are represented in green}.
 %\textcolor{red}{The glyphs that have been proposed but for which in-depth discussion is yet to come are represented in red}.]
 
-This chapter provides a catalog of the graphical symbols available for representing entities in \AFs. In \chap{af:grammar} beginning on page~\pageref{chp:af:grammar}, we describe the rules for combining these glyphs into a legal SBGN \AF, and in \chap{af:layout} beginning on page~\pageref{chp:af:layout}, we describe requirements and guidelines for the way that \AFms are visually organized.
+This chapter provides a catalog of the graphical symbols available for representing entities in \AFs. In \chap{af:grammar} beginning on page~\pageref{chp:af:grammar}, we describe the rules for combining these glyphs into a legal SBGN \AFm, and in \chap{af:layout} beginning on page~\pageref{chp:af:layout}, we describe requirements and guidelines for the way that \AFms are visually organized.
 
 \section{Overview}
 
@@ -21,7 +21,7 @@ This chapter provides a catalog of the graphical symbols available for represent
 
 \section{Activity nodes}\label{sec:af:ANs}
 
-An Activity Node (AN) represents the activity of an entity or an entity pool, but not the entities themselves. For instance, multiple activity nodes can be used to represent different activities of a particular entity, while one activity node can be used to represent the activity of a complex multimer. In addition to activities of material entities, \SBGNAFLone represents activity from two conceptual entities: \emph{perturbation}, \emph{phenotype}.  Auxiliary units such as state variables are not shown on the activity nodes.  Each activity is displayed only once in one compartment.
+An Activity Node (AN) represents the activity of an entity or an entity pool, but not the entities themselves. For instance, multiple activity nodes can be used to represent different activities of a particular entity, while one activity node can be used to represent the activity of a complex multimer. In addition to activities of material entities, \SBGNAFLone represents activity from two conceptual entities: \emph{perturbation}, \emph{phenotype}.  Auxiliary units, such as \emph{units of information}, can be used to indicate the material property of the activity source.  Each activity is displayed only once in one compartment.
 
 
 \input{sources/biologicalActivity.tex}
@@ -43,7 +43,7 @@ An Activity Node (AN) represents the activity of an entity or an entity pool, bu
 \section{Container nodes}
 \label{sec:af:CNs}
 
-\glyph{Containers} are SBGN constructions that contain one or several other SBGN constructs.  In \SBGNAFLone \glyph{compartment} and \glyph{submap} are the only container nodes.
+\glyph{Containers} are SBGN constructions that contain one or several other SBGN constructs.  In \SBGNAFLone \glyph{compartment} is the only container nodes.
 
 \input{sources/compartment.tex}
 

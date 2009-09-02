@@ -15,7 +15,10 @@
    sodipodi:version="0.32"
    inkscape:version="0.46"
    sodipodi:docname="ex-or.svg"
-   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="/home/lenov/SBGN/svn/sbgn/ActivityFlow/trunk/examples/ex-or.png"
+   inkscape:export-xdpi="429.33994"
+   inkscape:export-ydpi="429.33994">
   <metadata
      id="metadata12559">
     <rdf:RDF>
@@ -40,11 +43,11 @@
      pagecolor="#ffffff"
      id="base"
      showgrid="false"
-     inkscape:zoom="0.91191909"
-     inkscape:cx="423.21615"
+     inkscape:zoom="0.45595955"
+     inkscape:cx="817.65542"
      inkscape:cy="215"
-     inkscape:window-x="1847"
-     inkscape:window-y="42"
+     inkscape:window-x="22"
+     inkscape:window-y="27"
      inkscape:current-layer="svg10263" />
   <defs
      id="defs10265">
@@ -120,21 +123,6 @@
        y="278.10764"
        x="502.57236">TF activity</tspan></text>
   <path
-     style="fill:#ffffff;stroke:#fa0000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     id="path4189"
-     d="M 487.15772,114.86935 C 487.16745,130.47654 474.17209,142.69639 458.13814,142.15717 C 442.10418,141.61795 429.10882,128.52403 429.11855,112.9175 C 429.10882,97.31032 442.10418,85.09047 458.13814,85.62969 C 474.17209,86.16891 487.16745,99.26283 487.15772,114.86935 L 487.15772,114.86935 z" />
-  <text
-     style="font-size:32px;font-style:normal;font-weight:normal;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-     xml:space="preserve"
-     id="text4191"
-     y="105.48016"
-     x="440.34363"
-     transform="matrix(1,3.3629919e-2,0,1,0,0)"><tspan
-       style="font-size:24px;fill:#ff0000"
-       id="tspan4193"
-       y="105.48016"
-       x="440.34363">OR</tspan></text>
-  <path
      style="fill:none;fill-rule:evenodd;stroke:#f80000;stroke-width:4.98475265999999984;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="path4195"
      d="M 235.62102,250.63663 C 358.45156,249.77286 358.45156,249.77286 358.45156,249.77286 L 358.45156,249.77286 L 358.45156,249.77286 L 358.45156,249.77286 L 358.45156,249.77286 L 358.45156,249.77286" />
@@ -152,7 +140,8 @@
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="path4728"
-     d="M 770.14771,98.1721 C 771.15786,127.5005 771.15786,127.5005 771.15786,127.5005 L 771.15786,127.5005 L 771.15786,127.5005 L 771.15786,127.5005 L 771.15786,127.5005 L 771.15786,127.5005 L 771.15786,127.5005" />
+     d="M 770.92312,85.377915 L 771.54556,141.07009"
+     sodipodi:nodetypes="cc" />
   <text
      style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
      xml:space="preserve"
@@ -182,4 +171,19 @@
      style="fill:none;fill-rule:evenodd;stroke:#f80000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="M 357.4351,249.79088 L 357.4351,249.79088 L 357.4351,249.79088 L 357.4351,249.79088 L 357.4351,249.79088 L 357.4351,249.79088 L 357.4351,249.79088 C 357.4351,249.79088 357.4351,249.79088 385.82569,221.40028 C 414.21629,251.28512 414.21629,251.28512 414.21629,251.28512 L 414.21629,251.28512 L 414.21629,251.28512"
      id="path12391" />
+  <path
+     style="fill:#ffffff;stroke:#fa0000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path4189"
+     d="M 414.25431,180.86935 C 414.26404,196.47654 401.26868,208.69639 385.23473,208.15717 C 369.20077,207.61795 356.20541,194.52403 356.21514,178.9175 C 356.20541,163.31032 369.20077,151.09047 385.23473,151.62969 C 401.26868,152.16891 414.26404,165.26283 414.25431,180.86935 L 414.25431,180.86935 z" />
+  <text
+     style="font-size:32px;font-style:normal;font-weight:normal;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+     xml:space="preserve"
+     id="text4191"
+     y="173.9319"
+     x="367.44022"
+     transform="matrix(1,3.3629919e-2,0,1,0,0)"><tspan
+       style="font-size:24px;fill:#ff0000"
+       id="tspan4193"
+       y="173.9319"
+       x="367.44022">OR</tspan></text>
 </svg>

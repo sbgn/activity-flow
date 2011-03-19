@@ -4,16 +4,16 @@
 
 \normalcolor
 
-Some glyphs in SBGN \AF can contain particular kinds of textual annotations conveying information relevant to the purpose of the glyph.  These annotations are \glyph{units of information} (\sect{af:unitInfo}).  An example is in the case of a compartment, which can have a unit of information conveying physical characteristics of the compartment .
+Some glyphs in SBGN \AF can contain particular kinds of textual annotations conveying information relevant to the purpose of the glyph.  These annotations are \glyph{units of information} (\sect{af:unitInfo}).  An example is in the case of a \emph{biological activity}, which can have a unit of information conveying the type of entity the activity is from.
 
 The text that appears as the unit of information decorating an Activity Node (AN) or Container Node (CN) must in most cases be prefixed with a controlled vocabulary term indicating the type of information being expressed. Without the use of controlled vocabulary prefixes, it would be necessary to have different glyphs to indicate different classes of information; this would lead to an explosion in the number of symbols needed. 
 
 In the rest of this section, we describe the controlled vocabularies (CVs) used in \SBGNAFLone. Some CV terms are predefined by SBGN, but unless otherwise noted, they are not the only terms permitted. Authors may use other CV values not listed here, but in such cases, they should explain the term's meanings in a Figure legend or other text accompanying the map.
 
-\subsection{Activity node material types}
+\subsection{Unit of information material types}
 \label{sec:af:material-types-cv}
 
-The material type of an AFN indicates its chemical structure.  A list of common material types is shown in \tab{af:material-types-cv}, but others are possible.  The values are to be taken from the \sbo (\sbourl), specifically from the branch having identifier \sboid{SBO:0000240} ($\!$\emph{material entity} under \emph{entity}).  The labels are defined by \SBGNAFLone.
+The material type of an AN can be visualized in the \emph{unit of inforamtion} glyph to indicate its chemical structure.  A list of common material types is shown in \tab{af:material-types-cv}, but others are possible.  The values are to be taken from the \sbo (\sbourl), specifically from the branch having identifier \sboid{SBO:0000240} ($\!$\emph{material entity} under \emph{entity}).  The labels are defined by \SBGNAFLone.
 
 \begin{table}[h]
   \centering
@@ -36,10 +36,10 @@ The material type of an AFN indicates its chemical structure.  A list of common 
 
 The material types are in contrast to the \emph{conceptual types} (see below).  The distinction is that material types are about physical composition, while conceptual types are about roles.  For example, a strand of RNA is a physical artifact, but its use as messenger RNA is a role.
 
-\subsection{Activity node conceptual types}
+\subsection{Unit of information conceptual types}
 \label{sec:af:conceptual-types-cv}
 
-An AFN's \emph{conceptual type} indicates its function within the context of a given \AF.  A list of common conceptual types is shown in \tab{af:conceptual-types-cv}, but others are possible.  The values are to be taken from the \sbo (\sbourl), specifically from the branch having identifier \sboid{SBO:0000241} ($\!$\emph{conceptual entity} under \emph{entity}).  The labels are defined by \SBGNAFLone.
+An  \emph{conceptual type} indicates the function within the context of a given \AF.  A list of common conceptual types is shown in \tab{af:conceptual-types-cv}, but others are possible.  The values are to be taken from the \sbo (\sbourl), specifically from the branch having identifier \sboid{SBO:0000241} ($\!$\emph{conceptual entity} under \emph{entity}).  The labels are defined by \SBGNAFLone.
 
 \begin{table}[h]
   \centering

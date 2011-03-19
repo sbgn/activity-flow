@@ -1,7 +1,7 @@
-\subsection{Glyph: \glyph{Unit of information}}
+\subsection{Glyph: \glyph{Unit of information for Biological activity}}
 \label{sec:af:unitInfo}
 
-When representing biological activities, it is often useful to illustrate the nature of the entity where the activity is originated, eg., whether the activity is from a macromolecule (protein or nucleic acid), or from a chemical compound.  The \SBGNAFLone \glyph{unit of information} is used in this situation to add such information to a glyph.  It represents the information in two ways.  First, different symbols are used to represent the nature of the entity where the activity is from.  These symbols are identical to the \glyph{entity pool node} symbols in SBGN \PDl.  Second, names of the entity (gene names, protein names) are usually provided as labels in the \glyph{unit of information} container.
+When representing biological activities, it is often useful to illustrate the nature of the entity where the activity is originated, eg., whether the activity is from a macromolecule (protein or nucleic acid), or from a chemical compound.  The \SBGNAFLone \glyph{unit of information} is used to add such information to a glyph.  It represents the information in two ways.  First, different symbols are used to represent the nature of the entity where the activity is from, e.g.., macromolecule, nucleic acid feature, or complex.  These symbols are identical to the \glyph{entity pool node} symbols in SBGN \PDl.  Second, names of the entity (gene names, protein names) are usually provided as labels in the \glyph{unit of information} container.
 
 \begin{glyphDescription}
 
@@ -24,26 +24,63 @@ A unit of information of a simple chemical is represented by a circular containe
 have its own identity, properties and function in an SBGN map. A unit of information of a complex is represented by an octagon as shown in (E) of \fig{af:unitInfo}.  It is used to decorate a biological activity that is originated from a complex.
 \end{description}
 
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale = 0.2]{images/unitInformation_ba}
+  \caption{The \AF glyph for \glyph{unit of information}.}
+  \label{fig:af:unitInfo}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale = 0.5]{examples/unitofinformation}
+  \caption{Examples of \glyph{unit of information} used on \glyph{biological activity node} to indicate that the \emph{Twist-1 activity} is from a \emph{nucleic acid feature} or a \emph{macromolecule}, or a \emph{transcription factor activity} from an \emph{unspecified} entity.}
+  \label{fig:af:unitofinfo}
+\end{figure}
+
+\fig{af:unitofinfo} shows examples taken from \fig{af:1}, where \emph{units of information} is used on Activity Nodes to illustrate the properties of the entities that the activities are originated from.
+
 The long side of the glyphs above (except for simple chemical) should be oriented parallel to the border of the \glyph{AN} being annotated by the \glyph{unit of information}. The center of the bounding box of a \glyph{state of information} should be located on the mid-line of the border of the \glyph{AN}.
 
-\glyphLabel A \glyph{unit of information} is identified by a label placed in an unbordered box containing a string of characters. The characters can be distributed on several lines to improve readability, although this is not mandatory.  The label box must be attached to the center of the container. The label may spill outside of the container.  The label defines the information carried by the \glyph{unit of information}.
+\glyphLabel A \glyph{unit of information} is not required to carry any label.   If a label is desired, it should be placed in an unbordered box containing a string of characters. The characters can be distributed on several lines to improve readability, although this is not mandatory.  The label box must be attached to the center of the container. The label may spill outside of the container.  The label defines the information carried by the \glyph{unit of information}.
 
 \glyphAux A \glyph{unit of information} does not carry any auxiliary items.
 
 \end{glyphDescription}
 
+\subsection{Glyph: \glyph{Unit of information for Compartment}}
+\label{sec:af:unitInfoComp}
+
+A \emph{unit of information} can be used to decorate a compartment to convey information about physical characteristics of the compartments (\sect{af:physical-characteristics-cv}). 
+
+\begin{glyphDescription}
+
+\glyphSboTerm Not applicable.
+
+\glyphContainer A \emph{unit of information} for compartment is represented by a rectangle as shown in \fig{compunitInfo}.  The long side of the rectangle should be oriented parallel to the border of the \glyph{compartment} being annotated by the \glyph{unit of information}. The center of the bounding box of a \glyph{state of information} should be located on the mid-line of the border of the \glyph{compartment}.
+
 \begin{figure}[H]
   \centering
-  \includegraphics[scale = 0.2]{images/unitInformation}
+  \includegraphics[scale = 0.3]{images/unitInformation}
   \caption{The \AF glyph for \glyph{unit of information}.}
-  \label{fig:af:unitInfo}
+  \label{fig:compunitInfo}
 \end{figure}
 
-\fig{af:unitofinfo} shows examples units of information used on Activity Nodes to illustrate the properties of the entities that the activities are originated from.  A.  Macromolecule.  B.  Nucleic acid feature.  C.  Simple chemical.  D.  Unspecified.  D.  Complex.
+\glyphLabel A \glyph{unit of information} is identified by a label placed in an unbordered box containing a string of characters.  The characters can be distributed on several lines to improve readability, although this is not mandatory.  The label box must be attached to the center of the container.  The label may spill outside of the container.
 
-\begin{figure}[H]
-  \centering
-  \includegraphics[scale = 0.5]{examples/unitofinformation}
-  \caption{Examples of \glyph{unit of information} used on \glyph{biological activity node} to indicate that the activity is from a gene, a macromolecule, or unspecified.}
-  \label{fig:af:unitofinfo}
-\end{figure}
+The label defines the information carried by the \glyph{unit of information}.  For certain predefined types of information for the compartment, such as physical characteristics, SBGN defines specific prefixes that must be included in the label to indicate the type of information in question.  The controlled vocabularies predefined in \SBGNAFLone are described in \sect{af:physical-characteristics-cv} and summarized in the following list:
+
+\begin{center}
+  \begin{itemize}\setlength{\parskip}{0ex}
+  \item[\texttt{pc:T}] Temperature (SBO:0000147)
+  \item[\texttt{pc:V}] Voltage (SBO:0000259)
+  \item[\texttt{pc:pH}] pH (SBO:0000304)
+  \end{itemize}
+\end{center}
+
+    
+\glyphAux A \glyph{unit of information} does not carry any auxiliary items.  
+
+\end{glyphDescription}
+
+

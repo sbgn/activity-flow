@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.0"
@@ -13,8 +15,8 @@
    height="977.35999"
    id="svg2570"
    sodipodi:version="0.32"
-   inkscape:version="0.46"
-   sodipodi:docname="TGFbeta_pathway.svg"
+   inkscape:version="0.48+devel r9813"
+   sodipodi:docname="TGFbeta_pathway.pdf"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    inkscape:export-filename="/Users/mi/Documents/SBGN/SBGN Level1/Paper/TGFbeta_pathway.png"
    inkscape:export-xdpi="150"
@@ -27,12 +29,13 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <sodipodi:namedview
-     inkscape:window-height="829"
-     inkscape:window-width="1415"
+     inkscape:window-height="1277"
+     inkscape:window-width="2185"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      guidetolerance="10.0"
@@ -43,12 +46,13 @@
      pagecolor="#ffffff"
      id="base"
      showgrid="false"
-     inkscape:zoom="0.71130764"
-     inkscape:cx="624.42415"
-     inkscape:cy="508.17658"
+     inkscape:zoom="1"
+     inkscape:cx="631.5147"
+     inkscape:cy="527.07597"
      inkscape:window-x="21"
      inkscape:window-y="6"
-     inkscape:current-layer="svg2570" />
+     inkscape:current-layer="svg2570"
+     inkscape:window-maximized="0" />
   <defs
      id="defs2572">
     <inkscape:perspective
@@ -91,7 +95,10 @@
      ry="65.378548"
      rx="336.25195"
      height="828.96466"
-     width="1272.0551" />
+     width="1272.0551"
+     inkscape:export-filename="/Users/mi/Documents/SBGN/subversion/sbgn-af/examples/TGFbeta_pathway.png"
+     inkscape:export-xdpi="150"
+     inkscape:export-ydpi="150" />
   <rect
      style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="rect15447"
@@ -354,27 +361,10 @@
      id="path7492"
      d="M 761.12645,835.73658 C 781.69004,835.73658 781.69004,835.73658 781.69004,835.73658 L 781.69004,835.73658 L 781.69004,835.73658" />
   <path
-     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     id="path2170"
-     d="M 817.20649,858.59953 L 863.77782,889.57305 L 817.49991,920.69284 L 724.65068,920.83911 L 678.07936,889.8656 L 724.35726,858.7458 L 817.20649,858.59953 z" />
-  <text
-     style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-     xml:space="preserve"
-     id="text7495"
-     y="878.64789"
-     x="772.14282"><tspan
-       style="font-size:20px;text-align:center;text-anchor:middle"
-       id="tspan7497"
-       y="878.64789"
-       x="772.14282">Gene</tspan><tspan
-       style="font-size:20px;text-align:center;text-anchor:middle"
-       id="tspan7499"
-       y="903.64789"
-       x="772.14282">transcription</tspan></text>
-  <path
-     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#EmptyTriangleOutL);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="fill:none;stroke:#000000;stroke-width:2.0670011;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#EmptyTriangleOutL)"
      id="path7515"
-     d="M 836.09375,869.83509 C 933.8286,869.83509 972.92254,655.19489 972.92254,655.19489" />
+     d="m 831.12725,876.80159 c 101.12644,0 141.57702,-221.5732 141.57702,-221.5732"
+     inkscape:connector-curvature="0" />
   <rect
      style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="rect9080"
@@ -400,7 +390,7 @@
      d="M 957.54663,675.17534 C 978.93396,679.40617 978.93396,679.40617 978.93396,679.40617 L 978.93396,679.40617 L 978.93396,679.40617 L 978.93396,679.40617 L 978.93396,679.40617 L 978.93396,679.40617 L 978.23103,680.76977"
      sodipodi:nodetypes="cccccccc" />
   <path
-     style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="rect2929"
      d="M 931.51387,595.60872 L 931.51387,604.71531 L 931.52718,604.71531 L 931.52718,609.7917 C 931.52718,611.39551 932.89212,612.68705 934.58682,612.68706 L 961.14075,612.68706 C 962.83555,612.68706 964.20039,611.39551 964.20039,609.7917 L 964.20039,598.55982 C 964.20039,598.42354 964.18998,598.28823 964.17096,598.15705 L 964.17096,595.60872 L 931.51387,595.60872 z" />
   <rect
@@ -440,9 +430,11 @@
      id="path10151"
      d="M 844.35516,394.50504 C 844.93056,413.07647 844.93056,413.07647 844.93056,413.07647" />
   <path
-     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#EmptyTriangleOutL);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="fill:none;stroke:#000000;stroke-width:1.95470023;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#EmptyTriangleOutL)"
      id="path10155"
-     d="M 978.57143,600.93361 L 978.57143,521.6479 L 978.57143,521.6479 L 978.57143,521.6479 L 978.57143,521.6479 L 978.57143,521.6479 L 978.57143,521.6479 L 978.57143,521.6479" />
+     d="m 978.57143,600.95626 0,-75.52094 0,0 0,0 0,0 0,0 0,0 0,-3.81007"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cccccccc" />
   <rect
      style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="rect10678"
@@ -486,32 +478,36 @@
        y="269.79074"
        x="344.85715">RAS</tspan></text>
   <path
-     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#EmptyTriangleOutL);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#EmptyTriangleOutL)"
      id="path11213"
-     d="M 722.83381,172.38551 C 465.17968,195.29282 370.02333,238.05314 370.02333,238.05314 L 370.02333,238.05314 L 370.02333,238.05314" />
+     d="m 716.86924,173.3796 c -257.65413,22.90731 -352.81048,65.66763 -352.81048,65.66763 l 0,0 -3.97638,3.97638"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cccc" />
   <rect
-     style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      id="rect11736"
-     y="407.87964"
+     y="409.87964"
      x="274.44092"
      ry="0"
      rx="13.36525"
      height="40.965065"
      width="170.83247" />
   <text
-     style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+     style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
      xml:space="preserve"
      id="text11738"
-     y="433.79074"
+     y="435.79074"
      x="282"><tspan
        style="font-size:20px"
        id="tspan11740"
-       y="433.79074"
+       y="435.79074"
        x="282">p42/p44 MAPKs</tspan></text>
   <path
-     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#EmptyTriangleOutL);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#EmptyTriangleOutL)"
      id="path11742"
-     d="M 367.14286,285.21933 L 365.71429,403.79075 L 365.71429,403.79075 L 365.71429,403.79075" />
+     d="m 367.14286,285.21933 -1.42857,118.57142 0,0 0,4.97047"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cccc" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.37261176;stroke-linecap:butt;stroke-linejoin:miter;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="path12267"
@@ -537,9 +533,11 @@
        y="271.21933"
        x="1188.8571">TAK</tspan></text>
   <path
-     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#EmptyTriangleOutL);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#EmptyTriangleOutL)"
      id="path12800"
-     d="M 818.59207,169.52568 C 1028.5173,196.65625 1166.9786,259.48492 1166.9786,259.48492 L 1166.9786,259.48492 L 1166.9786,259.48492" />
+     d="m 818.59207,169.52568 c 209.92523,27.13057 348.38653,89.95924 348.38653,89.95924 l 0,0 1.9882,0.99409"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cccc" />
   <rect
      style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="rect13325"
@@ -606,9 +604,11 @@
        y="579.21936"
        x="1276.2856">JNK</tspan></text>
   <path
-     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#EmptyTriangleOutL);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="fill:none;stroke:#000000;stroke-width:1.98184156;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#EmptyTriangleOutL)"
      id="path13347"
-     d="M 1192.8571,448.07647 C 1137.1429,550.93361 1137.1429,550.93361 1137.1429,550.93361 L 1137.1429,550.93361" />
+     d="m 1178.9488,446.0792 c -55.7315,100.96666 -55.7315,100.96666 -55.7315,100.96666 l -2.9832,4.87911"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccc" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#EmptyTriangleOutL);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="path13349"
@@ -659,4 +659,38 @@
        id="tspan6012"
        y="790.70227"
        x="760.28015">OR</tspan></text>
+  <rect
+     style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     id="rect9080-3"
+     y="861.15594"
+     x="719.14795"
+     ry="0"
+     rx="8.6610508"
+     height="48.408176"
+     width="110.70415" />
+  <text
+     xml:space="preserve"
+     style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+     x="750.29053"
+     y="890.26453"
+     id="text4163"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4165"
+       x="750.29053"
+       y="890.26453"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans">Gene</tspan></text>
+  <image
+     y="850.784"
+     x="785.01471"
+     id="image4343"
+     xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAATCAYAAAAao7T0AAAABHNCSVQICAgIfAhkiAAAAQZJREFU
+SInt0aFuwlAYhuH30CZtTnBVS4aoQjHFBTRBV01W1qJA1M9wDRMgKnoLdQ29BRRuSeWWypKQduef
+mcBgORW8V/Dk+xQgjKDtdvvuAiil2O12VhBFUXA6nQBwAbIsI8syK5jZbEaSJABMrAhu8jwPgGEY
+HOsY3/cBcF331zrmtifmXuPD7Pd72w7gH5OmqW0HMMabxtITc69JGIY0TWMNcD6fUUoRRdE3m81G
+HMeRPM+l73t5VMYYOR6PEgSBrFYrEZGF6rpO4jimqio8z0Nr/ZBFrtcrl8uF+XxOWZaEYfimROTT
+GMPhcHit6/qlbVv/EZjpdNovl8uf9Xr9pbU2wMcfyW6+3EwYqNkAAAAASUVORK5CYII=
+"
+     height="19"
+     width="35" />
 </svg>

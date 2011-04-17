@@ -51,18 +51,16 @@ It is implied, but not defined explicitly that an activity has a rate at which t
 
 \subsection{Submaps}
 
-Submaps are a visual device that allow a map to be split into several views. They remain, however, part of the main map and share its
-namespace. As a test of validity it should be possible to reintroduced a submap into the main map by eliminating the SubMapNode and merging
+Submaps are a visual device that allow a map to be split into several views. They remain, however, part of the main map and share its namespace. As a test of validity it should be possible to reintroduce a submap into the main map by eliminating the submap \emph{terminals} and merging
 the equivalent nodes in both maps.
 
 \subsubsection{Rules for mapping to submaps}
 
-An AN in the main map can be mapped to one in the submap using a TagNode in the submap and SubMapTerminals (see \sect{submap}) in the main map. For a
-mapping between map and submap to exists the following must be true:
+An AN in the main map can be mapped to one in the submap using a \emph{tag} in the submap and \emph{terminals} (see \sect{submap}) in the main map. For a mapping between map and submap to exists the following must be true:
 
 \begin{enumerate}
-\item The identifiers in the TagNode and SubMapTerminals must be identical.
-\item The AFNs must be identical.
+\item The identifiers in the \emph{tags} and \emph{terminals} must be identical.
+\item The ANs must be identical.
 \end{enumerate}
 
 \subsubsection{Requirement to define a mapping}

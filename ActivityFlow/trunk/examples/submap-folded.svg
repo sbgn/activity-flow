@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -12,9 +13,8 @@
    height="637.09003"
    id="svg2"
    sodipodi:version="0.32"
-   inkscape:version="0.46"
+   inkscape:version="0.48+devel r9813"
    version="1.0"
-   sodipodi:docbase="D:\workspace-doc\SBGN_trunk\documents\specifications\ProcessDiagram\Level1\examples"
    sodipodi:docname="submap-folded.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    inkscape:export-filename="/Users/mi/Documents/SBGN/subversion/sbgn-af/examples/submap-folded.png"
@@ -92,7 +92,8 @@
      inkscape:window-y="0"
      showguides="true"
      inkscape:guide-bbox="true"
-     showgrid="false">
+     showgrid="false"
+     inkscape:window-maximized="1">
     <sodipodi:guide
        orientation="vertical"
        position="721.24884"
@@ -313,9 +314,11 @@
          y="51.594482"
          style="font-size:24px">ligand</tspan></text>
     <path
-       style="opacity:1;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#EmptyTriangleOutL);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 517.5,82.09448 C 517.5,168.09448 517.5,168.09448 517.5,168.09448 L 517.5,168.09448"
-       id="path5574" />
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#EmptyTriangleOutL)"
+       d="m 517.5,82.09448 c 0,86 0,86 0,86 l 0,3"
+       id="path5574"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
     <text
        xml:space="preserve"
        style="font-size:20px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"

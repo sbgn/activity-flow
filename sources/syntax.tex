@@ -13,13 +13,13 @@ The syntax of the SBGN \AFl is defined in the form of an incidence matrix. An in
 \begin{tabular}{||c|c|c|c|c|c|c|c|c|c||}
 \hline
 \hline
-\raisebox{20pt}{$Arc \backslash Node $}   &\vglyph{biological activity}   &  \vglyph{phenotype}    & \vglyph{tag}  & \vglyph{submap}  & \vglyph{and} & \vglyph{or} & \vglyph{not} & \vglyph{delay}  \\ \hline
-\glyph{positive influence}              & I \& O                        & O                     &               &   & I & I & I & I \\ \hline
-\glyph{negative influence}              & I \& O                        & O                     &               &   & I & I & I & I \\ \hline
-\glyph{unknown influence}               & I \& O                        & O                     &               &   & I & I & I & I \\ \hline
-\glyph{necessary stimulation}           & I \& O                        & O                     &               &   & I & I & I & I \\ \hline
-\glyph{logic arc}                       & I                             &                       &               &   & O & O & O(1) & O \\ \hline
-\glyph{equivalence arc}                 & I                             & I                      & O             & O & & & &  \\ 
+\raisebox{20pt}{$Arc \backslash Node $}   &\vglyph{biological activity}   &\vglyph{process} &  \vglyph{phenotype}    & \vglyph{tag}  & \vglyph{submap}  & \vglyph{and} & \vglyph{or} & \vglyph{not} & \vglyph{delay}  \\ \hline
+\glyph{positive influence}              & I \& O 	   & I \& O         & O                     &               &   & I & I & I & I \\ \hline
+\glyph{negative influence}              & I \& O         & I \& O                & O                     &               &   & I & I & I & I \\ \hline
+\glyph{unknown influence}               & I \& O           & I \& O              & O                     &               &   & I & I & I & I \\ \hline
+\glyph{necessary stimulation}           & I \& O            & I \& O             & O                     &               &   & I & I & I & I \\ \hline
+\glyph{logic arc}                       & I                & I              &                       &               &   & O & O & O(1) & O \\ \hline
+\glyph{equivalence arc}                 & I               & I               & I                      & O             & O & & & &  \\ 
 \hline 
 \hline
 \end{tabular}
@@ -32,6 +32,7 @@ There are two node types allowing containment of AF in SBGN: \glyph{container (c
 \hline
 $ elements \backslash Containers$     & \glyph{compartment}   & \glyph{submap}    \\ \hline
 \glyph{biological activity}     &         +             &          +        \\ \hline
+\glyph{process}     &         +             &          +        \\ \hline
 \glyph{phenotype}               &         +             &          +        \\ \hline
 \glyph{tag}                     &         +             &          +        \\ \hline
 \glyph{compartment}             &                      &          +        \\ \hline

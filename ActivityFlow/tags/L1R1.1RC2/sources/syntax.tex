@@ -1,0 +1,66 @@
+\section{Syntax}
+
+The syntax of the SBGN \AFl is defined in the form of an incidence matrix. An incidence matrix has arcs as rows and nodes as columns. Each element of the matrix represents the role of an arc in connection to a node, as described below.
+
+\begin{itemize}
+\item Input (I) means that the arc can begin at that node. 
+\item Output (O) indicates that the arc can end at that node. 
+\item Numbers in parenthesis represent the maximum number of arcs of a particular type to have this specific connection role with the node. 
+\item Empty cells means the arc is not able to connect to the node.
+\end{itemize}
+
+\subsection{Activity Nodes connectivity definition}
+\begin{tabular}{||c|c|c|c|c|c|c|c|c|c||}
+\hline
+\hline
+\raisebox{20pt}{$Arc \backslash Node $}   &\vglyph{biological activity}   &\vglyph{process} &  \vglyph{phenotype}    & \vglyph{tag}  & \vglyph{submap}  & \vglyph{and} & \vglyph{or} & \vglyph{not} & \vglyph{delay}  \\ \hline
+\glyph{positive influence}              & I \& O 	   & I \& O         & O                     &               &   & I & I & I & I \\ \hline
+\glyph{negative influence}              & I \& O         & I \& O                & O                     &               &   & I & I & I & I \\ \hline
+\glyph{unknown influence}               & I \& O           & I \& O              & O                     &               &   & I & I & I & I \\ \hline
+\glyph{necessary stimulation}           & I \& O            & I \& O             & O                     &               &   & I & I & I & I \\ \hline
+\glyph{logic arc}                       & I                & I              &                       &               &   & O & O & O(1) & O \\ \hline
+\glyph{equivalence arc}                 & I               & I               & I                      & O             & O & & & &  \\ 
+\hline 
+\hline
+\end{tabular}
+
+\subsection{Containment definition}
+There are two node types allowing containment of AF in SBGN: \glyph{container (compartment)} and \glyph{submap}. The next table describes relationship between AF elements of SBGN and these two nodes. Plus sign (+) means that the element is able to be contained within a node. An empty cell means containment is not allowed. \\
+
+\begin{tabular}{||c|c|c||}
+\hline
+\hline
+$ elements \backslash Containers$     & \glyph{compartment}   & \glyph{submap}    \\ \hline
+\glyph{biological activity}     &         +             &          +        \\ \hline
+\glyph{process}     &         +             &          +        \\ \hline
+\glyph{phenotype}               &         +             &          +        \\ \hline
+\glyph{tag}                     &         +             &          +        \\ \hline
+\glyph{compartment}             &                      &          +        \\ \hline
+\glyph{submap}                  &         +             &          +        \\ \hline
+\glyph{positive influence}      &         +             &          +        \\ \hline
+\glyph{negative influence}      &         +             &          +        \\ \hline
+\glyph{unknown influence}       &         +             &          +        \\ \hline
+\glyph{logic arc}               &         +             &          +        \\ \hline
+\glyph{equivalence arc}         &         +             &          +        \\ \hline
+\glyph{and}                     &         +             &          +        \\ \hline
+\glyph{or}                      &         +             &          +        \\ \hline
+\glyph{not}                     &         +             &          +        \\ \hline
+\glyph{delay}                     &         +             &          +        \\ \hline
+\hline
+\end{tabular}
+
+
+\subsection{Syntactic rules}
+
+There are additional syntactic rules that must be applied in addition to those defined above.
+
+\subsubsection{AFs}
+
+ \begin{enumerate}
+    \item Each \glyph{biological activity} has at most one \glyph{unit of information}.
+    \item \glyph{Pertubation} is never target of a modulation arc.
+    \item \glyph{Phenotype} is never origin of a modulation arc.
+ \end{enumerate}
+
+
+

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="664"
+   height="226"
+   id="svg5333">
+  <defs
+     id="defs5335">
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="StopL"
+       style="overflow:visible">
+      <path
+         d="M 0,5.65 L 0,-5.65"
+         transform="scale(0.8,0.8)"
+         id="path6036"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+    </marker>
+  </defs>
+  <g
+     id="layer1">
+    <rect
+       width="184.85791"
+       height="91.923882"
+       x="41.856758"
+       y="-168.75032"
+       transform="scale(1,-1)"
+       id="rect3276"
+       style="fill:#ffffff;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       x="80.994293"
+       y="134.5096"
+       id="text3278"
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"><tspan
+         x="80.994293"
+         y="134.5096"
+         id="tspan3280">Twist-1</tspan><tspan
+         x="80.994293"
+         y="174.5096"
+         id="tspan3288" /></text>
+    <rect
+       width="65.527046"
+       height="39.747162"
+       rx="8.4942474"
+       ry="9.2743406"
+       x="54.073235"
+       y="54.626972"
+       id="rect3282"
+       style="fill:#ffffff;stroke:#000000;stroke-width:4.59148407;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       width="184.85791"
+       height="91.923882"
+       x="436.14249"
+       y="-166.89558"
+       transform="scale(1,-1)"
+       id="rect3381"
+       style="fill:#ffffff;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       x="470.93179"
+       y="126.81184"
+       id="text3383"
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"><tspan
+         x="470.93179"
+         y="126.81184"
+         id="tspan3385">PGC-1<tspan
+   id="tspan3387"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Symbol;-inkscape-font-specification:Symbol">a</tspan></tspan></text>
+    <path
+       d="M 228.29448,126.0523 C 421.23361,125.04215 421.23361,125.04215 421.23361,125.04215 L 421.23361,125.04215 L 421.23361,125.04215 L 421.23361,125.04215 L 421.23361,125.04215"
+       id="path5861"
+       style="fill:none;fill-rule:evenodd;stroke:#fb0000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="M 419.21331,97.747722 C 419.21331,149.2655 419.21331,149.2655 419.21331,149.2655 L 419.21331,149.2655 L 419.21331,149.2655 L 419.21331,149.2655 L 419.21331,149.2655"
+       id="path7156"
+       style="fill:none;fill-rule:evenodd;stroke:#fb0000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+</svg>

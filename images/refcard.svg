@@ -14,7 +14,7 @@
    height="646.09003"
    id="svg2"
    sodipodi:version="0.32"
-   inkscape:version="0.48+devel r9813"
+   inkscape:version="0.48.5 r10040"
    version="1.0"
    sodipodi:docname="refcard.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
@@ -49,13 +49,13 @@
      inkscape:pageshadow="2"
      inkscape:zoom="1.1181376"
      inkscape:cx="413.93485"
-     inkscape:cy="329.26708"
+     inkscape:cy="436.5884"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      width="1052.3622px"
      height="744.09448px"
-     inkscape:window-width="1720"
-     inkscape:window-height="1000"
+     inkscape:window-width="1280"
+     inkscape:window-height="756"
      inkscape:window-x="20"
      inkscape:window-y="20"
      showguides="true"
@@ -143,24 +143,24 @@
        id="rect16351"
        style="fill:#fafafa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.01090014;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <rect
-       style="fill:#fafafa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.02242839;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:#fafafa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.88375324;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect15273"
        width="298.90128"
-       height="266.98477"
+       height="199.47237"
        x="26.166315"
-       y="78.281929"
-       ry="3.4329154"
+       y="110.28193"
+       ry="2.5648344"
        rx="12.101783" />
     <text
        xml:space="preserve"
-       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
        x="45.594025"
-       y="103.91582"
+       y="135.91582"
        id="text3156"><tspan
          sodipodi:role="line"
          id="tspan3158"
          x="45.594025"
-         y="103.91582"
+         y="135.91582"
          style="font-size:14px">Activity Nodes</tspan></text>
     <text
        id="text3160"
@@ -220,35 +220,35 @@
          style="font-size:16px;text-align:center;text-anchor:middle"
          id="tspan4386">SYSTEMS BIOLOGY GRAPHICAL NOTATION ACTIVITY FLOW DIAGRAM REFERENCE CARD</tspan></text>
     <rect
-       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect13075"
        width="75.990685"
        height="41.83757"
        x="40.598"
-       y="130.03394"
+       y="162.03394"
        ry="0"
        rx="5.9452081" />
     <text
        xml:space="preserve"
-       style="font-size:2.39071822px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       style="font-size:2.39071822px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
        x="59.09761"
-       y="155.22186"
+       y="187.22186"
        id="text13089"><tspan
          sodipodi:role="line"
          id="tspan13091"
          x="59.09761"
-         y="155.22186"
+         y="187.22186"
          style="font-size:12.75049782px">LABEL</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
        x="173.27676"
-       y="153.98447"
+       y="185.98447"
        id="text16318"><tspan
          sodipodi:role="line"
          id="tspan16320"
          x="173.27676"
-         y="153.98447">biological activity</tspan></text>
+         y="185.98447">biological activity</tspan></text>
     <path
        style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.75706446;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        d="m 722.02418,300.61054 0,16.34114 0.0246,0 0,9.10922 c 0,2.87795 2.51125,5.19551 5.62974,5.19552 l 48.86009,0 c 3.11848,0 5.62975,-2.31757 5.62975,-5.19552 l 0,-20.15482 c 0,-0.24455 -0.0191,-0.48736 -0.0542,-0.72274 l 0,-4.5728 -60.09003,0 z"
@@ -268,7 +268,7 @@
          y="303.56619"
          style="font-size:11.99819565px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Bitstream Vera Sans">LABEL</tspan></text>
     <path
-       transform="matrix(0.747276,-0.001089,3.3561651e-4,0.4026207,-47.795087,90.426098)"
+       transform="matrix(0.747276,-0.001089,3.3561651e-4,0.4026207,-47.795087,42.426098)"
        d="m 194.74566,496.53679 25.57877,44.16334 -25.45719,44.23354 -51.03596,0.0702 -25.57877,-44.16334 25.45719,-44.23354 z"
        inkscape:randomized="0"
        inkscape:rounded="0"
@@ -286,12 +286,12 @@
     <text
        sodipodi:linespacing="125%"
        id="text10999"
-       y="313.58459"
+       y="265.58459"
        x="60.046555"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
        xml:space="preserve"><tspan
          style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Bitstream Vera Sans"
-         y="313.58459"
+         y="265.58459"
          x="60.046555"
          id="tspan11001"
          sodipodi:role="line">LABEL</tspan></text>
@@ -299,12 +299,12 @@
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
        x="173.27676"
-       y="310.39532"
+       y="262.39532"
        id="text16341"><tspan
          sodipodi:role="line"
          id="tspan16343"
          x="173.27676"
-         y="310.39532">phenotype</tspan></text>
+         y="262.39532">phenotype</tspan></text>
     <path
        sodipodi:nodetypes="ccccccc"
        id="path10877"
@@ -1473,48 +1473,5 @@
        d="m 775.95103,470.44089 c 22.13389,0.31619 21.8177,0 21.8177,0 l 0,0 0,0 0,0 0,0"
        id="path11594"
        inkscape:connector-curvature="0" />
-    <rect
-       style="fill:#fffefb;fill-opacity:0.99516913;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-       id="rect6209"
-       width="76.003578"
-       height="44.363403"
-       x="-114.70408"
-       y="201.33064"
-       rx="0"
-       transform="scale(-1,1)" />
-    <rect
-       style="fill:#fffefb;fill-opacity:0.99516913;fill-rule:nonzero;stroke:#000000;stroke-width:1.0410285;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-       id="rect6719"
-       width="67.03479"
-       height="33.944057"
-       x="43.184895"
-       y="206.54031"
-       ry="0" />
-    <image
-       y="218.06517"
-       x="56.519268"
-       id="image6741"
-       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAKCAYAAAA3kUfdAAAABHNCSVQICAgIfAhkiAAAAUNJREFU
-OI21UrGOglAQ3DsKTGi0oBcaegOxJDGXkFD5MdqQUNASKj9AW2wN+CUWNECNuZBQYQNzxQUj8eHL
-nTrJNm93Z2fnLRERePB9H4IgwPf9uxwR9WI8HmO5XCLLssGaLm7zDETEE9c0DRRFwWazgaqqaJrm
-TlyHtm1RFAUcx8FsNuMNf15cFEXXQYZhII5jLnFd1xBF8f3ibNvGdrsFAOx2O9i2/ZD4fD7DdV2Y
-pvlecWmaQpZl1HUN4NcRWZa59zSZTHA6nR7WPH1zq9WKSbperweJy7KE53lYLBa84f8X17mU53nv
-Pcuynpus/svlgtFo9LS4TxpAGIY0n89pOp323hVFIV3Xab/fM/uqqqIgCEjTtCHqP4H5dbqu43g8
-Mjc9HA4wDOO69W1IkgTLspAkSc8ZVvDyHwC+XrLi6/H9A1qpwS68LiDwAAAAAElFTkSuQmCC
-"
-       height="10"
-       width="39" />
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
-       x="172.70665"
-       y="224.43123"
-       id="text6744"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan6746"
-         x="172.70665"
-         y="224.43123"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans">process</tspan></text>
   </g>
 </svg>

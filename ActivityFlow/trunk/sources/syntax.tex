@@ -13,12 +13,12 @@ The syntax of the SBGN \AFl is defined in the form of an incidence matrix. An in
 \begin{tabular}{||c|c|c|c|c|c|c|c|c|c||}
 \hline
 \hline
-\raisebox{20pt}{$Arc \backslash Node $}   &\vglyph{biological activity}   &  \vglyph{phenotype}    & \vglyph{tag}  & \vglyph{submap}  & \vglyph{and} & \vglyph{or} & \vglyph{not} & \vglyph{delay}  \\ \hline
-\glyph{positive influence}              & I \& O 	   & O                     &               &   & I & I & I & I \\ \hline
-\glyph{negative influence}              & I \& O         & O                     &               &   & I & I & I & I \\ \hline
-\glyph{unknown influence}               & I \& O           & O                     &               &   & I & I & I & I \\ \hline
-\glyph{necessary stimulation}           & I \& O            & O                     &               &   & I & I & I & I \\ \hline
-\glyph{logic arc}                       & I                &                       &               &   & O & O & O(1) & O \\ \hline
+\raisebox{20pt}{$Arc \backslash Node $}   &\vglyph{biological activity}   &  \vglyph{phenotype}    & \vglyph{tag}  & \vglyph{submap (terminal)}  & \vglyph{and} & \vglyph{or} & \vglyph{not} & \vglyph{delay}  \\ \hline
+\glyph{positive influence}              & I \& O 	   & O                     &               &   & I & I & I(1) & I(1) \\ \hline
+\glyph{negative influence}              & I \& O         & O                     &               &   & I & I & I(1) & I(1) \\ \hline
+\glyph{unknown influence}               & I \& O           & O                     &               &   & I & I & I(1) & I(1) \\ \hline
+\glyph{necessary stimulation}           & I \& O            & O                     &               &   & I & I & I(1) & I(1) \\ \hline
+\glyph{logic arc}                       & I                &                       &               &   & O(1) & O(1) & O(1) & O(1) \\ \hline
 \glyph{equivalence arc}                 & I               & I                      & O             & O & & & &  \\ 
 \hline 
 \hline

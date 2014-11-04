@@ -14,7 +14,7 @@
    height="646.09003"
    id="svg2"
    sodipodi:version="0.32"
-   inkscape:version="0.48.5 r10040"
+   inkscape:version="0.48+devel r9813"
    version="1.0"
    sodipodi:docname="refcard.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
@@ -54,10 +54,10 @@
      inkscape:current-layer="layer1"
      width="1052.3622px"
      height="744.09448px"
-     inkscape:window-width="1280"
-     inkscape:window-height="756"
-     inkscape:window-x="20"
-     inkscape:window-y="20"
+     inkscape:window-width="2154"
+     inkscape:window-height="1229"
+     inkscape:window-x="214"
+     inkscape:window-y="51"
      showguides="true"
      inkscape:guide-bbox="true"
      showgrid="false"
@@ -154,14 +154,14 @@
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-       x="45.594025"
+       x="47.594025"
        y="135.91582"
        id="text3156"><tspan
          sodipodi:role="line"
          id="tspan3158"
-         x="45.594025"
+         x="47.594025"
          y="135.91582"
-         style="font-size:14px">Activity Nodes</tspan></text>
+         style="font-size:14px">Activity Nodes (AN)</tspan></text>
     <text
        id="text3160"
        y="522.6488"
@@ -172,7 +172,7 @@
          x="692.7265"
          id="tspan3162"
          sodipodi:role="line"
-         style="font-size:14px">Container Nodes</tspan></text>
+         style="font-size:14px">Container Nodes (CN)</tspan></text>
     <text
        id="text3168"
        y="104.0438"
@@ -409,7 +409,7 @@
        id="text23586"
        y="238.11313"
        x="459.99066"
-       style="font-size:4.62268543px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       style="font-size:4.62268543px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
        xml:space="preserve"><tspan
          style="font-size:9.24537086px;font-weight:normal;text-align:center;text-anchor:middle"
          y="238.11313"
@@ -420,7 +420,7 @@
          style="font-size:9.24537086px;font-weight:normal;text-align:center;text-anchor:middle"
          y="249.66985"
          x="459.99066"
-         sodipodi:role="line">PN</tspan></text>
+         sodipodi:role="line">AN</tspan></text>
     <rect
        style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect2197"
@@ -527,7 +527,7 @@
        style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <text
        xml:space="preserve"
-       style="font-size:4.62268543px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       style="font-size:4.62268543px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
        x="460.31934"
        y="137.60263"
        id="text5063"><tspan
@@ -540,7 +540,7 @@
          x="460.31934"
          y="149.15935"
          style="font-size:9.24537086px;font-weight:normal;text-align:center;text-anchor:middle"
-         id="tspan5067">PN</tspan></text>
+         id="tspan5067">AN</tspan></text>
     <rect
        y="176.43254"
        x="442.24176"
@@ -550,7 +550,7 @@
        style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <text
        xml:space="preserve"
-       style="font-size:4.62268543px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       style="font-size:4.62268543px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
        x="459.62634"
        y="187.4258"
        id="text5079"><tspan
@@ -563,7 +563,7 @@
          x="459.62634"
          y="198.98251"
          style="font-size:9.24537086px;font-weight:normal;text-align:center;text-anchor:middle"
-         id="tspan5083">PN</tspan></text>
+         id="tspan5083">AN</tspan></text>
     <rect
        style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect5085"
@@ -575,7 +575,7 @@
        id="text5087"
        y="290.75162"
        x="460.14557"
-       style="font-size:4.62268543px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       style="font-size:4.62268543px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
        xml:space="preserve"
        inkscape:export-filename="/home/lenov/SBGN/svn/sbgn/ProcessDiagram/trunk/images/refcard.png"
        inkscape:export-xdpi="300"
@@ -589,7 +589,7 @@
          style="font-size:9.24537086px;font-weight:normal;text-align:center;text-anchor:middle"
          y="302.30832"
          x="460.14557"
-         sodipodi:role="line">PN</tspan></text>
+         sodipodi:role="line">AN</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
@@ -818,7 +818,7 @@
          id="tspan4380"
          x="827.29352"
          y="370.62521"
-         style="font-size:12px">unspecified</tspan></text>
+         style="font-size:12px">unspecified entity</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
@@ -1120,7 +1120,7 @@
        inkscape:export-ydpi="150" />
     <text
        xml:space="preserve"
-       style="font-size:3.61117506px;font-style:normal;font-weight:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       style="font-size:3.61117506px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
        x="415.0127"
        y="309.22794"
        id="text2841"
@@ -1137,7 +1137,7 @@
          x="415.0127"
          y="320.47794"
          style="font-size:9px;font-weight:normal;text-align:center;text-anchor:middle"
-         id="tspan2857">AN</tspan></text>
+         id="tspan2857">BA</tspan></text>
     <path
        transform="matrix(0.2733468,0,0,0.3312999,411.29548,246.83417)"
        sodipodi:type="arc"
@@ -1200,19 +1200,24 @@
        inkscape:export-ydpi="150" />
     <text
        xml:space="preserve"
-       style="font-size:3.93249369px;font-style:normal;font-weight:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       style="font-size:3.93249369px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
        x="517.52826"
-       y="345.71597"
+       y="340.44968"
        id="text2954"
        inkscape:export-filename="/Users/mi/Documents/SBGN/subversion/sbgn-af/images/equivalence.png"
        inkscape:export-xdpi="150"
        inkscape:export-ydpi="150"
-       transform="scale(0.8777139,1.1393234)"><tspan
+       transform="scale(0.87771391,1.1393234)"><tspan
          sodipodi:role="line"
          x="517.52826"
-         y="345.71597"
-         style="font-size:9;font-weight:normal;text-align:center;text-anchor:middle"
-         id="tspan2958">AN</tspan></text>
+         y="340.44968"
+         style="font-size:9px;font-weight:normal;text-align:center;text-anchor:middle"
+         id="tspan2958">AN and</tspan><tspan
+         sodipodi:role="line"
+         x="517.52826"
+         y="351.69968"
+         style="font-size:9px;font-weight:normal;text-align:center;text-anchor:middle"
+         id="tspan3734">terminals</tspan></text>
     <path
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 358.73733,376.89236 L 358.73733,405.85383 L 398.31213,405.85383 L 398.31599,405.85383 L 415.11712,391.56561 L 398.31213,376.93336 L 398.24279,376.93235 L 358.73733,376.89236 z"

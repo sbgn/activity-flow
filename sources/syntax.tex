@@ -14,37 +14,37 @@ The syntax of the SBGN \AFl is defined in the form of an incidence matrix. An in
 \hline
 \hline
 \raisebox{20pt}{$Arc \backslash Node $}   &\vglyph{biological activity}   &  \vglyph{phenotype}    & \vglyph{tag}  & \vglyph{submap (terminal)}  & \vglyph{and} & \vglyph{or} & \vglyph{not} & \vglyph{delay}  \\ \hline
-\glyph{positive influence}              & I \& O 	   & O                     &               &   & I & I & I(1) & I(1) \\ \hline
-\glyph{negative influence}              & I \& O         & O                     &               &   & I & I & I(1) & I(1) \\ \hline
-\glyph{unknown influence}               & I \& O           & O                     &               &   & I & I & I(1) & I(1) \\ \hline
-\glyph{necessary stimulation}           & I \& O            & O                     &               &   & I & I & I(1) & I(1) \\ \hline
-\glyph{logic arc}                       & I                &                       &               &   & O(1) & O(1) & O(1) & O(1) \\ \hline
+\glyph{positive influence}              & I \& O 	   & O                     &               &   & I(1) & I(1) & I(1) & I(1) \\ \hline
+\glyph{negative influence}              & I \& O         & O                     &               &   & I(1) & I(1) & I(1) & I(1) \\ \hline
+\glyph{unknown influence}               & I \& O           & O                     &               &   & I(1) & I(1) & I(1) & I(1) \\ \hline
+\glyph{necessary stimulation}           & I \& O            & O                     &               &   & I(1) & I(1) & I(1) & I(1) \\ \hline
+\glyph{logic arc}                       & I                &                       &               &   & O & O & O(1) & O(1) \\ \hline
 \glyph{equivalence arc}                 & I               & I                      & O             & O & & & &  \\ 
 \hline 
 \hline
 \end{tabular}
 
 \subsection{Containment definition}
-There are two node types allowing containment of AF in SBGN: \glyph{container (compartment)} and \glyph{submap}. The next table describes relationship between AF elements of SBGN and these two nodes. Plus sign (+) means that the element is able to be contained within a node. An empty cell means containment is not allowed. \\
+\glyph{Container (compartment)} is a node type allowing containment of other elements of AF in SBGN.  The next table describes relationship between AF elements of SBGN and the compartment. Plus sign (+) means that the element is able to be contained within a node. An empty cell means containment is not allowed. \\
 
 \begin{tabular}{||c|c|c||}
 \hline
 \hline
-$ elements \backslash Containers$     & \glyph{compartment}   & \glyph{submap}    \\ \hline
-\glyph{biological activity}     &         +             &          +        \\ \hline
-\glyph{phenotype}               &         +             &          +        \\ \hline
-\glyph{tag}                     &         +             &          +        \\ \hline
-\glyph{compartment}             &                      &          +        \\ \hline
-\glyph{submap}                  &         +             &          +        \\ \hline
-\glyph{positive influence}      &         +             &          +        \\ \hline
-\glyph{negative influence}      &         +             &          +        \\ \hline
-\glyph{unknown influence}       &         +             &          +        \\ \hline
-\glyph{logic arc}               &         +             &          +        \\ \hline
-\glyph{equivalence arc}         &         +             &          +        \\ \hline
-\glyph{and}                     &         +             &          +        \\ \hline
-\glyph{or}                      &         +             &          +        \\ \hline
-\glyph{not}                     &         +             &          +        \\ \hline
-\glyph{delay}                     &         +             &          +        \\ \hline
+$ elements \backslash Containers$     & \glyph{compartment}    \\ \hline
+\glyph{biological activity}     &         +              \\ \hline
+\glyph{phenotype}               &         +             \\ \hline
+\glyph{tag}                     &         +          \\ \hline
+\glyph{compartment}             &                 \\ \hline
+\glyph{submap}                  &         +           \\ \hline
+\glyph{positive influence}      &         +           \\ \hline
+\glyph{negative influence}      &         +           \\ \hline
+\glyph{unknown influence}       &         +        \\ \hline
+\glyph{logic arc}               &         +            \\ \hline
+\glyph{equivalence arc}         &         +        \\ \hline
+\glyph{and}                     &         +            \\ \hline
+\glyph{or}                      &         +             \\ \hline
+\glyph{not}                     &         +             \\ \hline
+\glyph{delay}                     &         +           \\ \hline
 \hline
 \end{tabular}
 

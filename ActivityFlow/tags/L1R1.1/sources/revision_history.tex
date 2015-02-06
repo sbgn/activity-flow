@@ -1,0 +1,67 @@
+\chapter{Revision History}
+
+\section{Version 1.0 to Version 1.1}
+
+There are three major changes in glyphs in Version 1.1 of the \SBGNAFLone specification. 
+\begin{enumerate}
+\item{Add \emph{unit of information} to the compartment.  This is done in accordance to \SBGNPDLone specification.}
+\item{Remove \emph{perturbation} from activity node, and add it to \emph{unit of information} to decorate a \emph{biological activity} node.  The change was based on a survey conducted August 2011.
+}
+\item{Add \emph{process} as an activity node. This is rather controversial at the beginning.  The issue was to make a process both an origin and a target of arcs.  It was not possible in AF V. 1.0 because a \emph{phenotype} cannot be the origin of an arc.  The details of this issue and subsequent survey (August 2011) is described on the SBGN website \url{http://www.sbgn.org/AF_phenotype}. The survey did not yield a concrete solution.  Through additional discussion on the SBGN discuss list, this seems to be the best solution for the purpose without violating semantic rules.
+}
+\end{enumerate}
+
+\textit{Version 1.1 was never officially released due to some disagreements in the change, especially in the use of process. It served as a working draft only.}
+
+\section{Version 1.1 to Version 1.2}
+
+There are two changes in Version 1.2 of the \SBGNAFLone specification. 
+\begin{enumerate}
+\item{Remove the \emph{process} node proposed in Version 1.1.}
+\item{Modify Chapter \ref{sec:intro} to make the text consistent with those in the \SBGNPDLone specification}
+\item{Modify the compartment overlap rule. Removed the requirement of two lines separate the overlapping compartment in the earlier version of spec.}
+\item{Fix bugs caused by the removal of \emph{perturbation} glyph.}
+\end{enumerate}
+
+\newpage
+\begin{center}
+%\tablecaption{Namespace scope definitions.}
+\label{tab:revision history}
+\tablefirsthead{\hline
+Description & Tracker ID\\\hline}
+\tablehead{\hline
+\multicolumn{2}{|l|}{\small\sl continued from previous page}\\
+\hline\hline
+Description & Tracker ID\\\hline\hline}
+\tabletail{\hline
+\multicolumn{2}{|r|}{\small\sl continued on next page}\\
+\hline}
+\tablelasttail{\hline}
+\begin{supertabular}{|p{12cm}|c|}\hline
+Add \emph{Unit of information for Compartment}, section \ref{sec:af:unitInfoComp} & \\\hline
+Add \emph{Unit of information for Compartment} to the ref card (Appendix \ref{sec:refcard}) & \\\hline
+Remove \emph{perturbation} from Activity node section (\ref{sec:af:ANs}) & \\\hline
+Add \emph{perturbation} to the unit of information section (\ref{sec:af:unitInfo}) & \\\hline
+Modify \emph{perturbation} glyph in figures 2.1, 2.5, 2.17, A.4 and refcard accordingly (Appendix \ref{sec:refcard}). & \\\hline
+Add \emph{process} to the Activity node section (\ref{sec:af:ANs})  & \\\hline
+Modify figure A4 by adding the \emph{process} glyph.  & \\\hline
+Modify the description for \emph{biological activity} in section 2.3.1 to clarify that it is for molecular activity, so to differentiate it from the activities from \emph{process}.  & \\\hline
+Modify the description for \emph{phenotype} in section 2.3.3.  & \\\hline
+Modify tables in section 3.3.1 and 3.3.2 
+- Remove \emph{perturbation} 
+- Add \emph{process} & \\\hline
+
+Add \emph{phenotype} as input for \emph{equivalent arc} in section 3.3.1 & \\\hline
+Remove the setence "If an activity has participants in at least two different compartments, the activity node has to be either in a compartment where the activity has at least one participant or in the empty space." in section 4.2.1.8 & \\\hline
+In section 4.2.1.8, change the first setence "If an activity has all participants ..." to "If a network has all participants...." & \\\hline
+In section 4.2.1.8, add a setence "Edges/arcs are allowed to cross the compartment boundaries when the input and output ANs are in two different compartments." & \\\hline
+Add \emph{delay} in the line of Logical operators in Table 2.1 & \\\hline
+Correct figure legend for Figure 2.10.  The example on the right side shows an incorrect representation. & \\\hline
+In section 2.2, controlled vocabularies, clarify that the terms are to describe the unit of information of the ANs &
+\\\hline
+Rewrite figure legends with more details throughout section 2 &
+\\\hline
+Modify Figure A3 in Appendix A (TGF beta signaling pathway) by changing the \emph{Gene transcription} phenotype node to an biological activity node.  However, it should be discussed whether phenotype can be an input or not. & 2992312 \\\hline
+Update SBO term (SBO:0000255 to SBO:0000002) in section 2.2.3  & 3068940 \\\hline
+\end{supertabular}
+\end{center}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="412.5"
+   height="91.18"
+   id="svg7778">
+  <defs
+     id="defs7780">
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="EmptyDiamondL"
+       style="overflow:visible">
+      <path
+         d="M 0,-7.0710768 L -7.0710894,0 L 0,7.0710589 L 7.0710462,0 L 0,-7.0710768 z"
+         transform="scale(0.8,0.8)"
+         id="path3267"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="EmptyTriangleOutL"
+       style="overflow:visible">
+      <path
+         d="M 5.77,0 L -2.88,5 L -2.88,-5 L 5.77,0 z"
+         transform="matrix(0.8,0,0,0.8,-4.8,0)"
+         id="path3321"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none" />
+    </marker>
+  </defs>
+  <g
+     transform="translate(-259.39492,-554.34213)"
+     id="layer1">
+    <path
+       d="M 287.26871,598.07647 C 627.01702,598.07647 627.01702,598.07647 627.01702,598.07647 L 627.01702,598.07647 L 627.01702,598.07647 L 627.01702,598.07647 L 627.01702,598.07647 L 627.01702,598.07647 L 627.01702,598.07647 L 627.01702,598.07647"
+       id="path2385"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4.31899977;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#EmptyDiamondL);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+</svg>

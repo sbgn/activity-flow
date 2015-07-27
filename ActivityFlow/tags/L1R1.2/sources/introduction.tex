@@ -1,0 +1,118 @@
+% =============================================================================
+% introduction
+% =============================================================================
+
+\chapter{Introduction}
+\label{sec:intro}
+
+With the rise of systems and synthetic biology, the use of graphical
+representations of pathways and networks to describe biological
+systems has become pervasive. It was therefore important to use a
+consistent notation that would allow people to interpret those maps
+easily and quickly, without the need of extensive
+legends. Furthermore, distributed investigation of biological systems
+in different labs as well as activities like synthetic biology, that
+reconstruct biological systems, need to exchange their descriptions
+unambiguously, as engineers exchange circuit diagrams.
+
+The goal of the Systems Biology Graphical Notation (SBGN) is to
+standardize the graphical/visual representation of biochemical and
+cellular processes. SBGN defines comprehensive sets of symbols with
+precise semantics, together with detailed syntactic rules defining
+their use. It also describes the manner in which such graphical
+information should be interpreted. SBGN is made up of three different
+and complementary languages \cite{LeNovere:NatBiotechnol:2009}. This document
+defines the \emph{\AF} visual language of SBGN. \AFs are one of three
+views of a biological process offered by SBGN.  It is the product of
+many hours of discussion and development by many individuals and
+groups.
+ 
+\subsection{What are the languages?}
+
+\textbf{PD} is a language that permits the description of all the processes taking place in a biological system. The ensemble of all these processes constitute a Description. \textbf{ER} is a language that permits the description of all the relations involving the entities of a biological system. The ensemble of all these relations constitute a Relationship.\textbf{ AF} is a language that permits the description of the flow of activity in a biological system.
+
+\subsection{Nomenclature}
+
+The three languages of SBGN should be referred to as:
+\begin{itemize}[noitemsep, nolistsep]
+\item the Process Description language.
+\item the Entity Relationship language.
+\item the Activity Flow language.
+\end{itemize}
+
+Abbreviated as:
+\begin{itemize}[noitemsep, nolistsep]
+\item the PD language.
+\item the ER language.
+\item the AF language.
+\end{itemize}
+
+A specific representation of a biological system in one of the SBGN languages should be referred to as:
+\begin{itemize}[noitemsep, nolistsep]
+\item a Process Description map.
+\item an Entity Relationship map.
+\item an Activity Flow map.
+\end{itemize}
+
+Abbreviated as:
+\begin{itemize}[noitemsep, nolistsep]
+\item a PD map.
+\item an ER map.
+\item an AF map.
+\end{itemize}
+
+The corpus of all SBGN representations should be referred to as:
+\begin{itemize}[noitemsep, nolistsep]
+\item Process Descriptions.
+\item Entity Relationships.
+\item Activity Flows.
+\end{itemize}
+
+ The capitalization is important. PD, ER and AF are names of languages. As such they must be capitalized in English. This is not the case of the accompanying noun (language or map).
+
+\section{SBGN levels and versions}
+\label{sec:sbgn-levels}
+
+It was clear at the outset of SBGN development that it would be impossible 
+to design a perfect and complete notation right from the beginning.  Apart 
+from the prescience this would require (which, sadly, none of the authors 
+possess), it also would likely need a vast language that most newcomers 
+would shun as being too complex.  Thus, the SBGN community followed an idea 
+used in the development of other standards, i.e. stratify language 
+development into levels.
+
+A \emph{level} of one of the SBGN languages represents a set of
+features deemed to fit together cohesively, constituting a usable set
+of functionality that the user community agrees is sufficient for a
+reasonable set of tasks and goals.  Within \emph{levels},
+\emph{versions} represent evolutions of a language, that may
+involve new glyphs, refined semantics, but no fundamental change of
+the way maps are to be generated and interpreted. In addition new
+versions should be backwards compatible, \ie \AF maps that conform to
+an earlier version of the \AFl within the same level should still be
+valid.  This does not apply to a new level.
+
+Capabilities and features that cannot be agreed upon and are judged
+insufficiently critical to require inclusion in a given level, are
+postponed to a higher level or version.  In this way, the development
+of SBGN languages is envisioned to proceed in stages, with each higher
+level adding richness compared to the levels below it.
+
+\section{Developments, discussions, and notifications of updates}
+\label{sec:discussions}
+
+The SBGN website (\url{http://sbgn.org/}) is a portal for all things 
+related to SBGN.  It provides a web forum interface to the SBGN discussion 
+list (\mailto{sbgn-discuss@caltech.edu}) and information about how anyone 
+may subscribe to it.  The easiest and best way to get involved in SBGN 
+discussions is to join the mailing list and participate.
+
+Face-to-face meetings of the SBGN community are announced on the website as 
+well as the mailing list.  Although no set schedule currently exists for 
+workshops and other meetings, we envision holding at least one public 
+workshop per year.  As with other similar efforts, the workshops are likely 
+to be held as satellite workshops of larger conferences, enabling attendees 
+to use their international travel time and money more efficiently.
+
+Notifications of updates to the SBGN specification are also broadcast on 
+the mailing list and announced on the SBGN website.

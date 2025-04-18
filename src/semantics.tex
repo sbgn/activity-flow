@@ -1,0 +1,75 @@
+\section{Glyph specific rules}
+
+%\subsection{Namespaces}
+
+%The notation has a concept of a namespace within which activities with the same identifying attributes are regarded as identical. The SBGN namespaces are shown in table \ref{tab:namespacedefs}.
+
+%\begin{center}
+%\tablecaption{Namespace scope definitions.}
+%\label{tab:namespacedefs}
+%\begin{small}
+%\tablefirsthead{\hline
+%  Namespace Scope & Activity influenced & Notes\\\hline}
+%\tablehead{\hline
+%\multicolumn{3}{|l|}{\small\sl continued from previous page}\\
+%\hline\hline
+%  Namespace scope & Activity influenced & Notes\\\hline\hline}
+%\tabletail{\hline
+%\multicolumn{3}{|r|}{\small\sl continued on next page}\\
+%\hline}
+%\tablelasttail{\hline}
+%\begin{supertabular}{|l|p{5cm}|p{5cm}|}\hline
+
+%MapDiagram & CompartmentNode, SubMapDiagram, EquivalenceNode & \\\hline
+
+%CompartmentShape & ActivityNode & If no \glyph{compartment} is drawn then all ActivityNodes are assumed to belong to an invisible ``default'' compartment.\\\hline
+%ActivityType & UnitOfInformation & \\\hline
+%\end{supertabular}
+%\end{small}
+%\end{center}
+
+
+\subsection{Activity node}
+
+ \begin{enumerate}
+    \item Each \glyph{biological activity} has at most one \glyph{unit of information}.
+    \item \glyph{Phenotype} is never the origin of a modulation arc.
+ \end{enumerate}
+
+\subsection{Activity node and Compartment}
+
+Each AN can only appear once in a particular compartment.  An AN can only \emph{belong} to one compartment. However, an AN can be \emph{drawn} over more than one compartment. In such cases the decision on which is the owning compartment is deferred to the drawing tool or the author. 
+
+The layout of compartments in an SBGN diagram does not imply anything about the topology of compartments in the cell. Compartments should be bounded and may overlap. However, adjacency and the nesting of compartments does not imply that these compartments are next to each other physically or that one compartment contains the other.
+
+\subsection{Modulation}
+
+It is implied, but not defined explicitly that an activity has a rate at which the input AN effects the output AN. 
+
+\begin{enumerate}
+\item Positive influence is a modulation that's effect is to increase the basal activity.
+\item Negative influence is a modulation that's effect is to decrease the basal activity.
+\item Unknown influence is a modulation where the effect and basal activity is unknown.
+\item At most one necessary stimulation can be assigned to an activity. Two necessary stimulations
+  would imply an implicit Boolean AND or OR operator. For clarity only
+  one necessary stimulation can be assigned to an activity node and such combinations must be
+  explicitly expressed as the Boolean operators.
+\end{enumerate}
+
+\subsection{Submaps}
+
+Submaps are a visual device that allow a map to be split into several views. They remain, however, part of the main map and share its namespace. As a test of validity it should be possible to reintroduce a submap into the main map by eliminating the \glyph{submap terminals} and merging
+the equivalent nodes in both maps.
+
+\subsubsection{Rules for mapping to submaps}
+
+An AN in the main map can be mapped to one in the submap using a \emph{tag} in the submap and \glyph{submap terminals} (see \sect{submap}) in the main map. For a mapping between map and submap to exists the following must be true:
+
+\begin{enumerate}
+\item The identifiers in the \emph{tags} and \glyph{submap terminals} must be identical.
+\item The ANs must be identical.
+\end{enumerate}
+
+\subsubsection{Requirement to define a mapping}
+
+If a map and submap both contain the same AN, then a mapping between them must be defined as above.

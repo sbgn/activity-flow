@@ -1,0 +1,19 @@
+\chapter{Activity Flow language grammar}
+\label{chp:af:grammar}
+
+\section{Overview}
+In this chapter, we describe how the glyphs of SBGN \AF can be combined to make a valid SBGN \AF map. To do this, we must at the very least define what glyphs can be connected to each other. This is called syntax. Next, we must define rules over and above connection rules, such as whether duplicate symbols are permitted. In addition, we must define what the notation ``means'' -- how does it represent a biological pathway? This is semantics, and it is essential if a reader is to understand a SBGN map without external help, and a writer is to create one that reflects his understanding of a biological system.
+
+In this section we start off by describing the concepts of the \AF{} notation. Next a detailed description of the syntax is provided
+followed by a description of the semantic rules of the notation.
+
+\section{Concepts}
+
+The SBGN \AF{} is more than a collection of symbols. It is a visual language that uses specific abstractions to describe the biological activities that make up a model, a signaling pathway or a metabolic network. This abstraction is the semantics of SBGN, and to describe it requires more than a definition of the symbols and syntax of the language. 
+
+The \AF{} in SBGN describes biological activities involving biological entities. A \emph{biological activity} can influence, or be influenced by, other \glyph{biological activities}, and such relationships are represented in \AF by lines with arrows and other decorations. So the essence of \AF is to show the flow of activities from one entity to another or within the same entity. The underlying mechanisms of how the influence occurs may not be known and is not captured in the diagram. If the mechanism is known, the details should be described in annotation or captured in other SBGN languages, such \PD and/or \ER.
+
+\input{src/syntax.tex}
+
+\input{src/semantics.tex}
+

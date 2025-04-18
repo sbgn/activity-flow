@@ -1,0 +1,88 @@
+\chapter{Activity Flow glyphs}
+\label{chp:af:glyphs}
+
+\section{Overview}
+
+\input{src/af-overview.tex}
+
+\section{Controlled vocabularies used in \SBGNAFLone}\label{af:sec:CVs}
+
+\input{src/CVs.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%                   Activity nodes
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Activity nodes}\label{sec:af:ANs}
+
+An \emph{Activity node} (AN) represents the activity of an entity or an entity pool, but not the entities themselves. For instance, multiple activity nodes can be used to represent different activities of a particular entity, while one activity node can be used to represent the activity of a complex multimer. In addition to activities of material entities, \SBGNAFLone represents activity from a conceptual entity: \emph{phenotype}.  Auxiliary units, such as \emph{units of information}, can be used to indicate the material property of the activity source.  Each activity is displayed only once in a particular compartment.
+
+
+\input{src/biologicalActivity.tex}
+%\input{src/process.tex}
+\input{src/phenotype.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%                   Auxiliary units
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Auxiliary units}\label{sec:af:AUs}
+
+\input{src/unitInformation.tex}
+\input{src/submap_terminal.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%                   Container nodes
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Container nodes}
+\label{sec:af:CNs}
+
+\glyph{Containers} are SBGN constructions that contain one or several other SBGN constructs.  In \SBGNAFLone \glyph{compartment} is the only container node.
+
+\input{src/compartment.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%                  Arcs
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Modulation arcs}\label{sec:af:arcs}
+
+Modulation arcs are lines that link ANs together.  The symbols attached to their end extremities indicate their semantics.  The modulation arcs can be used to represent direct influence from one activity to another, such as nicotine to nicotinic acetylecholine receptor activity, or indirect influence.
+
+\input{src/positive_infl.tex}
+\input{src/negative_infl.tex}
+\input{src/unknown_infl.tex}
+\input{src/necessaryStimulation.tex}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%                   Logical operators
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Logical operators}\label{sec:af:logic}
+
+\input{src/and.tex}
+\input{src/or.tex}
+\input{src/not.tex}
+\input{src/delay.tex} 
+
+\section{Logic arc}
+\label{sec:logic_arc}
+\input{src/logicArc.tex}
+
+\section{Annotating nodes and arcs}
+\input{src/annotation.tex}
+
+\section{Referring to other nodes}
+\label{sec:ref_nodes}
+
+
+
+\input{src/tag.tex}
+\input{src/equivalenceArc.tex}
+
+\section{Encapsulation nodes}
+\input{src/submap.tex}
+

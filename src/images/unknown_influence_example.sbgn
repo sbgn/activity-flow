@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="activity flow">
+        <glyph id="glyph1" class="biological activity">
+            <label text="Cbl"/>
+            <bbox y="180.0" x="251.0" h="60.0" w="108.0"/>
+        </glyph>
+        <glyph id="glyph2" class="biological activity">
+            <label text="PLC gamma"/>
+            <bbox y="300.0" x="251.0" h="60.0" w="108.0"/>
+        </glyph>
+        <arc target="glyph2" source="glyph1" id="arc1" class="unknown influence">
+            <start y="240.0" x="305.0"/>
+            <end y="300.0" x="305.0"/>
+        </arc>
+    </map>
+</sbgn>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="activity flow">
+        <glyph id="glyph2" class="perturbation">
+            <label text="nutrition/metabolic&#xA;signal activity"/>
+            <bbox y="140.0" x="190.0" h="60.0" w="140.0"/>
+        </glyph>
+        <glyph id="glyph3" class="biological activity">
+            <label text="Twist-1"/>
+            <bbox y="380.0" x="206.0" h="60.0" w="108.0"/>
+            <glyph id="glyph3a" class="unit of information">
+                <entity name="nucleic acid feature"/>
+                <bbox y="372.0" x="218.0" h="16.0" w="30.0"/>
+            </glyph>
+        </glyph>
+        <glyph id="glyph7" class="biological activity">
+            <label text="Twist-1"/>
+            <bbox y="500.0" x="206.0" h="60.0" w="108.0"/>
+            <glyph id="glyph7a" class="unit of information">
+                <entity name="macromolecule"/>
+                <bbox y="492.0" x="218.0" h="16.0" w="30.0"/>
+            </glyph>
+        </glyph>
+        <glyph id="glyph5" class="biological activity">
+            <label text="PGC-1&amp;alpha"/>
+            <bbox y="500.0" x="456.0" h="60.0" w="108.0"/>
+        </glyph>
+        <glyph id="glyph1" class="biological activity">
+            <label text="Genes for&#xA;Brown fat energy&#xA;dissipation"/>
+            <bbox y="145.5" x="635.0" h="70.0" w="140.0"/>
+        </glyph>
+        <glyph id="glyph4" class="biological activity">
+            <label text="TF activity"/>
+            <bbox y="260.0" x="456.0" h="60.0" w="108.0"/>
+            <glyph id="glyph4a" class="unit of information">
+                <entity name="unspecified entity"/>
+                <bbox y="250.0" x="467.0" h="20.0" w="32.0"/>
+            </glyph>
+        </glyph>
+        <glyph id="glyph6" class="biological activity">
+            <label text="PPAR&amp;delta"/>
+            <bbox y="260.0" x="206.0" h="60.0" w="108.0"/>
+        </glyph>
+        <glyph id="glyph8" orientation="vertical" class="or">
+            <bbox y="211.5" x="367.0" h="42.0" w="42.0"/>
+            <port y="190.5" x="388.0" id="glyph8.1"/>
+            <port y="274.5" x="388.0" id="glyph8.2"/>
+        </glyph>
+        <arc target="glyph6" source="glyph2" id="arc1" class="positive influence">
+            <start y="200.0" x="260.0"/>
+            <end y="260.0" x="260.0"/>
+        </arc>
+        <arc target="glyph3" source="glyph6" id="arc2" class="necessary stimulation">
+            <start y="320.0" x="260.0"/>
+            <end y="380.0" x="260.0"/>
+        </arc>
+        <arc target="glyph7" source="glyph3" id="arc3" class="necessary stimulation">
+            <start y="440.0" x="260.0"/>
+            <end y="500.0" x="260.0"/>
+        </arc>
+        <arc target="glyph5" source="glyph7" id="arc4" class="negative influence">
+            <start y="530.0" x="314.0"/>
+            <end y="530.0" x="456.0"/>
+        </arc>
+        <arc target="glyph4" source="glyph5" id="arc5" class="positive influence">
+            <start y="500.0" x="510.0"/>
+            <end y="320.0" x="510.0"/>
+        </arc>
+        <arc target="glyph6" source="glyph5" id="arc6" class="positive influence">
+            <start y="500.0" x="478.75"/>
+            <end y="320.0" x="291.25"/>
+        </arc>
+        <arc target="glyph1" source="glyph8.1" id="arc7" class="necessary stimulation">
+            <start y="190.5" x="388.0"/>
+            <end y="189.77444" x="635.0"/>
+        </arc>
+        <arc target="glyph8.2" source="glyph4" id="arc8" class="logic arc">
+            <start y="283.13934" x="456.0"/>
+            <end y="274.5" x="388.0"/>
+        </arc>
+        <arc target="glyph8.2" source="glyph6" id="arc9" class="logic arc">
+            <start y="283.46094" x="314.0"/>
+            <end y="274.5" x="388.0"/>
+        </arc>
+    </map>
+</sbgn>

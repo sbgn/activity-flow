@@ -1,7 +1,7 @@
 
 To set the stage for what follows in this chapter, we first give a brief overview of some of the concepts in the \AF notation with the help of an example shown in \fig{af:1}.
 
-The diagram illustrates the regulation of peroxisome proliferator-activated receptor delta (PPAR delta, a nuclear hormone receptor) on brown fat metabolism, a redraw from Fig 7E of Pan et. al~\cite{Pan:2009}. The rectangle nodes represent \emph{biological activities} - activities from biological materials. The type of material is indicated in the units of information decorating on the activity nodes (See \sect{af:biologicalActivity}). Each biological activity can influence, or be influenced by, other biological activities, and such relationships are represented in \AF by lines with arrows and other decorations. It should be noted that the essence of \AF is to show the flow of activities from one entity to another or within the same entity. For example, in the diagram, it shows that PPAR$\delta$ positively influences the Twist-1 gene expression. The underlying mechanisms of how the influence occurs may not be known and are not captured in the diagram. If the mechanism is known, the details could be described in a \PD and/or \ER map.
+The diagram illustrates the regulation of peroxisome proliferator-activated receptor delta (PPAR delta, a nuclear hormone receptor) on brown fat metabolism, a redraw from Fig. 7E of Pan et al.~\cite{Pan:2009}. The rectangle nodes represent \emph{biological activities} - activities from biological materials. The type of material is indicated in the units of information decorating on the activity nodes (See \sect{af:biologicalActivity}). Each biological activity can influence, or be influenced by, other biological activities, and such relationships are represented in \AF by lines with arrows and other decorations. It should be noted that the essence of \AF is to show the flow of activities from one entity to another or within the same entity. For example, in the diagram, it shows that PPAR$\delta$ positively influences the Twist-1 gene expression. The underlying mechanisms of how the influence occurs may not be known and are not captured in the diagram. If the mechanism is known, the details could be described in a \PD and/or \ER map.
 
 \tab{component-summary} summarizes the different SBGN abstractions described in this chapter.
 
@@ -17,7 +17,12 @@ The diagram illustrates the regulation of peroxisome proliferator-activated rece
     Activity node
     & AN
     & A functional unit that can affect, or be affected by, another functional unit
-    & Biological activity \\[0.5em]
+    & Biological activity or phenotype \\[0.5em]
+
+    Biological Activity
+    & BA
+    & Glyph to represent molecular activities
+    & --- \\
 
     Container node	
     & CN
@@ -35,7 +40,7 @@ The diagram illustrates the regulation of peroxisome proliferator-activated rece
     & Unit of information   \\[1.6em]
     
     Logical operators
-    & ---
+    & LO
     & Combines one or several inputs into one output
     & Boolean \emph{and}, \emph{or}, \emph{not}, \emph{delay} \\
     \bottomrule
@@ -47,7 +52,7 @@ The diagram illustrates the regulation of peroxisome proliferator-activated rece
 \begin{figure}[H]
 \centering
 \vspace*{-0.75em}
-\includegraphics[scale=0.4]{images/build/PPAR.pdf}
+\includegraphics[scale=0.8]{images/build/PPAR.pdf}
 \caption{This example of \AF is based on Figure 7E of Pan el. al.~\cite{Pan:2009}. It depicts the effect of nutrients and metabolic signals on brown fat metabolism through PPAR$\delta$. The signal, shown as a perturbation, positively influences the nuclear hormone receptor PPAR$\delta$, which in turn stimulates the Twist 1 gene expression. Please note the different \emph{units of information} on Twist-1 activity nodes that indicate the activity from different biological materials (gene and protein). The Twist-1 protein negatively influences the PGC-1$\alpha$ activity, which positively influences PPAR$\delta$ and other unspecified transcription factor activity to stimulate the expression of genes for brown fat energy dissipation. Therefore, the Twist-1, induced by PPAR$\delta$, serves as a negative feedback regulator of PGC-1$\alpha$ in brown fat metabolism.}
 \label{fig:af:1}
 \end{figure}

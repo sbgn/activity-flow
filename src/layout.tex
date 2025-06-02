@@ -11,7 +11,7 @@ In addition, we provide a list of additional suggestions which may help in produ
 
 Those layout guidelines are independent of the method used to produce the map, and apply to both manually drawn maps as well as maps produced by an automatic layout algorithm. The guidelines do not deal with interactive aspects (\eg the effect of zooming). Further information about automatic network layout (graph drawing) can be found, for example, in the books of Di Battista and co-authors~\cite{DiBattista:1998} and Kaufmann and Wagner~\cite{Kaufmann:2001}.
 
-Please note that the color of objects do not carry any meaning in SBGN. Although one can use colors to emphasize part of a diagram or encode additional information, the meaning of the diagram should not depend on the colors. Furthermore, objects can have different sizes and size is also meaningless in SBGN. For example, one biological activity node may be larger than another node. Also the meaning of a graph should be conserved upon scaling as far as possible.
+Please note that the colour of objects do not carry any meaning in SBGN. Although one can use colours to emphasize part of a diagram or encode additional information, the meaning of the diagram should not depend on the colours. Furthermore, objects can have different sizes and size is also meaningless in SBGN. For example, one biological activity node may be larger than another node. Also the meaning of a graph should be conserved upon scaling as far as possible.
 
 \newpage
 
@@ -32,7 +32,7 @@ Nodes are only allowed to overlap in two cases:
 \end{enumerate}
 Otherwise, nodes are not allowed to overlap (\fig{af:layout1}). This includes the touching of nodes, which is also not allowed. Also submaps are not allowed to overlap.
 
-\begin{figure}[h!]
+\begin{figure}[!ht]
   \centering
   \includegraphics[scale=0.4]{images/build/layout-node-node.pdf}
   \caption{Nodes must not overlap.}\label{fig:af:layout1}
@@ -43,7 +43,7 @@ Otherwise, nodes are not allowed to overlap (\fig{af:layout1}). This includes th
 
 In general, such crossing should be avoided.  In case this can't be avoided, the edge must be drawn on the top of the node (\fig{af:layout2}). See also recommendation \ref{af:crosEdNo} 
 
-\begin{figure}[h!]
+\begin{figure}[!ht]
   \centering
   \includegraphics[scale=0.4]{images/build/layout-node-edge.pdf}
   \caption{If an edge crosses a node, the edge must be drawn on top  of the node.}\label{fig:af:layout2}
@@ -53,7 +53,7 @@ In general, such crossing should be avoided.  In case this can't be avoided, the
 
 Edges are not allowed to overlap the border lines of nodes (\fig{af:layout3}).
 
-\begin{figure}[h!]
+\begin{figure}[!ht]
   \centering
   \includegraphics[scale=0.4]{images/build/layout-node-border-edge.pdf}
   \caption{Edges must not overlap node borders.}\label{fig:af:layout3}
@@ -64,7 +64,7 @@ Edges are not allowed to overlap the border lines of nodes (\fig{af:layout3}).
 Edges are not allowed to overlap (\fig{af:layout4}). This includes touching of edges. Furthermore, an edge is neither allowed to cross itself nor to cross
 a boundary of node more than twice or other edges more than once.
 
-\begin{figure}[h!]
+\begin{figure}[!ht]
   \centering
   \includegraphics[scale=0.4]{images/layout-edge-edge}
   \caption{Edges must not overlap.}\label{fig:af:layout4}
@@ -74,7 +74,7 @@ a boundary of node more than twice or other edges more than once.
 
 Nodes have to be drawn horizontally or vertically, any other rotation of elements is not allowed (\fig{af:layout5}).
 
-\begin{figure}[h!]
+\begin{figure}[!ht]
   \centering
   \includegraphics[scale=0.4]{images/layout-orientation}
   \caption{The node orientation must be horizontally or vertically.}\label{fig:af:layout5}
@@ -122,5 +122,5 @@ Here is a list of additional layout suggestions which may help in producing aest
   \item Similar and symmetric parts: Similar parts of a map should be drawn in a similar way, and symmetric parts should be drawn symmetrically.
   \item Proximity information: Related elements (\eg nodes connected by edges within a compartment) should be drawn close together.
   \item Directional information: Subsequent activities (\eg a sequence of activities) should be drawn in one direction (\eg from top to bottom or from left to right).
-  \item Compartments: Different compartments should have different background shade or color.
+  \item Compartments: Different compartments should have different background shade or colour.
 \end{itemize}

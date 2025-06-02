@@ -11,8 +11,7 @@ The syntax of the SBGN \AFl is defined in the form of an incidence matrix. An in
 \end{itemize}
 
 
-\begin{tabular}{||c|c|c|c|c|c|c|c|c|c||}
-\hline
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
 \hline
 \raisebox{20pt}{$Arc \backslash Node $}   &\vglyph{biological activity}   &  \vglyph{phenotype}    & \vglyph{tag}  & \vglyph{submap terminal}  & \vglyph{and} & \vglyph{or} & \vglyph{not} & \vglyph{delay}  \\ \hline
 \glyph{positive influence}              & S \& T 	   & T                     &               &   & S(1) & S(1) & S(1) & S(1) \\ \hline
@@ -21,17 +20,13 @@ The syntax of the SBGN \AFl is defined in the form of an incidence matrix. An in
 \glyph{necessary stimulation}           & S \& T            & T                     &               &   & S(1) & S(1) & S(1) & S(1) \\ \hline
 \glyph{logic arc}                       & S                &                       &               &   & S(FIXME) T & S(FIXME) T & S(FIXME) T(1) & S(FIXME) T(1) \\ \hline
 \glyph{equivalence arc}                 & S               & S                      & T             & T & & & &  \\ 
-\hline 
 \hline
 \end{tabular}
 
 \subsection{Containment definition}
-\glyph{Container (compartment)} is a node type allowing containment of other elements of AF in SBGN. By containment we mean that a glyph can be drawn inside the other glyph. This does not
-necessarily mean that the glyph “belongs” the the containing node, although in some cases it
-does. In this section the concept of “belonging” is referred to as ownership. There is only one glyph that allows containment: compartment. The next table describes relationship between AF elements of SBGN and the compartment. Plus sign (+) means that the element is able to be contained within a node. An empty cell means containment is not allowed. \\
+\glyph{Container (compartment)} is a node type allowing containment of other elements of AF in SBGN. By containment we mean that a glyph can be drawn inside the other glyph. This does not necessarily mean that the glyph “belongs” the the containing node, although in some cases it does. In this section the concept of “belonging” is referred to as ownership. There is only one glyph that allows containment: compartment. The next table describes relationship between AF elements of SBGN and the compartment. Plus sign (+) means that the element is able to be contained within a node. An empty cell means containment is not allowed. \\
 
-\begin{tabular}{||c|c|c||}
-\hline
+\begin{tabular}{|c|c|c|}
 \hline
 $ elements \backslash Containers$     & \glyph{compartment}    \\ \hline
 \glyph{biological activity}     &         +              \\ \hline
@@ -47,7 +42,7 @@ $ elements \backslash Containers$     & \glyph{compartment}    \\ \hline
 \glyph{and}                     &         +            \\ \hline
 \glyph{or}                      &         +             \\ \hline
 \glyph{not}                     &         +             \\ \hline
-\glyph{delay}                     &         +           \\ \hline
+\glyph{delay}                     &         +           \\
 \hline
 \end{tabular}
 

@@ -8,17 +8,19 @@ The glyph \glyph{delay} is used to denote that the \glyph{activity node} linked 
 
 \begin{glyphDescription}
  \glyphSboTerm SBO:0000225 ! delay.
- \glyphOrigin One \glyph{biological activity} (\sect{af:biologicalActivity}) via a \glyph{logical arc} (\sect{af:logicArc}).
- \glyphTarget A \glyph{modulation arc} (\sect{af:ANs}) other than \glyph{equivalence arc}.
- \glyphContainer \glyph{Delay} is represented by a circle, with two connectors located at the opposite side for inputs and output.
- \glyphLabel \glyph{Delay} is identified by the greek letter ``$\tau$`` (``TAU'') placed in an unbordered box attached to the center of the node.
- \glyphAux \glyph{Delay} does not carry any auxiliary items.
+ \glyphIncoming One \glyph{logic arc} (\sect{af:logicArc}).
+ \glyphOutgoing  One \glyph{logic arc} (\sect{af:logicArc}) or one of the modulation arcs (\sect{af:arcs}).
+ \glyphContainer A \glyph{delay} operator is represented by a circular shape containing the symbol ``$\uptau$`` (letter ``tau'' of the Greek alphabet).
+The shape is linked to two ports, that are small arcs attached to the centres of opposite sides of the shape, as shown in \fig{af:delay}.
+The incoming \glyph{logic arc} (\sect{af:logicArc}) is linked to the extremity of the leftmost or uppermost port, while the outgoing \glyph{logic arc} (\sect{af:logicArc}) or modulation arc (\sect{af:arcs}) is linked to the extremity of the rightmost or bottommost port.
+ \glyphLabel None.
+ \glyphAux None.
 \end{glyphDescription}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[scale = 0.5]{images/build/delay.pdf}
+  \includegraphics[scale = 0.6]{images/build/delay.pdf}
   \caption{The \AF glyph for \glyph{delay}.}
-  \label{fig:delay}
+  \label{fig:af:delay}
 \end{figure}
 \normalcolor

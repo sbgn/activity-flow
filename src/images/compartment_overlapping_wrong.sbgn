@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph compartmentOrder="-4.0" id="glyph1" class="compartment">
+            <label text="CYTO">
+                <bbox y="534.0" x="781.0" h="18.0" w="48.0"/>
+            </label>
+            <bbox y="530.0" x="620.0" h="230.0" w="370.0"/>
+        </glyph>
+        <glyph compartmentOrder="-3.0" id="glyph2" class="compartment">
+            <label text="MITO">
+                <bbox y="818.0" x="912.5" h="18.0" w="45.0"/>
+            </label>
+            <bbox y="640.0" x="815.0" h="200.0" w="240.0"/>
+        </glyph>
+    </map>
+</sbgn>

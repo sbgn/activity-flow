@@ -5,14 +5,18 @@ The glyph \glyph{or} is used to denote that any of the \glyph{ANs} linked as inp
 
 \begin{glyphDescription}
  \glyphSboTerm SBO:0000174 ! or.
- \glyphOrigin More than one \glyph{biological activity} (\sect{af:biologicalActivity}) via \glyph{logical arcs} (~\sect{af:logicArc}).
- \glyphTarget  \glyph{Modulation arc} (\sect{af:arcs}) other than \glyph{equivalence arc}.
- \glyphNode \glyph{Or} is represented by a circle carrying the word ``OR'', with two connectors located at the opposite side for inputs and output.
+ \glyphIncoming One or more \glyph{logic arcs} (\sect{af:logicArc}).
+ \glyphOutgoing  One \glyph{logic arc} (\sect{af:logicArc}) or one of the modulation arcs (\sect{af:arcs}).
+ \glyphContainer An \glyph{or} operator is represented by a circular shape containing the word ``OR''.
+The shape is linked to two ports, that are small arcs attached to the centres of opposite sides of the shape, as shown in \fig{af:or}.
+The incoming \glyph{logic arcs} (\sect{af:logicArc}) are linked to the extremity of the leftmost or uppermost port, while the outgoing \glyph{logic arc} (\sect{af:logicArc}) or modulation arc (\sect{af:arcs}) is linked to the extremity of the rightmost or bottommost port.
+ \glyphLabel None.
+ \glyphAux None.
  \end{glyphDescription}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[scale = 0.5]{images/build/or.pdf}
+  \includegraphics[scale = 1]{images/build/or.pdf}
   \caption{The \AF glyph for \glyph{or}. Only two inputs are represented, but more would be allowed.}
   \label{fig:af:or}
 \end{figure}
@@ -20,7 +24,7 @@ The glyph \glyph{or} is used to denote that any of the \glyph{ANs} linked as inp
 
 \begin{figure}[H]
   \centering
-  \includegraphics[scale = 0.5]{images/build/ex-or.pdf}
+  \includegraphics[scale = 0.8]{src/images/build/or_example.pdf}
   \caption{An example, taken from \fig{af:1}, of the \glyph{or} logic operator, where the activity from \glyph{"Genes for brown fat energy dissipation"} is stimulated by either the \glyph{PPAR delta} activity or an \glyph{unspecified transcription factor} activity.}
   \label{fig:af:ex-or}
 \end{figure}

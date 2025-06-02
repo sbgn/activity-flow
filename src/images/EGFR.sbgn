@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="activity flow">
+        <glyph id="glyph1" class="biological activity">
+            <label text="EGFR"/>
+            <bbox y="145.0" x="531.0" h="60.0" w="108.0"/>
+            <glyph id="glyph1a" class="unit of information">
+                <label text="EGFR"/>
+                <entity name="macromolecule"/>
+                <bbox y="137.0" x="536.5" h="16.0" w="43.0"/>
+            </glyph>
+        </glyph>
+        <glyph id="glyph2" class="biological activity">
+            <label text="EGFR binding"/>
+            <bbox y="145.0" x="211.0" h="60.0" w="108.0"/>
+            <glyph id="glyph2a" class="unit of information">
+                <label text="EGFR"/>
+                <entity name="macromolecule"/>
+                <bbox y="137.0" x="216.5" h="16.0" w="43.0"/>
+            </glyph>
+        </glyph>
+        <glyph id="glyph3" class="biological activity">
+            <label text="EGFR kinase"/>
+            <bbox y="145.0" x="371.0" h="60.0" w="108.0"/>
+            <glyph id="glyph3a" class="unit of information">
+                <label text="EGFR"/>
+                <entity name="macromolecule"/>
+                <bbox y="137.0" x="376.5" h="16.0" w="43.0"/>
+            </glyph>
+        </glyph>
+    </map>
+</sbgn>

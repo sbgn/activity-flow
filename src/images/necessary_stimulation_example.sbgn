@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="activity flow">
+        <glyph id="glyph2" class="biological activity">
+            <label text="PPAR&amp;delta"/>
+            <bbox y="190.0" x="381.0" h="60.0" w="108.0"/>
+        </glyph>
+        <glyph id="glyph1" class="biological activity">
+            <label text="Twist-1"/>
+            <bbox y="310.0" x="381.0" h="60.0" w="108.0"/>
+            <glyph id="glyph1a" class="unit of information">
+                <entity name="nucleic acid feature"/>
+                <bbox y="302.0" x="393.0" h="16.0" w="30.0"/>
+            </glyph>
+        </glyph>
+        <arc target="glyph1" source="glyph2" id="arc1" class="necessary stimulation">
+            <start y="250.0" x="435.0"/>
+            <end y="310.0" x="435.0"/>
+        </arc>
+    </map>
+</sbgn>

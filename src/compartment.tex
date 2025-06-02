@@ -10,13 +10,13 @@ A compartment is a logical or physical structure where the function or activity 
 
 \glyphLabel The identification of the compartment is carried by an unbordered box containing a string of characters. The characters can be distributed on several lines to improve readability, although this is not mandatory. The label box can be attached anywhere in the container box. Note that the label can spill-over from the container box.
 
-\glyphAux A \glyph{compartment} can carry a certain number of \glyph{units of information}, that will add information, for instance, about the physical environment, such as pH, temperature or voltage, see \sect{af:unitInfoComp}.  The center of the bounding box of a \glyph{unit of information} is located on the mid-line of the border of the compartment.
+\glyphAux A \glyph{compartment} can carry a certain number of \glyph{units of information}, that will add information, for instance, about the physical environment, such as pH, temperature or voltage, see \sect{af:unitInfoComp}.  The centre of the bounding box of a \glyph{unit of information} is located on the mid-line of the border of the compartment.
 
 \end{glyphDescription}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[scale = 0.3]{images/build/compartment.pdf}
+  \includegraphics[scale = 1]{images/build/compartment.pdf}
   \caption{The \AF glyph for \glyph{compartment}.}
   \label{fig:af:compartment}
 \end{figure}
@@ -44,7 +44,7 @@ It is important to note that a compartment never contains another compartment. T
 
 \begin{figure}[H]
   \centering
-  \includegraphics[scale = 0.4]{images/build/compartment_overlapping.pdf}
+  \includegraphics[scale = 0.4]{src/images/build/compartment_overlapping_example.pdf}
   \caption{Overlapped compartments are permitted, but the overlap does not imply containment.}
   \label{fig:overlap}
 \end{figure}
@@ -53,7 +53,7 @@ Overlapped (hidden) part of the compartment should not contain any object which 
 
 \begin{figure}[H]
   \centering
-  \includegraphics[scale = 0.45]{images/build/compartment_overlapping_wrong.pdf}
+  \includegraphics[scale = 0.6]{images/build/compartment_overlapping_wrong.pdf}
   \caption{Example of an \textbf{incorrect} diagram.  Overlapped compartments must not obscure other objects.}
   \label{fig:overlap-bad}
 \end{figure}

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph id="glyph2" class="macromolecule">
+            <label text="LABEL"/>
+            <bbox y="155.0" x="116.0" h="60.0" w="108.0"/>
+        </glyph>
+        <glyph id="glyph8" class="simple chemical">
+            <label text="F"/>
+            <bbox y="255.0" x="565.0" h="60.0" w="60.0"/>
+        </glyph>
+        <glyph id="glyph9" class="simple chemical">
+            <label text="E"/>
+            <bbox y="255.0" x="305.0" h="60.0" w="60.0"/>
+        </glyph>
+        <glyph id="glyph10" class="simple chemical">
+            <label text="B"/>
+            <bbox y="95.0" x="305.0" h="60.0" w="60.0"/>
+        </glyph>
+        <glyph id="glyph11" class="simple chemical">
+            <label text="D"/>
+            <bbox y="255.0" x="45.0" h="60.0" w="60.0"/>
+        </glyph>
+        <glyph id="glyph12" class="simple chemical">
+            <label text="C"/>
+            <bbox y="95.0" x="565.0" h="60.0" w="60.0"/>
+        </glyph>
+        <glyph id="glyph13" class="simple chemical">
+            <label text="A"/>
+            <bbox y="95.0" x="45.0" h="60.0" w="60.0"/>
+        </glyph>
+        <glyph id="glyph23" class="macromolecule">
+            <bbox y="170.0" x="255.0" h="30.0" w="30.0"/>
+        </glyph>
+        <glyph id="glyph21" class="macromolecule">
+            <bbox y="170.0" x="55.0" h="30.0" w="30.0"/>
+        </glyph>
+        <glyph id="glyph3" class="macromolecule">
+            <label text="LABEL"/>
+            <bbox y="155.0" x="116.0" h="60.0" w="108.0"/>
+        </glyph>
+        <glyph id="glyph16" class="macromolecule">
+            <bbox y="170.0" x="315.0" h="30.0" w="30.0"/>
+        </glyph>
+        <glyph id="glyph22" class="macromolecule">
+            <bbox y="170.0" x="515.0" h="30.0" w="30.0"/>
+        </glyph>
+        <glyph id="glyph5" class="nucleic acid feature">
+            <label text="LABEL"/>
+            <bbox y="155.0" x="376.0" h="60.0" w="108.0"/>
+        </glyph>
+        <glyph id="glyph24" class="macromolecule">
+            <bbox y="170.0" x="575.0" h="30.0" w="30.0"/>
+        </glyph>
+        <glyph id="glyph15" class="macromolecule">
+            <bbox y="170.0" x="775.0" h="30.0" w="30.0"/>
+        </glyph>
+        <glyph id="glyph4" class="simple chemical">
+            <label text="LABEL"/>
+            <bbox y="155.0" x="636.0" h="60.0" w="108.0"/>
+        </glyph>
+        <glyph id="glyph18" class="macromolecule">
+            <bbox y="330.0" x="55.0" h="30.0" w="30.0"/>
+        </glyph>
+        <glyph id="glyph20" class="macromolecule">
+            <bbox y="330.0" x="255.0" h="30.0" w="30.0"/>
+        </glyph>
+        <glyph id="glyph6" class="unspecified entity">
+            <label text="LABEL"/>
+            <bbox y="315.0" x="116.0" h="60.0" w="108.0"/>
+        </glyph>
+        <glyph id="glyph14" class="macromolecule">
+            <bbox y="330.0" x="315.0" h="30.0" w="30.0"/>
+        </glyph>
+        <glyph id="glyph25" class="macromolecule">
+            <bbox y="330.0" x="515.0" h="30.0" w="30.0"/>
+        </glyph>
+        <glyph id="glyph1" class="complex">
+            <label text="LABEL">
+                <bbox y="332.5" x="395.0" h="25.0" w="70.0"/>
+            </label>
+            <bbox y="315.0" x="376.0" h="60.0" w="108.0"/>
+        </glyph>
+        <glyph id="glyph17" class="macromolecule">
+            <bbox y="330.0" x="575.0" h="30.0" w="30.0"/>
+        </glyph>
+        <glyph id="glyph19" class="macromolecule">
+            <bbox y="330.0" x="775.0" h="30.0" w="30.0"/>
+        </glyph>
+        <glyph id="glyph7" class="perturbing agent">
+            <label text="LABEL"/>
+            <bbox y="315.0" x="636.0" h="60.0" w="108.0"/>
+        </glyph>
+        <arc target="glyph3" source="glyph23" id="arc1" class="equivalence arc">
+            <start y="185.0" x="255.0"/>
+            <end y="185.0" x="224.0"/>
+        </arc>
+        <arc target="glyph3" source="glyph21" id="arc2" class="equivalence arc">
+            <start y="185.0" x="85.0"/>
+            <end y="185.0" x="116.0"/>
+        </arc>
+        <arc target="glyph5" source="glyph16" id="arc3" class="equivalence arc">
+            <start y="185.0" x="345.0"/>
+            <end y="185.0" x="376.0"/>
+        </arc>
+        <arc target="glyph5" source="glyph22" id="arc4" class="equivalence arc">
+            <start y="185.0" x="515.0"/>
+            <end y="185.0" x="484.0"/>
+        </arc>
+        <arc target="glyph4" source="glyph24" id="arc5" class="equivalence arc">
+            <start y="185.0" x="605.0"/>
+            <end y="185.0" x="636.0"/>
+        </arc>
+        <arc target="glyph4" source="glyph15" id="arc6" class="equivalence arc">
+            <start y="185.0" x="775.0"/>
+            <end y="185.0" x="744.0"/>
+        </arc>
+        <arc target="glyph6" source="glyph18" id="arc7" class="equivalence arc">
+            <start y="345.0" x="85.0"/>
+            <end y="345.0" x="116.0"/>
+        </arc>
+        <arc target="glyph6" source="glyph20" id="arc8" class="equivalence arc">
+            <start y="345.0" x="255.0"/>
+            <end y="345.0" x="224.0"/>
+        </arc>
+        <arc target="glyph1" source="glyph14" id="arc9" class="equivalence arc">
+            <start y="345.0" x="345.0"/>
+            <end y="345.0" x="376.0"/>
+        </arc>
+        <arc target="glyph1" source="glyph25" id="arc10" class="equivalence arc">
+            <start y="345.0" x="515.0"/>
+            <end y="345.0" x="484.0"/>
+        </arc>
+        <arc target="glyph7" source="glyph17" id="arc11" class="equivalence arc">
+            <start y="345.0" x="605.0"/>
+            <end y="345.0" x="636.0"/>
+        </arc>
+        <arc target="glyph7" source="glyph19" id="arc12" class="equivalence arc">
+            <start y="345.0" x="775.0"/>
+            <end y="345.0" x="744.0"/>
+        </arc>
+    </map>
+</sbgn>

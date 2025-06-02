@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph compartmentOrder="-8.0" id="glyph1" class="compartment">
+            <label text="CYTO">
+                <bbox y="59.0" x="220.0" h="18.0" w="48.0"/>
+            </label>
+            <bbox y="55.0" x="114.0" h="350.0" w="260.0"/>
+            <glyph id="glyph1a" class="unit of information">
+                <label text="info cyto"/>
+                <bbox y="46.5" x="149.0" h="17.0" w="60.0"/>
+            </glyph>
+        </glyph>
+        <glyph compartmentOrder="-7.0" id="glyph2" class="compartment">
+            <label text="CYTO">
+                <bbox y="89.0" x="771.0" h="18.0" w="48.0"/>
+            </label>
+            <bbox y="85.0" x="610.0" h="230.0" w="370.0"/>
+            <glyph id="glyph2a" class="unit of information">
+                <label text="info cyto"/>
+                <bbox y="76.5" x="672.5" h="17.0" w="60.0"/>
+            </glyph>
+        </glyph>
+        <glyph compartmentOrder="-6.0" id="glyph3" class="compartment">
+            <label text="CYTO">
+                <bbox y="89.0" x="1301.0" h="18.0" w="48.0"/>
+            </label>
+            <bbox y="85.0" x="1140.0" h="230.0" w="370.0"/>
+            <glyph id="glyph3a" class="unit of information">
+                <label text="info cyto"/>
+                <bbox y="76.5" x="1202.5" h="17.0" w="60.0"/>
+            </glyph>
+        </glyph>
+        <glyph compartmentOrder="-5.0" id="glyph4" class="compartment">
+            <bbox y="110.0" x="270.0" h="240.0" w="190.0"/>
+        </glyph>
+        <glyph id="glyph5" class="submap">
+            <bbox y="89.5" x="377.0" h="301.0" w="190.0"/>
+        </glyph>
+        <glyph compartmentOrder="-4.0" id="glyph6" class="compartment">
+            <label text="MITO">
+                <bbox y="373.0" x="902.5" h="18.0" w="45.0"/>
+            </label>
+            <bbox y="195.0" x="805.0" h="200.0" w="240.0"/>
+            <glyph id="glyph6a" class="unit of information">
+                <label text="info mito"/>
+                <bbox y="186.5" x="834.5" h="17.0" w="61.0"/>
+            </glyph>
+        </glyph>
+        <glyph compartmentOrder="-3.0" id="glyph7" class="compartment">
+            <label text="MITO">
+                <bbox y="308.0" x="387.5" h="18.0" w="45.0"/>
+            </label>
+            <bbox y="130.0" x="290.0" h="200.0" w="240.0"/>
+            <glyph id="glyph7a" class="unit of information">
+                <label text="info mito"/>
+                <bbox y="121.5" x="319.5" h="17.0" w="61.0"/>
+            </glyph>
+        </glyph>
+        <glyph compartmentOrder="-2.0" id="glyph8" class="compartment">
+            <label text="MITO">
+                <bbox y="258.0" x="1257.5" h="18.0" w="45.0"/>
+            </label>
+            <bbox y="140.0" x="1190.0" h="140.0" w="180.0"/>
+            <glyph id="glyph8a" class="unit of information">
+                <label text="info mito"/>
+                <bbox y="131.5" x="1204.5" h="17.0" w="61.0"/>
+            </glyph>
+        </glyph>
+    </map>
+</sbgn>

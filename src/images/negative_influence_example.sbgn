@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="activity flow">
+        <glyph id="glyph2" class="biological activity">
+            <label text="Twist-1"/>
+            <bbox y="200.0" x="241.0" h="60.0" w="108.0"/>
+            <glyph id="glyph2a" class="unit of information">
+                <entity name="macromolecule"/>
+                <bbox y="192.0" x="253.0" h="16.0" w="30.0"/>
+            </glyph>
+        </glyph>
+        <glyph id="glyph1" class="biological activity">
+            <label text="PGC-1&amp;alpha"/>
+            <bbox y="200.0" x="491.0" h="60.0" w="108.0"/>
+        </glyph>
+        <arc target="glyph1" source="glyph2" id="arc1" class="negative influence">
+            <start y="230.0" x="349.0"/>
+            <end y="230.0" x="491.0"/>
+        </arc>
+    </map>
+</sbgn>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="activity flow">
+        <glyph id="glyph1" class="biological activity">
+            <label text="Twist-1"/>
+            <bbox y="95.0" x="96.0" h="60.0" w="108.0"/>
+            <glyph id="glyph1a" class="unit of information">
+                <entity name="nucleic acid feature"/>
+                <bbox y="87.0" x="106.5" h="16.0" w="33.0"/>
+            </glyph>
+        </glyph>
+        <glyph id="glyph2" class="biological activity">
+            <label text="Twist-1"/>
+            <bbox y="95.0" x="256.0" h="60.0" w="108.0"/>
+            <glyph id="glyph2a" class="unit of information">
+                <entity name="macromolecule"/>
+                <bbox y="87.0" x="266.5" h="16.0" w="33.0"/>
+            </glyph>
+        </glyph>
+        <glyph id="glyph3" class="biological activity">
+            <label text="TF activity"/>
+            <bbox y="95.0" x="416.0" h="60.0" w="108.0"/>
+            <glyph id="glyph3a" class="unit of information">
+                <entity name="unspecified entity"/>
+                <bbox y="84.0" x="425.5" h="22.0" w="35.0"/>
+            </glyph>
+        </glyph>
+    </map>
+</sbgn>

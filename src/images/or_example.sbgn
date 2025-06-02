@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="activity flow">
+        <glyph id="glyph1" class="biological activity">
+            <label text="Genes for&#xA;Brown fat energy&#xA;dissipation"/>
+            <bbox y="130.5" x="605.0" h="70.0" w="140.0"/>
+        </glyph>
+        <glyph id="glyph4" class="biological activity">
+            <label text="TF activity"/>
+            <bbox y="245.0" x="426.0" h="60.0" w="108.0"/>
+            <glyph id="glyph4a" class="unit of information">
+                <entity name="unspecified entity"/>
+                <bbox y="235.0" x="437.0" h="20.0" w="32.0"/>
+            </glyph>
+        </glyph>
+        <glyph id="glyph6" class="biological activity">
+            <label text="PPAR&amp;delta"/>
+            <bbox y="245.0" x="176.0" h="60.0" w="108.0"/>
+        </glyph>
+        <glyph id="glyph8" orientation="vertical" class="or">
+            <bbox y="196.5" x="337.0" h="42.0" w="42.0"/>
+            <port y="175.5" x="358.0" id="glyph8.1"/>
+            <port y="259.5" x="358.0" id="glyph8.2"/>
+        </glyph>
+        <arc target="glyph1" source="glyph8.1" id="arc7" class="necessary stimulation">
+            <start y="175.5" x="358.0"/>
+            <end y="174.77444" x="605.0"/>
+        </arc>
+        <arc target="glyph8.2" source="glyph4" id="arc8" class="logic arc">
+            <start y="268.13934" x="426.0"/>
+            <end y="259.5" x="358.0"/>
+        </arc>
+        <arc target="glyph8.2" source="glyph6" id="arc9" class="logic arc">
+            <start y="268.46094" x="284.0"/>
+            <end y="259.5" x="358.0"/>
+        </arc>
+    </map>
+</sbgn>

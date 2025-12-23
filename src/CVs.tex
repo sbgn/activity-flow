@@ -4,9 +4,9 @@
 
 \normalcolor
 
-Some glyphs in SBGN \AF can contain particular kinds of textual annotations conveying information relevant to the purpose of the glyph.  These annotations are \glyph{units of information} (\sect{af:unitInfo}).  An example is in the case of a \emph{biological activity}, which can have a \glyph{unit of information} conveying the type of entity the activity is from.
+Some glyphs in SBGN \AF can contain particular kinds of textual annotations conveying information relevant to the purpose of the glyph. These annotations are \glyph{units of information} (\sect{af:unitInfo}). An example is in the case of a \emph{biological activity}, which can have a \glyph{unit of information} conveying the type of entity the activity is from.
 
-The text that appears as the \glyph{unit of information} decorating a Container Node (CN) must, in most cases, be prefixed with a controlled vocabulary term indicating the type of information being expressed.
+The text that appears as the \glyph{unit of information} decorating a Compartment Node (CN) must, in most cases, be prefixed with a controlled vocabulary term indicating the type of information being expressed.
 
 In the rest of this section, we describe the controlled vocabularies (CVs) used in \SBGNAFLone. Some CV terms are predefined by SBGN, but unless otherwise noted, they are not the only terms permitted. Authors may use other CV values not listed here, but in such cases, they should explain the term's meanings in a Figure legend or other text accompanying the map.
 
@@ -24,7 +24,7 @@ The material type of an AN can be visualised in the \emph{unit of information} g
     Non-macromolecular ion     & mt:ion  & SBO:0000327\\
     Non-macromolecular radical & mt:rad  & SBO:0000328\\
     Ribonucleic acid           & mt:rna  & SBO:0000250\\
-    Deoxribonucleic acid       & mt:dna  & SBO:0000251\\
+    Deoxyribonucleic acid       & mt:dna  & SBO:0000251\\
     Protein                    & mt:prot & SBO:0000297\\
     Polysaccharide             & mt:psac & SBO:0000249\\
     \bottomrule
@@ -79,24 +79,3 @@ A \emph{conceptual type} indicates the function within the context of a given \A
       characteristics} vocabulary (\sect{af:physical-characteristics-cv}).}
   \label{tab:af:physical-characteristics-cv}
 \end{table}
-
-%\subsection{Cardinality}
-%\label{sec:af:cardinality-cv}
-
-%\SBGNAFLone defines a special unit of information usable on multimers for describing the number of monomers composing the multimer.  \tab{af:cardinality-cv} shows the way in which the values must be written.  Note that the value is a unitary number, and not (for example) a range.  There is no provision in \SBGNAFLone for specifying a range in this context because it leads to problems of entity identifiability.
-
-%\begin{table}[h]
- % \centering
- % \begin{tabular}{l>{\ttfamily}l>{\ttfamily}l}
-   % \toprule
-   % \textbf{Name}   & \textbf{\rmfamily Label} & \textbf{\rmfamily SBO term} \\
- %   \midrule
-  %  cardinality    & N:\#  & SBO:0000364\\
- %   \bottomrule
- % \end{tabular}
- % \caption{The format of the possible values for the
-  %  \emph{cardinality} unit of information
-  %  (\sect{af:cardinality-cv}).  Here, \texttt{\#} stands for the
-  %  number; for example, ``\texttt{N:5}''.}
- % \label{tab:af:cardinality-cv}
-%\end{table}

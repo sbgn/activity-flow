@@ -1,15 +1,14 @@
 \subsection{Glyph: \glyph{Not}}
 \label{sec:af:not}
 
-The glyph \glyph{not} is used to denote that the \glyph{AN} linked as input cannot influence the target activity.
+The output of a \glyph{not} glyph is True if its input is False, and False otherwise.
 
 \begin{glyphDescription}
  \glyphSboTerm SBO:0000238 ! not.
  \glyphIncoming One \glyph{logic arc} (\sect{af:logicArc}).
- \glyphOutgoing  One \glyph{logic arc} (\sect{af:logicArc}) or one of the modulation arcs (\sect{af:arcs}).
+ \glyphOutgoing  One \glyph{logic arc} (\sect{af:logicArc}) or one of the influence arcs (\sect{af:arcs}).
  \glyphContainer A \glyph{not} operator is represented by a circular shape containing the word ``NOT''.
 The shape is linked to two ports, that are small arcs attached to the centres of opposite sides of the shape, as shown in \fig{af:not}.
-The incoming \glyph{logic arc} (\sect{af:logicArc}) is linked to the extremity of the leftmost or uppermost port, while the outgoing \glyph{logic arc} (\sect{af:logicArc}) or modulation arc (\sect{af:arcs}) is linked to the extremity of the rightmost or bottommost port.
  \glyphLabel None.
  \glyphAux None.
  \end{glyphDescription}
@@ -19,4 +18,11 @@ The incoming \glyph{logic arc} (\sect{af:logicArc}) is linked to the extremity o
   \includegraphics[scale = 1]{images/build/not.pdf}
   \caption{The \AF glyph for \glyph{not}.}
   \label{fig:af:not}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale = 0.8]{images/build/not_example.pdf}
+  \caption{An example of the \glyph{not} logical operator, where the activity of \glyph{NR1D1} has a negative influence on the activity of \glyph{Cdkn1a} taking place in the regulation of the circadian clock.}
+  \label{fig:af:ex-not}
 \end{figure}

@@ -5,17 +5,21 @@
 \subsection{Glyph: \glyph{Annotation}}
 \label{sec:annotation}
 
-\SBGNAFLone defines a glyph to add additional information to a map, that does not modify the semantic of the graph. This glyph can be used to add free text, or links to external information.
+\SBGNAFLone defines a glyph to add additional information to a map, that does not modify the semantics of the graph. This glyph can be used to add free text, or links to external information.
 
 \begin{glyphDescription}
 
 \glyphSboTerm SBO:0000550 ! annotation
 
+\glyphIncoming None.
+
+\glyphOutgoing None.
+
 \glyphContainer An \glyph{annotation} is represented by a rectangular container with a folded corner, as illustrated in \fig{annotation}. This container is linked to the annotated element with a callout. The link ends up on the border of the annotated element.
 
 \glyphLabel An \glyph{annotation} contains information placed in an unbordered box containing a string of characters.  The characters can be distributed on several lines to improve readability, although this is not mandatory.  The label box must be attached to the centre of the container. The label may spill outside of the container. 
 
-\glyphAux An \glyph{annotation} does not carry any auxiliary unit.
+\glyphAux None.
 \end{glyphDescription}
 
 \begin{figure}[H]
@@ -24,12 +28,3 @@
   \caption{The \AF glyph for \glyph{annotation}.}
   \label{fig:annotation}
 \end{figure}
-
-%\begin{figure}[H]
-%  \centering
-%  \includegraphics[scale = 0.5]{images/build/ex-annotation.pdf}
-%  \caption{Example of \glyph{annotations} adding information to the description of the trans-phosphorylation of CaMKII.}
-%  \label{fig:ex-annotation}
-%\end{figure}
-
-%\normalcolor

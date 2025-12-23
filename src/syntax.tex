@@ -1,4 +1,5 @@
 \section{Connectivity and containment}
+\label{sec:connectivity-containment}
 \subsection{Node connectivity}
 \label{sec:node-connectivity}
 The syntax of the SBGN \AFl is defined in the form of an incidence matrix. An incidence matrix has arcs as rows and nodes as columns. Each element of the matrix represents the role of an arc in connection to a node, as described below.
@@ -6,11 +7,11 @@ The syntax of the SBGN \AFl is defined in the form of an incidence matrix. An in
 \begin{itemize}
 \item Source (S) means that the arc can begin at that node. 
 \item Target (T) indicates that the arc can end at that node.
-\item Numbers in parenthesis represent the maximum number of arcs of a particular type to have this specific connection role with the node. 
-\item Empty cells means the arc is not able to connect to the node.
+\item Numbers in parentheses represent the maximum number of arcs of a particular type to have this specific connection role with the node. 
+\item Empty cells mean the arc is not able to connect to the node.
 \end{itemize}
 
-
+\begin{center}
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
 \hline
 \raisebox{20pt}{$Arc \backslash Node $}   &\vglyph{biological activity}   &  \vglyph{phenotype}    & \vglyph{tag}  & \vglyph{submap terminal}  & \vglyph{and} & \vglyph{or} & \vglyph{not} & \vglyph{delay}  \\ \hline
@@ -18,34 +19,39 @@ The syntax of the SBGN \AFl is defined in the form of an incidence matrix. An in
 \glyph{negative influence}              & S \& T         & T                     &               &   & S(1) & S(1) & S(1) & S(1) \\ \hline
 \glyph{unknown influence}               & S \& T           & T                     &               &   & S(1) & S(1) & S(1) & S(1) \\ \hline
 \glyph{necessary stimulation}           & S \& T            & T                     &               &   & S(1) & S(1) & S(1) & S(1) \\ \hline
-\glyph{logic arc}                       & S                &                       &               &   & S(FIXME) T & S(FIXME) T & S(FIXME) T(1) & S(FIXME) T(1) \\ \hline
+\glyph{logic arc}                       & S                &                       &               &   & S(1) T & S(1) T & S(1) T(1) & S(1) T(1) \\ \hline
 \glyph{equivalence arc}                 & S               & S                      & T             & T & & & &  \\ 
 \hline
 \end{tabular}
+\end{center}
 
 \subsection{Containment definition}
-\glyph{Container (compartment)} is a node type allowing containment of other elements of AF in SBGN. By containment we mean that a glyph can be drawn inside the other glyph. This does not necessarily mean that the glyph “belongs” the the containing node, although in some cases it does. In this section the concept of “belonging” is referred to as ownership. There is only one glyph that allows containment: compartment. The next table describes relationship between AF elements of SBGN and the compartment. Plus sign (+) means that the element is able to be contained within a node. An empty cell means containment is not allowed. \\
+\label{sec:containment}
+By containment we mean that a glyph can be drawn inside the other glyph. This does not necessarily mean that the glyph “belongs” to the containing node, although in some cases it does. In this section the concept of “belonging” is referred to as ownership. There are two glyphs that allow containment: \glyph{compartment} and \glyph{submap}. The next table describes relationship between AF elements of SBGN and the compartment. A $+$ means that the element is able to be contained within a node. A $-$ means containment is not allowed. \\
 
-\begin{tabular}{|c|c|c|}
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
 \hline
-$ elements \backslash Containers$     & \glyph{compartment}    \\ \hline
-\glyph{biological activity}     &         +              \\ \hline
-\glyph{phenotype}               &         +             \\ \hline
-\glyph{tag}                     &         +          \\ \hline
-\glyph{compartment}             &         +       \\ \hline
-\glyph{submap}                  &         +           \\ \hline
-\glyph{positive influence}      &         +           \\ \hline
-\glyph{negative influence}      &         +           \\ \hline
-\glyph{unknown influence}       &         +        \\ \hline
-\glyph{logic arc}               &         +            \\ \hline
-\glyph{equivalence arc}         &         +        \\ \hline
-\glyph{and}                     &         +            \\ \hline
-\glyph{or}                      &         +             \\ \hline
-\glyph{not}                     &         +             \\ \hline
-\glyph{delay}                     &         +           \\
+$ elements \backslash Containers$     & \glyph{compartment}  & \glyph{submap}  \\ \hline
+\glyph{biological activity}     &         +   &   $-$       \\ \hline
+\glyph{phenotype}               &         +   &    $-$     \\ \hline
+\glyph{tag}                     &         +   &    $-$   \\ \hline
+\glyph{submap terminal}                     & $+$\footnotemark[1] &      +          \\ \hline
+\glyph{compartment}             &         +    &   $-$\\ \hline
+\glyph{submap}                  &         +    &   $-$    \\ \hline
+\glyph{positive influence}      &         +    &   $-$    \\ \hline
+\glyph{negative influence}      &         +    &   $-$    \\ \hline
+\glyph{unknown influence}       &         +    &   $-$ \\ \hline
+\glyph{logic arc}               &         +    &   $-$     \\ \hline
+\glyph{equivalence arc}         &         +    &   $-$ \\ \hline
+\glyph{and}                     &         +    &   $-$     \\ \hline
+\glyph{or}                      &         +    &   $-$      \\ \hline
+\glyph{not}                     &         +    &   $-$      \\ \hline
+\glyph{delay}                     &         +   &  $-$      \\
 \hline
 \end{tabular}
-
+\footnotetext[1]{Compartments may indirectly contain submap terminals through the submaps they contain.}
+\end{center}
 
 
 

@@ -1,34 +1,34 @@
-\subsection{Glyph: \glyph{Submap}}
-\label{sec:submap}
-
-A \glyph{submap} is used to encapsulate processes (including all types of nodes and edges) within one glyph.  The submap hides its content from the users, and displays only input \glyph{submap terminals} (or ports), linked to \glyph{ANs}. In the case of an SBGN diagram that is made available through a software tool, the content of a submap may be available to the tool.  A user could then ask the tool to expand the submap, for instance by clicking on the icon for the submap.  The tool might then expand and show the submap within the same diagram (on the same canvas), or it might open it in a different canvas.
+A \glyph{submap} is used to encapsulate processes (including all types of nodes and edges) within one glyph.  The submap hides its content from the users and displays only input \glyph{submap terminals} (or ports), linked to \glyph{ANs}. In the case of an SBGN diagram that is made available through a software tool, the content of a submap may be available to the tool.  A user could then ask the tool to expand the submap, for instance by clicking on the icon for the submap.  The tool might then expand and show the submap within the same diagram (on the same canvas), or it might open it in a different canvas.
 
 \begin{glyphDescription}
 
 \glyphSboTerm SBO:0000395 ! encapsulating process
 
+\glyphIncoming None.
+
+\glyphOutgoing None.
+
 \glyphContainer The \glyph{submap} is represented as a rectangle box to remind the viewer that it is fundamentally a biological activity node.
 
-\glyphLabel The identification of the \glyph{submap} is carried by an unbordered box containing a string of characters.  The characters may be distributed on several lines to improve readability, although this is not mandatory.  The label box has to be attached to the centre of the container box.
+\glyphLabel The identification of the \glyph{submap} is carried by an unbordered box containing a string of characters.  The characters may be distributed on several lines to improve readability, although this is not mandatory.  The label box must be attached to the centre of the container box.
 
-\glyphAux A \glyph{submap} carries labeled \glyph{submap terminal}.  When the submap is represented folded, those \glyph{submap terminals} are linked to external \glyph{ANs}.  In the unfolded view, exposing the internal structure of the submap, a set of \glyph{tags} point to the corresponding internal \glyph{ANs}.
+\glyphAux A \glyph{submap} carries labelled \glyph{submap terminals}.  When the submap is represented in its folded form, those \glyph{submap terminals} are linked to external \glyph{ANs}.  In the unfolded view, which exposes the internal structure of the submap, a set of \glyph{tags} points to the corresponding internal \glyph{ANs}.
 
 \end{glyphDescription}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[scale = 0.3]{images/build/submap.pdf}
-  \\
-  \includegraphics[scale = 0.8]{src/images/build/submap_lower_part.pdf}
-  \caption{The \AF glyph for \glyph{submap}. (Upper part) folded submap. (Lower part) content of the submap.}
+  \includegraphics[scale = 0.7]{images/build/submap.pdf}
+
+  \caption{The \AF glyph for \glyph{submap}, shows plain and unadorned on the left, and with three \glyph{submap terminals} on the right folded submap. (Lower part) content of the submap.}
   \label{fig:submap}
 \end{figure}
 
-\fig{submap-folded} represents a \glyph{submap} of inhibitory G-protein coupled receptor signaling. The \glyph{submap} carries five \glyph{submap terminals}, three linked to biological ANs, and two linked to \glyph{compartments}.  Note that the \glyph{submap terminals} do not define a ``direction'', such as input or output.  The flux of the activities is determined by the context.
+\fig{submap-folded} represents a \glyph{submap} of inhibitory G-protein coupled receptor signalling. The \glyph{submap} carries five \glyph{submap terminals}, three linked to biological ANs, and two linked to \glyph{compartments}.  Note that the \glyph{submap terminals} do not define a ``direction'', such as input or output.  The flux of the activities is determined by the context.
 
 \begin{figure}[H]
   \centering
-  \includegraphics[scale = 0.7]{src/images/build/submap_folded.pdf}
+  \includegraphics[scale = 0.7]{images/build/submap_folded.pdf}
   \caption{Example of a submap with contents elided.}
   \label{fig:submap-folded}
 \end{figure}
@@ -37,7 +37,7 @@ The diagram in \fig{submap-unfolded} represents an unfolded version of a submap.
 
 \begin{figure}[H]
   \centering
-  \includegraphics[scale = 0.7]{src/images/build/submap_dissociated.pdf}
+  \includegraphics[scale = 0.7]{images/build/submap_dissociated.pdf}
   \caption{Example of an unfolded submap. The unfolded submap corresponds to the folded submap of \fig{submap-folded}.}
   \label{fig:submap-unfolded}
 \end{figure}

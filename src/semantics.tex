@@ -1,59 +1,27 @@
 \section{Glyph specific rules}
 
-%\subsection{Namespaces}
-
-%The notation has a concept of a namespace within which activities with the same identifying attributes are regarded as identical. The SBGN namespaces are shown in table \ref{tab:namespacedefs}.
-
-%\begin{center}
-%\tablecaption{Namespace scope definitions.}
-%\label{tab:namespacedefs}
-%\begin{small}
-%\tablefirsthead{\hline
-%  Namespace Scope & Activity influenced & Notes\\\hline}
-%\tablehead{\hline
-%\multicolumn{3}{|l|}{\small\sl continued from previous page}\\
-%\hline\hline
-%  Namespace scope & Activity influenced & Notes\\\hline\hline}
-%\tabletail{\hline
-%\multicolumn{3}{|r|}{\small\sl continued on next page}\\
-%\hline}
-%\tablelasttail{\hline}
-%\begin{supertabular}{|l|p{5cm}|p{5cm}|}\hline
-
-%MapDiagram & CompartmentNode, SubMapDiagram, EquivalenceNode & \\\hline
-
-%CompartmentShape & ActivityNode & If no \glyph{compartment} is drawn then all ActivityNodes are assumed to belong to an invisible ``default'' compartment.\\\hline
-%ActivityType & UnitOfInformation & \\\hline
-%\end{supertabular}
-%\end{small}
-%\end{center}
-
-
 \subsection{Activity node}
 
  \begin{enumerate}
-    \item Each \glyph{biological activity} has at most one \glyph{unit of information}.
-    \item \glyph{Phenotype} is never the origin of a modulation arc.
+    \item Each \glyph{biological activity} must have at most one \glyph{unit of information}.
+    \item \glyph{Phenotype} must not be the origin of an influence arc.
  \end{enumerate}
 
 \subsection{Activity node and Compartment}
 
 Each AN can only appear once in a particular compartment.  An AN can only \emph{belong} to one compartment. However, an AN can be \emph{drawn} over more than one compartment. In such cases the decision on which is the owning compartment is deferred to the drawing tool or the author. 
 
-The layout of compartments in an SBGN diagram does not imply anything about the topology of compartments in the cell. Compartments should be bounded and may overlap. However, adjacency and the nesting of compartments does not imply that these compartments are next to each other physically or that one compartment contains the other.
+The layout of compartments in an SBGN diagram does not imply anything about the topology of compartments in the cell. Compartments must be bounded and may overlap. However, adjacency and the nesting of compartments do not imply that these compartments are next to each other physically or that one compartment contains the other.
 
-\subsection{Modulation}
+\subsection{Influence}
 
-It is implied, but not defined explicitly that an activity has a rate at which the input AN effects the output AN. 
+It is implied, but not defined explicitly that an activity has a rate at which the input AN affects the output AN. 
 
 \begin{enumerate}
-\item Positive influence is a modulation that's effect is to increase the basal activity.
-\item Negative influence is a modulation that's effect is to decrease the basal activity.
-\item Unknown influence is a modulation where the effect and basal activity is unknown.
-\item At most one necessary stimulation can be assigned to an activity. Two necessary stimulations
-  would imply an implicit Boolean AND or OR operator. For clarity only
-  one necessary stimulation can be assigned to an activity node and such combinations must be
-  explicitly expressed as the Boolean operators.
+\item The effect of a positive influence is to increase the basal activity.
+\item The effect of a negative influence is to decrease the basal activity.
+\item The effect of an unknown influence on the basal activity is unknown.
+\item An activity can be targeted by at most one necessary stimulation. Combinations of more than one necessary stimulation must be explicitly expressed using the Boolean  AND or OR  operators.
 \end{enumerate}
 
 \subsection{Submaps}

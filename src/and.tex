@@ -1,15 +1,15 @@
 \subsection{Glyph: \glyph{And}}
 \label{sec:af:and}
 
-The glyph \glyph{and} is used to denote that all the \glyph{ANs} linked as input are necessary to influence the target activity.
+The output of an \glyph{and} glyph is True if all its inputs are True, and False otherwise.  
+
 
 \begin{glyphDescription}
  \glyphSboTerm SBO:0000173 ! and.
  \glyphIncoming One or more \glyph{logic arcs} (\sect{af:logicArc}).
- \glyphOutgoing  One \glyph{logic arc} (\sect{af:logicArc}) or one of the modulation arcs (\sect{af:arcs}).
+ \glyphOutgoing  One \glyph{logic arc} (\sect{af:logicArc}) or one of the influence arcs (\sect{af:arcs}).
  \glyphContainer An \glyph{and} operator is represented by a circular shape containing the word ``AND''.
 The shape is linked to two ports, that are small arcs attached to the centres of opposite sides of the shape, as shown in \fig{af:and}.
-The incoming \glyph{logic arcs} (\sect{af:logicArc}) are linked to the extremity of the leftmost or uppermost port, while the outgoing \glyph{logic arc} (\sect{af:logicArc}) or modulation arc (\sect{af:arcs}) is linked to the extremity of the rightmost or bottommost port.
  \glyphLabel None.
  \glyphAux None.
 \end{glyphDescription}
@@ -19,4 +19,11 @@ The incoming \glyph{logic arcs} (\sect{af:logicArc}) are linked to the extremity
   \includegraphics[scale = 1]{images/build/and.pdf}
   \caption{The \AF glyph for \glyph{and}. Only two inputs are represented, but more would be allowed.}
   \label{fig:af:and}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale = 0.8]{images/build/and_example.pdf}
+  \caption{An example, taken from \fig{TGF}, of the \glyph{and} logical operator, where the activity from \glyph{"Mutant p53/P-Smad"} is positively influenced only when both \glyph{Ras} and \glyph{TGF beta} activities are present.}
+  \label{fig:af:ex-or}
 \end{figure}

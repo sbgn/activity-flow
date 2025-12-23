@@ -2,12 +2,12 @@
 \label{chp:af:glyphs}
 
 \section{Overview}
-
-\input{src/af-overview.tex}
+\label{sec:af:overview}
+\input{af_overview.tex}
 
 \section{Controlled vocabularies used in \SBGNAFLone}\label{af:sec:CVs}
 
-\input{src/CVs.tex}
+\input{CVs.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%                   Activity nodes
@@ -18,9 +18,9 @@
 An \emph{Activity node} (AN) represents the activity of an entity or an entity pool, but not the entities themselves. For instance, multiple activity nodes can be used to represent different activities of a particular entity, while one activity node can be used to represent the activity of a complex multimer. In addition to activities of material entities, \SBGNAFLone represents activity from a conceptual entity: \emph{phenotype}.  Auxiliary units, such as \emph{units of information}, can be used to indicate the material property of the activity source.  Each activity is displayed only once in a particular compartment.
 
 
-\input{src/biologicalActivity.tex}
-%\input{src/process.tex}
-\input{src/phenotype.tex}
+\input{biological_Activity.tex}
+%\input{process.tex}
+\input{phenotype.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%                   Auxiliary units
@@ -28,32 +28,30 @@ An \emph{Activity node} (AN) represents the activity of an entity or an entity p
 
 \section{Auxiliary units}\label{sec:af:AUs}
 
-\input{src/unitInformation.tex}
-\input{src/submap_terminal.tex}
+\input{unit_information.tex}
+\input{submap_terminal.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%                   Container nodes
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Container nodes}
-\label{sec:af:CNs}
+\section{Glyph: Compartment}
+\label{sec:compartment}
 
-\glyph{Containers} are SBGN constructions that contain one or several other SBGN constructs.  In \SBGNAFLone \glyph{compartment} is the only container node.
-
-\input{src/compartment.tex}
+\input{compartment.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%                  Arcs
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Modulation arcs}\label{sec:af:arcs}
+\section{Influence arcs}\label{sec:af:arcs}
 
-Modulation arcs are lines that link ANs together.  The symbols attached to their end extremities indicate their semantics.  The modulation arcs can be used to represent direct influence from one activity to another, such as nicotine to nicotinic acetylecholine receptor activity, or indirect influence.
+Influence arcs represent direct or indirect influences of biological activities on other activities. \SBGNAFLone provides four influence arcs: \glyph{positive influence}, \glyph{negative influence}, \glyph{unknown influence} and  \glyph{necessary stimulation}.
 
-\input{src/positive_infl.tex}
-\input{src/negative_infl.tex}
-\input{src/unknown_infl.tex}
-\input{src/necessaryStimulation.tex}
+\input{positive_infl.tex}
+\input{negative_infl.tex}
+\input{unknown_infl.tex}
+\input{necessary_stim.tex}
 
 
 
@@ -61,28 +59,29 @@ Modulation arcs are lines that link ANs together.  The symbols attached to their
 %%%%                   Logical operators
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Logical operators}\label{sec:af:logic}
-
-\input{src/and.tex}
-\input{src/or.tex}
-\input{src/not.tex}
-\input{src/delay.tex} 
+\section{Logical operator nodes}\label{sec:af:logic}
+The logical operators \glyph{and}, \glyph{or} and \glyph{not} perform a Boolean operation to give a binary output. An \AF map can represent a dynamic model in which activity nodes are considered to have states. Activity above a certain threshold is treated as True and activity below this threshold is treated as False. The \glyph{delay} glyph is currently categorised as a logical operator because it uses \glyph{logic arcs} for its connections, although it does not perform a logical operation.
+\input{and.tex}
+\input{or.tex}
+\input{not.tex}
+\input{delay.tex} 
 
 \section{Logic arc}
-\label{sec:logic_arc}
-\input{src/logicArc.tex}
+\label{sec:af:logic_arc}
+\input{logic_arc.tex}
 
 \section{Annotating nodes and arcs}
-\input{src/annotation.tex}
+\input{annotation.tex}
 
 \section{Referring to other nodes}
 \label{sec:ref_nodes}
 
 
 
-\input{src/tag.tex}
-\input{src/equivalenceArc.tex}
+\input{tag.tex}
+\input{equivalence_arc.tex}
 
-\section{Encapsulation nodes}
-\input{src/submap.tex}
+\section{Glyph: Submap}
+\label{sec:submap}
+\input{submap.tex}
 

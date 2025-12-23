@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- Created by the Gravisto/VANTED graphML writer plugin on Thu May 01 12:41:06 EDT 2025. --><graphml xmlns="http://graphml.graphdrawing.org/xmlns/graphml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns/graphml http://graphml.graphdrawing.org/xmlns/graphml/graphml-structure-1.0rc.xsd">
+<?xml version="1.0" encoding="UTF-8"?><!-- Created by the Gravisto/VANTED graphML writer plugin on Thu Sep 11 10:18:50 EDT 2025. --><graphml xmlns="http://graphml.graphdrawing.org/xmlns/graphml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns/graphml http://graphml.graphdrawing.org/xmlns/graphml/graphml-structure-1.0rc.xsd">
 <key attr.name=".directed" attr.type="boolean" for="graph" id="ga0"/>
 <key attr.name=".graphbackgroundcolor" attr.type="string" for="graph" id="ga1"/>
 <key attr.name=".sbgn.role" attr.type="string" for="graph" id="ga2"/>
@@ -8,34 +8,35 @@
 <key attr.name=".graphics.opacity" attr.type="double" for="node" id="na11"/>
 <key attr.name=".graphics.linemode" attr.type="string" for="node" id="na10"/>
 <key attr.name=".graphics.outline.opacity" attr.type="int" for="node" id="na14"/>
-<key attr.name=".labelgraphics.fontStyle" attr.type="string" for="node" id="na23"/>
-<key attr.name=".labelgraphics.position.relHor" attr.type="double" for="node" id="na27"/>
+<key attr.name=".graphml_id" attr.type="string" for="node" id="na18"/>
+<key attr.name=".labelgraphics.fontStyle" attr.type="string" for="node" id="na24"/>
+<key attr.name=".labelgraphics.position.relHor" attr.type="double" for="node" id="na28"/>
 <key attr.name=".graphics.outline.red" attr.type="int" for="node" id="na15"/>
 <key attr.name=".graphics.rounding" attr.type="double" for="node" id="na16"/>
-<key attr.name=".labelgraphics.position.localAlign" attr.type="double" for="node" id="na26"/>
-<key attr.name=".zlevel" attr.type="int" for="node" id="na33"/>
-<key attr.name=".labelgraphics.alignment" attr.type="string" for="node" id="na18"/>
-<key attr.name=".labelgraphics.anchor" attr.type="string" for="node" id="na19"/>
+<key attr.name=".labelgraphics.position.localAlign" attr.type="double" for="node" id="na27"/>
+<key attr.name=".zlevel" attr.type="int" for="node" id="na34"/>
+<key attr.name=".labelgraphics.alignment" attr.type="string" for="node" id="na19"/>
+<key attr.name=".labelgraphics.anchor" attr.type="string" for="node" id="na20"/>
 <key attr.name=".graphics.gradient" attr.type="double" for="node" id="na9"/>
 <key attr.name=".graphics.frameThickness" attr.type="double" for="node" id="na8"/>
 <key attr.name=".graphics.shape" attr.type="string" for="node" id="na17"/>
-<key attr.name=".labelgraphics.labelOffset.x" attr.type="double" for="node" id="na24"/>
+<key attr.name=".labelgraphics.labelOffset.x" attr.type="double" for="node" id="na25"/>
 <key attr.name=".graphics.coordinate.x" attr.type="double" for="node" id="na0"/>
-<key attr.name=".labelgraphics.labelOffset.y" attr.type="double" for="node" id="na25"/>
-<key attr.name=".labelgraphics.text" attr.type="string" for="node" id="na29"/>
-<key attr.name=".labelgraphics.fontName" attr.type="string" for="node" id="na21"/>
-<key attr.name=".labelgraphics.color" attr.type="string" for="node" id="na20"/>
-<key attr.name=".sbgn.glyphid" attr.type="string" for="node" id="na31"/>
+<key attr.name=".labelgraphics.labelOffset.y" attr.type="double" for="node" id="na26"/>
+<key attr.name=".labelgraphics.text" attr.type="string" for="node" id="na30"/>
+<key attr.name=".labelgraphics.fontName" attr.type="string" for="node" id="na22"/>
+<key attr.name=".labelgraphics.color" attr.type="string" for="node" id="na21"/>
+<key attr.name=".sbgn.glyphid" attr.type="string" for="node" id="na32"/>
 <key attr.name=".graphics.fill.green" attr.type="int" for="node" id="na5"/>
 <key attr.name=".graphics.coordinate.y" attr.type="double" for="node" id="na1"/>
 <key attr.name=".graphics.dimension.width" attr.type="double" for="node" id="na3"/>
 <key attr.name=".graphics.fill.opacity" attr.type="int" for="node" id="na6"/>
 <key attr.name=".graphics.outline.blue" attr.type="int" for="node" id="na12"/>
-<key attr.name=".labelgraphics.position.relVert" attr.type="double" for="node" id="na28"/>
+<key attr.name=".labelgraphics.position.relVert" attr.type="double" for="node" id="na29"/>
 <key attr.name=".graphics.outline.green" attr.type="int" for="node" id="na13"/>
-<key attr.name=".sbgn.role" attr.type="string" for="node" id="na32"/>
-<key attr.name=".labelgraphics.fontSize" attr.type="int" for="node" id="na22"/>
-<key attr.name=".labelgraphics.type" attr.type="string" for="node" id="na30"/>
+<key attr.name=".sbgn.role" attr.type="string" for="node" id="na33"/>
+<key attr.name=".labelgraphics.fontSize" attr.type="int" for="node" id="na23"/>
+<key attr.name=".labelgraphics.type" attr.type="string" for="node" id="na31"/>
 <key attr.name=".graphics.fill.red" attr.type="int" for="edge" id="ea7"/>
 <key attr.name=".graphics.shape" attr.type="string" for="edge" id="ea18"/>
 <key attr.name=".graphics.fill.blue" attr.type="int" for="edge" id="ea4"/>
@@ -62,15 +63,16 @@
 <data key="ga2">PROCESSDESCRIPTION</data>
 <data key="ga1">#ffffff</data>
 <data key="ga0">true</data>
-<node id="n50">
-<data key="na21">Arial</data>
-<data key="na20">#000000</data>
-<data key="na33">-1</data>
-<data key="na32">MACROMOLECULE</data>
-<data key="na31">glyph2</data>
-<data key="na30">text</data>
-<data key="na19">c</data>
-<data key="na18">center</data>
+<node id="n31">
+<data key="na21">#000000</data>
+<data key="na20">c</data>
+<data key="na34">-1</data>
+<data key="na33">MACROMOLECULE</data>
+<data key="na32">glyph2</data>
+<data key="na31">text</data>
+<data key="na30">LABEL</data>
+<data key="na19">center</data>
+<data key="na18">n50</data>
 <data key="na17">rectangle</data>
 <data key="na16">15.0</data>
 <data key="na15">0</data>
@@ -88,25 +90,26 @@
 <data key="na3">108.0</data>
 <data key="na2">60.0</data>
 <data key="na1">185.0</data>
-<data key="na29">LABEL</data>
+<data key="na29">0.0</data>
 <data key="na0">170.0</data>
 <data key="na28">0.0</data>
 <data key="na27">0.0</data>
 <data key="na26">0.0</data>
 <data key="na25">0.0</data>
-<data key="na24">0.0</data>
-<data key="na23">plain</data>
-<data key="na22">20</data>
+<data key="na24">plain</data>
+<data key="na23">20</data>
+<data key="na22">Arial</data>
 </node>
-<node id="n51">
-<data key="na21">Arial</data>
-<data key="na20">#000000</data>
-<data key="na33">-1</data>
-<data key="na32">MACROMOLECULE</data>
-<data key="na31">glyph3</data>
-<data key="na30">text</data>
-<data key="na19">c</data>
-<data key="na18">center</data>
+<node id="n32">
+<data key="na21">#000000</data>
+<data key="na20">c</data>
+<data key="na34">-1</data>
+<data key="na33">MACROMOLECULE</data>
+<data key="na32">glyph3</data>
+<data key="na31">text</data>
+<data key="na30">LABEL</data>
+<data key="na19">center</data>
+<data key="na18">n51</data>
 <data key="na17">rectangle</data>
 <data key="na16">15.0</data>
 <data key="na15">0</data>
@@ -124,25 +127,26 @@
 <data key="na3">108.0</data>
 <data key="na2">60.0</data>
 <data key="na1">185.0</data>
-<data key="na29">LABEL</data>
+<data key="na29">0.0</data>
 <data key="na0">170.0</data>
 <data key="na28">0.0</data>
 <data key="na27">0.0</data>
 <data key="na26">0.0</data>
 <data key="na25">0.0</data>
-<data key="na24">0.0</data>
-<data key="na23">plain</data>
-<data key="na22">20</data>
+<data key="na24">plain</data>
+<data key="na23">20</data>
+<data key="na22">Arial</data>
 </node>
-<node id="n52">
-<data key="na21">Arial</data>
-<data key="na20">#000000</data>
-<data key="na33">-1</data>
-<data key="na32">MACROMOLECULE</data>
-<data key="na31">glyph23</data>
-<data key="na30">text</data>
-<data key="na19">c</data>
-<data key="na18">center</data>
+<node id="n33">
+<data key="na21">#000000</data>
+<data key="na20">c</data>
+<data key="na34">-1</data>
+<data key="na33">MACROMOLECULE</data>
+<data key="na32">glyph23</data>
+<data key="na31">text</data>
+<data key="na30"/>
+<data key="na19">center</data>
+<data key="na18">n52</data>
 <data key="na17">rectangle</data>
 <data key="na16">15.0</data>
 <data key="na15">0</data>
@@ -160,25 +164,26 @@
 <data key="na3">30.0</data>
 <data key="na2">30.0</data>
 <data key="na1">185.0</data>
-<data key="na29"/>
+<data key="na29">0.0</data>
 <data key="na0">270.0</data>
 <data key="na28">0.0</data>
 <data key="na27">0.0</data>
 <data key="na26">0.0</data>
 <data key="na25">0.0</data>
-<data key="na24">0.0</data>
-<data key="na23">plain</data>
-<data key="na22">14</data>
+<data key="na24">plain</data>
+<data key="na23">14</data>
+<data key="na22">Arial</data>
 </node>
-<node id="n53">
-<data key="na21">Arial</data>
-<data key="na20">#000000</data>
-<data key="na33">-1</data>
-<data key="na32">MACROMOLECULE</data>
-<data key="na31">glyph21</data>
-<data key="na30">text</data>
-<data key="na19">c</data>
-<data key="na18">center</data>
+<node id="n34">
+<data key="na21">#000000</data>
+<data key="na20">c</data>
+<data key="na34">-1</data>
+<data key="na33">MACROMOLECULE</data>
+<data key="na32">glyph21</data>
+<data key="na31">text</data>
+<data key="na30"/>
+<data key="na19">center</data>
+<data key="na18">n53</data>
 <data key="na17">rectangle</data>
 <data key="na16">15.0</data>
 <data key="na15">0</data>
@@ -196,25 +201,26 @@
 <data key="na3">30.0</data>
 <data key="na2">30.0</data>
 <data key="na1">185.0</data>
-<data key="na29"/>
+<data key="na29">0.0</data>
 <data key="na0">70.0</data>
 <data key="na28">0.0</data>
 <data key="na27">0.0</data>
 <data key="na26">0.0</data>
 <data key="na25">0.0</data>
-<data key="na24">0.0</data>
-<data key="na23">plain</data>
-<data key="na22">14</data>
+<data key="na24">plain</data>
+<data key="na23">14</data>
+<data key="na22">Arial</data>
 </node>
-<node id="n54">
-<data key="na21">Arial</data>
-<data key="na20">#000000</data>
-<data key="na33">-1</data>
-<data key="na32">NUCLEICACIDFEATURE</data>
-<data key="na31">glyph5</data>
-<data key="na30">text</data>
-<data key="na19">c</data>
-<data key="na18">center</data>
+<node id="n35">
+<data key="na21">#000000</data>
+<data key="na20">c</data>
+<data key="na34">-1</data>
+<data key="na33">NUCLEICACIDFEATURE</data>
+<data key="na32">glyph5</data>
+<data key="na31">text</data>
+<data key="na30">LABEL</data>
+<data key="na19">center</data>
+<data key="na18">n54</data>
 <data key="na17">nucleic</data>
 <data key="na16">15.0</data>
 <data key="na15">0</data>
@@ -232,25 +238,26 @@
 <data key="na3">108.0</data>
 <data key="na2">60.0</data>
 <data key="na1">185.0</data>
-<data key="na29">LABEL</data>
+<data key="na29">0.0</data>
 <data key="na0">430.0</data>
 <data key="na28">0.0</data>
 <data key="na27">0.0</data>
 <data key="na26">0.0</data>
 <data key="na25">0.0</data>
-<data key="na24">0.0</data>
-<data key="na23">plain</data>
-<data key="na22">20</data>
+<data key="na24">plain</data>
+<data key="na23">20</data>
+<data key="na22">Arial</data>
 </node>
-<node id="n55">
-<data key="na21">Arial</data>
-<data key="na20">#000000</data>
-<data key="na33">-1</data>
-<data key="na32">MACROMOLECULE</data>
-<data key="na31">glyph16</data>
-<data key="na30">text</data>
-<data key="na19">c</data>
-<data key="na18">center</data>
+<node id="n36">
+<data key="na21">#000000</data>
+<data key="na20">c</data>
+<data key="na34">-1</data>
+<data key="na33">MACROMOLECULE</data>
+<data key="na32">glyph16</data>
+<data key="na31">text</data>
+<data key="na30"/>
+<data key="na19">center</data>
+<data key="na18">n55</data>
 <data key="na17">org.graffiti.plugins.views.defaults.RectangleNodeShape</data>
 <data key="na16">15.0</data>
 <data key="na15">0</data>
@@ -268,25 +275,26 @@
 <data key="na3">30.0</data>
 <data key="na2">30.0</data>
 <data key="na1">185.0</data>
-<data key="na29"/>
+<data key="na29">0.0</data>
 <data key="na0">330.0</data>
 <data key="na28">0.0</data>
 <data key="na27">0.0</data>
 <data key="na26">0.0</data>
 <data key="na25">0.0</data>
-<data key="na24">0.0</data>
-<data key="na23">plain</data>
-<data key="na22">14</data>
+<data key="na24">plain</data>
+<data key="na23">14</data>
+<data key="na22">Arial</data>
 </node>
-<node id="n56">
-<data key="na21">Arial</data>
-<data key="na20">#000000</data>
-<data key="na33">-1</data>
-<data key="na32">MACROMOLECULE</data>
-<data key="na31">glyph22</data>
-<data key="na30">text</data>
-<data key="na19">c</data>
-<data key="na18">center</data>
+<node id="n37">
+<data key="na21">#000000</data>
+<data key="na20">c</data>
+<data key="na34">-1</data>
+<data key="na33">MACROMOLECULE</data>
+<data key="na32">glyph22</data>
+<data key="na31">text</data>
+<data key="na30"/>
+<data key="na19">center</data>
+<data key="na18">n56</data>
 <data key="na17">org.graffiti.plugins.views.defaults.RectangleNodeShape</data>
 <data key="na16">15.0</data>
 <data key="na15">0</data>
@@ -304,25 +312,26 @@
 <data key="na3">30.0</data>
 <data key="na2">30.0</data>
 <data key="na1">185.0</data>
-<data key="na29"/>
+<data key="na29">0.0</data>
 <data key="na0">530.0</data>
 <data key="na28">0.0</data>
 <data key="na27">0.0</data>
 <data key="na26">0.0</data>
 <data key="na25">0.0</data>
-<data key="na24">0.0</data>
-<data key="na23">plain</data>
-<data key="na22">14</data>
+<data key="na24">plain</data>
+<data key="na23">14</data>
+<data key="na22">Arial</data>
 </node>
-<node id="n57">
-<data key="na21">Arial</data>
-<data key="na20">#000000</data>
-<data key="na33">-1</data>
-<data key="na32">SIMPLECHEMICAL</data>
-<data key="na31">glyph4</data>
-<data key="na30">text</data>
-<data key="na19">c</data>
-<data key="na18">center</data>
+<node id="n38">
+<data key="na21">#000000</data>
+<data key="na20">c</data>
+<data key="na34">-1</data>
+<data key="na33">SIMPLECHEMICAL</data>
+<data key="na32">glyph4</data>
+<data key="na31">text</data>
+<data key="na30">LABEL</data>
+<data key="na19">center</data>
+<data key="na18">n57</data>
 <data key="na17">sbgnstadium</data>
 <data key="na16">0.0</data>
 <data key="na15">0</data>
@@ -340,25 +349,26 @@
 <data key="na3">108.0</data>
 <data key="na2">60.0</data>
 <data key="na1">185.0</data>
-<data key="na29">LABEL</data>
+<data key="na29">0.0</data>
 <data key="na0">690.0</data>
 <data key="na28">0.0</data>
 <data key="na27">0.0</data>
 <data key="na26">0.0</data>
 <data key="na25">0.0</data>
-<data key="na24">0.0</data>
-<data key="na23">plain</data>
-<data key="na22">20</data>
+<data key="na24">plain</data>
+<data key="na23">20</data>
+<data key="na22">Arial</data>
 </node>
-<node id="n58">
-<data key="na21">Arial</data>
-<data key="na20">#000000</data>
-<data key="na33">-1</data>
-<data key="na32">MACROMOLECULE</data>
-<data key="na31">glyph24</data>
-<data key="na30">text</data>
-<data key="na19">c</data>
-<data key="na18">center</data>
+<node id="n39">
+<data key="na21">#000000</data>
+<data key="na20">c</data>
+<data key="na34">-1</data>
+<data key="na33">MACROMOLECULE</data>
+<data key="na32">glyph24</data>
+<data key="na31">text</data>
+<data key="na30"/>
+<data key="na19">center</data>
+<data key="na18">n58</data>
 <data key="na17">org.graffiti.plugins.views.defaults.RectangleNodeShape</data>
 <data key="na16">15.0</data>
 <data key="na15">0</data>
@@ -376,25 +386,26 @@
 <data key="na3">30.0</data>
 <data key="na2">30.0</data>
 <data key="na1">185.0</data>
-<data key="na29"/>
+<data key="na29">0.0</data>
 <data key="na0">590.0</data>
 <data key="na28">0.0</data>
 <data key="na27">0.0</data>
 <data key="na26">0.0</data>
 <data key="na25">0.0</data>
-<data key="na24">0.0</data>
-<data key="na23">plain</data>
-<data key="na22">14</data>
+<data key="na24">plain</data>
+<data key="na23">14</data>
+<data key="na22">Arial</data>
 </node>
-<node id="n59">
-<data key="na21">Arial</data>
-<data key="na20">#000000</data>
-<data key="na33">-1</data>
-<data key="na32">MACROMOLECULE</data>
-<data key="na31">glyph15</data>
-<data key="na30">text</data>
-<data key="na19">c</data>
-<data key="na18">center</data>
+<node id="n40">
+<data key="na21">#000000</data>
+<data key="na20">c</data>
+<data key="na34">-1</data>
+<data key="na33">MACROMOLECULE</data>
+<data key="na32">glyph15</data>
+<data key="na31">text</data>
+<data key="na30"/>
+<data key="na19">center</data>
+<data key="na18">n59</data>
 <data key="na17">org.graffiti.plugins.views.defaults.RectangleNodeShape</data>
 <data key="na16">15.0</data>
 <data key="na15">0</data>
@@ -412,25 +423,26 @@
 <data key="na3">30.0</data>
 <data key="na2">30.0</data>
 <data key="na1">185.0</data>
-<data key="na29"/>
+<data key="na29">0.0</data>
 <data key="na0">790.0</data>
 <data key="na28">0.0</data>
 <data key="na27">0.0</data>
 <data key="na26">0.0</data>
 <data key="na25">0.0</data>
-<data key="na24">0.0</data>
-<data key="na23">plain</data>
-<data key="na22">14</data>
+<data key="na24">plain</data>
+<data key="na23">14</data>
+<data key="na22">Arial</data>
 </node>
-<node id="n60">
-<data key="na21">Arial</data>
-<data key="na20">#000000</data>
-<data key="na33">-1</data>
-<data key="na32">UNSPECIFIEDENTITY</data>
-<data key="na31">glyph6</data>
-<data key="na30">text</data>
-<data key="na19">c</data>
-<data key="na18">center</data>
+<node id="n41">
+<data key="na21">#000000</data>
+<data key="na20">c</data>
+<data key="na34">-1</data>
+<data key="na33">UNSPECIFIEDENTITY</data>
+<data key="na32">glyph6</data>
+<data key="na31">text</data>
+<data key="na30">LABEL</data>
+<data key="na19">center</data>
+<data key="na18">n60</data>
 <data key="na17">oval</data>
 <data key="na16">0.0</data>
 <data key="na15">0</data>
@@ -447,27 +459,28 @@
 <data key="na4">255</data>
 <data key="na3">108.0</data>
 <data key="na2">60.0</data>
-<data key="na1">345.0</data>
-<data key="na29">LABEL</data>
-<data key="na0">170.0</data>
+<data key="na1">354.0</data>
+<data key="na29">0.0</data>
+<data key="na0">171.0</data>
 <data key="na28">0.0</data>
 <data key="na27">0.0</data>
 <data key="na26">0.0</data>
 <data key="na25">0.0</data>
-<data key="na24">0.0</data>
-<data key="na23">plain</data>
-<data key="na22">20</data>
+<data key="na24">plain</data>
+<data key="na23">20</data>
+<data key="na22">Arial</data>
 </node>
-<node id="n61">
-<data key="na21">Arial</data>
-<data key="na20">#000000</data>
-<data key="na33">-1</data>
-<data key="na32">MACROMOLECULE</data>
-<data key="na31">glyph18</data>
-<data key="na30">text</data>
-<data key="na19">c</data>
-<data key="na18">center</data>
-<data key="na17">org.graffiti.plugins.views.defaults.RectangleNodeShape</data>
+<node id="n42">
+<data key="na21">#000000</data>
+<data key="na20">c</data>
+<data key="na34">-1</data>
+<data key="na33">MACROMOLECULE</data>
+<data key="na32">glyph18</data>
+<data key="na31">text</data>
+<data key="na30"/>
+<data key="na19">center</data>
+<data key="na18">n61</data>
+<data key="na17">rectangle</data>
 <data key="na16">15.0</data>
 <data key="na15">0</data>
 <data key="na14">255</data>
@@ -483,27 +496,28 @@
 <data key="na4">255</data>
 <data key="na3">30.0</data>
 <data key="na2">30.0</data>
-<data key="na1">345.0</data>
-<data key="na29"/>
-<data key="na0">70.0</data>
+<data key="na1">354.0</data>
+<data key="na29">0.0</data>
+<data key="na0">71.0</data>
 <data key="na28">0.0</data>
 <data key="na27">0.0</data>
 <data key="na26">0.0</data>
 <data key="na25">0.0</data>
-<data key="na24">0.0</data>
-<data key="na23">plain</data>
-<data key="na22">14</data>
+<data key="na24">plain</data>
+<data key="na23">14</data>
+<data key="na22">Arial</data>
 </node>
-<node id="n62">
-<data key="na21">Arial</data>
-<data key="na20">#000000</data>
-<data key="na33">-1</data>
-<data key="na32">MACROMOLECULE</data>
-<data key="na31">glyph20</data>
-<data key="na30">text</data>
-<data key="na19">c</data>
-<data key="na18">center</data>
-<data key="na17">org.graffiti.plugins.views.defaults.RectangleNodeShape</data>
+<node id="n43">
+<data key="na21">#000000</data>
+<data key="na20">c</data>
+<data key="na34">-1</data>
+<data key="na33">MACROMOLECULE</data>
+<data key="na32">glyph20</data>
+<data key="na31">text</data>
+<data key="na30"/>
+<data key="na19">center</data>
+<data key="na18">n62</data>
+<data key="na17">rectangle</data>
 <data key="na16">15.0</data>
 <data key="na15">0</data>
 <data key="na14">255</data>
@@ -519,26 +533,27 @@
 <data key="na4">255</data>
 <data key="na3">30.0</data>
 <data key="na2">30.0</data>
-<data key="na1">345.0</data>
-<data key="na29"/>
-<data key="na0">270.0</data>
+<data key="na1">354.0</data>
+<data key="na29">0.0</data>
+<data key="na0">271.0</data>
 <data key="na28">0.0</data>
 <data key="na27">0.0</data>
 <data key="na26">0.0</data>
 <data key="na25">0.0</data>
-<data key="na24">0.0</data>
-<data key="na23">plain</data>
-<data key="na22">14</data>
+<data key="na24">plain</data>
+<data key="na23">14</data>
+<data key="na22">Arial</data>
 </node>
-<node id="n63">
-<data key="na21">Arial</data>
-<data key="na20">#000000</data>
-<data key="na33">-1</data>
-<data key="na32">COMPLEX</data>
-<data key="na31">glyph1</data>
-<data key="na30">text</data>
-<data key="na19">c</data>
-<data key="na18">center</data>
+<node id="n44">
+<data key="na21">#000000</data>
+<data key="na20">c</data>
+<data key="na34">-1</data>
+<data key="na33">COMPLEX</data>
+<data key="na32">glyph1</data>
+<data key="na31">text</data>
+<data key="na30">LABEL</data>
+<data key="na19">center</data>
+<data key="na18">n63</data>
 <data key="na17">complex</data>
 <data key="na16">0.0</data>
 <data key="na15">0</data>
@@ -555,26 +570,27 @@
 <data key="na4">255</data>
 <data key="na3">108.0</data>
 <data key="na2">60.0</data>
-<data key="na1">345.0</data>
-<data key="na29">LABEL</data>
-<data key="na0">430.0</data>
+<data key="na1">354.0</data>
+<data key="na29">0.0</data>
+<data key="na0">431.0</data>
 <data key="na28">0.0</data>
 <data key="na27">0.0</data>
 <data key="na26">0.0</data>
 <data key="na25">0.0</data>
-<data key="na24">0.0</data>
-<data key="na23">plain</data>
-<data key="na22">20</data>
+<data key="na24">plain</data>
+<data key="na23">20</data>
+<data key="na22">Arial</data>
 </node>
-<node id="n64">
-<data key="na21">Arial</data>
-<data key="na20">#000000</data>
-<data key="na33">-1</data>
-<data key="na32">MACROMOLECULE</data>
-<data key="na31">glyph14</data>
-<data key="na30">text</data>
-<data key="na19">c</data>
-<data key="na18">center</data>
+<node id="n45">
+<data key="na21">#000000</data>
+<data key="na20">c</data>
+<data key="na34">-1</data>
+<data key="na33">MACROMOLECULE</data>
+<data key="na32">glyph14</data>
+<data key="na31">text</data>
+<data key="na30"/>
+<data key="na19">center</data>
+<data key="na18">n64</data>
 <data key="na17">org.graffiti.plugins.views.defaults.RectangleNodeShape</data>
 <data key="na16">15.0</data>
 <data key="na15">0</data>
@@ -591,26 +607,27 @@
 <data key="na4">255</data>
 <data key="na3">30.0</data>
 <data key="na2">30.0</data>
-<data key="na1">345.0</data>
-<data key="na29"/>
-<data key="na0">330.0</data>
+<data key="na1">354.0</data>
+<data key="na29">0.0</data>
+<data key="na0">331.0</data>
 <data key="na28">0.0</data>
 <data key="na27">0.0</data>
 <data key="na26">0.0</data>
 <data key="na25">0.0</data>
-<data key="na24">0.0</data>
-<data key="na23">plain</data>
-<data key="na22">14</data>
+<data key="na24">plain</data>
+<data key="na23">14</data>
+<data key="na22">Arial</data>
 </node>
-<node id="n65">
-<data key="na21">Arial</data>
-<data key="na20">#000000</data>
-<data key="na33">-1</data>
-<data key="na32">MACROMOLECULE</data>
-<data key="na31">glyph25</data>
-<data key="na30">text</data>
-<data key="na19">c</data>
-<data key="na18">center</data>
+<node id="n46">
+<data key="na21">#000000</data>
+<data key="na20">c</data>
+<data key="na34">-1</data>
+<data key="na33">MACROMOLECULE</data>
+<data key="na32">glyph25</data>
+<data key="na31">text</data>
+<data key="na30"/>
+<data key="na19">center</data>
+<data key="na18">n65</data>
 <data key="na17">org.graffiti.plugins.views.defaults.RectangleNodeShape</data>
 <data key="na16">15.0</data>
 <data key="na15">0</data>
@@ -627,26 +644,27 @@
 <data key="na4">255</data>
 <data key="na3">30.0</data>
 <data key="na2">30.0</data>
-<data key="na1">345.0</data>
-<data key="na29"/>
-<data key="na0">530.0</data>
+<data key="na1">354.0</data>
+<data key="na29">0.0</data>
+<data key="na0">531.0</data>
 <data key="na28">0.0</data>
 <data key="na27">0.0</data>
 <data key="na26">0.0</data>
 <data key="na25">0.0</data>
-<data key="na24">0.0</data>
-<data key="na23">plain</data>
-<data key="na22">14</data>
+<data key="na24">plain</data>
+<data key="na23">14</data>
+<data key="na22">Arial</data>
 </node>
-<node id="n66">
-<data key="na21">Arial</data>
-<data key="na20">#000000</data>
-<data key="na33">-1</data>
-<data key="na32">PERTURBINGAGENT</data>
-<data key="na31">glyph7</data>
-<data key="na30">text</data>
-<data key="na19">c</data>
-<data key="na18">center</data>
+<node id="n47">
+<data key="na21">#000000</data>
+<data key="na20">c</data>
+<data key="na34">-1</data>
+<data key="na33">PERTURBINGAGENT</data>
+<data key="na32">glyph7</data>
+<data key="na31">text</data>
+<data key="na30">LABEL</data>
+<data key="na19">center</data>
+<data key="na18">n66</data>
 <data key="na17">pertubation</data>
 <data key="na16">0.0</data>
 <data key="na15">0</data>
@@ -663,26 +681,27 @@
 <data key="na4">255</data>
 <data key="na3">108.0</data>
 <data key="na2">60.0</data>
-<data key="na1">345.0</data>
-<data key="na29">LABEL</data>
-<data key="na0">690.0</data>
+<data key="na1">354.0</data>
+<data key="na29">0.0</data>
+<data key="na0">691.0</data>
 <data key="na28">0.0</data>
 <data key="na27">0.0</data>
 <data key="na26">0.0</data>
 <data key="na25">0.0</data>
-<data key="na24">0.0</data>
-<data key="na23">plain</data>
-<data key="na22">20</data>
+<data key="na24">plain</data>
+<data key="na23">20</data>
+<data key="na22">Arial</data>
 </node>
-<node id="n67">
-<data key="na21">Arial</data>
-<data key="na20">#000000</data>
-<data key="na33">-1</data>
-<data key="na32">MACROMOLECULE</data>
-<data key="na31">glyph17</data>
-<data key="na30">text</data>
-<data key="na19">c</data>
-<data key="na18">center</data>
+<node id="n48">
+<data key="na21">#000000</data>
+<data key="na20">c</data>
+<data key="na34">-1</data>
+<data key="na33">MACROMOLECULE</data>
+<data key="na32">glyph17</data>
+<data key="na31">text</data>
+<data key="na30"/>
+<data key="na19">center</data>
+<data key="na18">n67</data>
 <data key="na17">org.graffiti.plugins.views.defaults.RectangleNodeShape</data>
 <data key="na16">15.0</data>
 <data key="na15">0</data>
@@ -699,26 +718,27 @@
 <data key="na4">255</data>
 <data key="na3">30.0</data>
 <data key="na2">30.0</data>
-<data key="na1">345.0</data>
-<data key="na29"/>
-<data key="na0">590.0</data>
+<data key="na1">354.0</data>
+<data key="na29">0.0</data>
+<data key="na0">591.0</data>
 <data key="na28">0.0</data>
 <data key="na27">0.0</data>
 <data key="na26">0.0</data>
 <data key="na25">0.0</data>
-<data key="na24">0.0</data>
-<data key="na23">plain</data>
-<data key="na22">14</data>
+<data key="na24">plain</data>
+<data key="na23">14</data>
+<data key="na22">Arial</data>
 </node>
-<node id="n68">
-<data key="na21">Arial</data>
-<data key="na20">#000000</data>
-<data key="na33">-1</data>
-<data key="na32">MACROMOLECULE</data>
-<data key="na31">glyph19</data>
-<data key="na30">text</data>
-<data key="na19">c</data>
-<data key="na18">center</data>
+<node id="n49">
+<data key="na21">#000000</data>
+<data key="na20">c</data>
+<data key="na34">-1</data>
+<data key="na33">MACROMOLECULE</data>
+<data key="na32">glyph19</data>
+<data key="na31">text</data>
+<data key="na30"/>
+<data key="na19">center</data>
+<data key="na18">n68</data>
 <data key="na17">org.graffiti.plugins.views.defaults.RectangleNodeShape</data>
 <data key="na16">15.0</data>
 <data key="na15">0</data>
@@ -735,26 +755,27 @@
 <data key="na4">255</data>
 <data key="na3">30.0</data>
 <data key="na2">30.0</data>
-<data key="na1">345.0</data>
-<data key="na29"/>
+<data key="na1">354.0</data>
+<data key="na29">0.0</data>
 <data key="na0">790.0</data>
 <data key="na28">0.0</data>
 <data key="na27">0.0</data>
 <data key="na26">0.0</data>
 <data key="na25">0.0</data>
-<data key="na24">0.0</data>
-<data key="na23">plain</data>
-<data key="na22">14</data>
+<data key="na24">plain</data>
+<data key="na23">14</data>
+<data key="na22">Arial</data>
 </node>
-<node id="n69">
-<data key="na21">Arial</data>
-<data key="na20">#000000</data>
-<data key="na33">-1</data>
-<data key="na32">SIMPLECHEMICAL</data>
-<data key="na31">glyph13</data>
-<data key="na30">text</data>
-<data key="na19">c</data>
-<data key="na18">center</data>
+<node id="n50">
+<data key="na21">#000000</data>
+<data key="na20">c</data>
+<data key="na34">-1</data>
+<data key="na33">SIMPLECHEMICAL</data>
+<data key="na32">glyph13</data>
+<data key="na31">text</data>
+<data key="na30">A</data>
+<data key="na19">center</data>
+<data key="na18">n69</data>
 <data key="na17">sbgnstadium</data>
 <data key="na16">0.0</data>
 <data key="na15">0</data>
@@ -772,25 +793,26 @@
 <data key="na3">60.0</data>
 <data key="na2">60.0</data>
 <data key="na1">125.0</data>
-<data key="na29">A</data>
+<data key="na29">0.0</data>
 <data key="na0">75.0</data>
 <data key="na28">0.0</data>
 <data key="na27">0.0</data>
 <data key="na26">0.0</data>
 <data key="na25">0.0</data>
-<data key="na24">0.0</data>
-<data key="na23">bold</data>
-<data key="na22">20</data>
+<data key="na24">bold</data>
+<data key="na23">20</data>
+<data key="na22">Arial</data>
 </node>
-<node id="n70">
-<data key="na21">Arial</data>
-<data key="na20">#000000</data>
-<data key="na33">-1</data>
-<data key="na32">SIMPLECHEMICAL</data>
-<data key="na31">glyph10</data>
-<data key="na30">text</data>
-<data key="na19">c</data>
-<data key="na18">center</data>
+<node id="n51">
+<data key="na21">#000000</data>
+<data key="na20">c</data>
+<data key="na34">-1</data>
+<data key="na33">SIMPLECHEMICAL</data>
+<data key="na32">glyph10</data>
+<data key="na31">text</data>
+<data key="na30">B</data>
+<data key="na19">center</data>
+<data key="na18">n70</data>
 <data key="na17">sbgnstadium</data>
 <data key="na16">0.0</data>
 <data key="na15">0</data>
@@ -808,25 +830,26 @@
 <data key="na3">60.0</data>
 <data key="na2">60.0</data>
 <data key="na1">125.0</data>
-<data key="na29">B</data>
+<data key="na29">0.0</data>
 <data key="na0">335.0</data>
 <data key="na28">0.0</data>
 <data key="na27">0.0</data>
 <data key="na26">0.0</data>
 <data key="na25">0.0</data>
-<data key="na24">0.0</data>
-<data key="na23">bold</data>
-<data key="na22">20</data>
+<data key="na24">bold</data>
+<data key="na23">20</data>
+<data key="na22">Arial</data>
 </node>
-<node id="n71">
-<data key="na21">Arial</data>
-<data key="na20">#000000</data>
-<data key="na33">-1</data>
-<data key="na32">SIMPLECHEMICAL</data>
-<data key="na31">glyph12</data>
-<data key="na30">text</data>
-<data key="na19">c</data>
-<data key="na18">center</data>
+<node id="n52">
+<data key="na21">#000000</data>
+<data key="na20">c</data>
+<data key="na34">-1</data>
+<data key="na33">SIMPLECHEMICAL</data>
+<data key="na32">glyph12</data>
+<data key="na31">text</data>
+<data key="na30">C</data>
+<data key="na19">center</data>
+<data key="na18">n71</data>
 <data key="na17">sbgnstadium</data>
 <data key="na16">0.0</data>
 <data key="na15">0</data>
@@ -844,25 +867,26 @@
 <data key="na3">60.0</data>
 <data key="na2">60.0</data>
 <data key="na1">125.0</data>
-<data key="na29">C</data>
+<data key="na29">0.0</data>
 <data key="na0">595.0</data>
 <data key="na28">0.0</data>
 <data key="na27">0.0</data>
 <data key="na26">0.0</data>
 <data key="na25">0.0</data>
-<data key="na24">0.0</data>
-<data key="na23">bold</data>
-<data key="na22">20</data>
+<data key="na24">bold</data>
+<data key="na23">20</data>
+<data key="na22">Arial</data>
 </node>
-<node id="n72">
-<data key="na21">Arial</data>
-<data key="na20">#000000</data>
-<data key="na33">-1</data>
-<data key="na32">SIMPLECHEMICAL</data>
-<data key="na31">glyph11</data>
-<data key="na30">text</data>
-<data key="na19">c</data>
-<data key="na18">center</data>
+<node id="n53">
+<data key="na21">#000000</data>
+<data key="na20">c</data>
+<data key="na34">-1</data>
+<data key="na33">SIMPLECHEMICAL</data>
+<data key="na32">glyph11</data>
+<data key="na31">text</data>
+<data key="na30">D</data>
+<data key="na19">center</data>
+<data key="na18">n72</data>
 <data key="na17">sbgnstadium</data>
 <data key="na16">0.0</data>
 <data key="na15">0</data>
@@ -879,26 +903,27 @@
 <data key="na4">255</data>
 <data key="na3">60.0</data>
 <data key="na2">60.0</data>
-<data key="na1">285.0</data>
-<data key="na29">D</data>
+<data key="na1">294.0</data>
+<data key="na29">0.0</data>
 <data key="na0">75.0</data>
 <data key="na28">0.0</data>
 <data key="na27">0.0</data>
 <data key="na26">0.0</data>
 <data key="na25">0.0</data>
-<data key="na24">0.0</data>
-<data key="na23">bold</data>
-<data key="na22">20</data>
+<data key="na24">bold</data>
+<data key="na23">20</data>
+<data key="na22">Arial</data>
 </node>
-<node id="n73">
-<data key="na21">Arial</data>
-<data key="na20">#000000</data>
-<data key="na33">-1</data>
-<data key="na32">SIMPLECHEMICAL</data>
-<data key="na31">glyph9</data>
-<data key="na30">text</data>
-<data key="na19">c</data>
-<data key="na18">center</data>
+<node id="n54">
+<data key="na21">#000000</data>
+<data key="na20">c</data>
+<data key="na34">-1</data>
+<data key="na33">SIMPLECHEMICAL</data>
+<data key="na32">glyph9</data>
+<data key="na31">text</data>
+<data key="na30">E</data>
+<data key="na19">center</data>
+<data key="na18">n73</data>
 <data key="na17">sbgnstadium</data>
 <data key="na16">0.0</data>
 <data key="na15">0</data>
@@ -915,26 +940,27 @@
 <data key="na4">255</data>
 <data key="na3">60.0</data>
 <data key="na2">60.0</data>
-<data key="na1">285.0</data>
-<data key="na29">E</data>
+<data key="na1">294.0</data>
+<data key="na29">0.0</data>
 <data key="na0">335.0</data>
 <data key="na28">0.0</data>
 <data key="na27">0.0</data>
 <data key="na26">0.0</data>
 <data key="na25">0.0</data>
-<data key="na24">0.0</data>
-<data key="na23">bold</data>
-<data key="na22">20</data>
+<data key="na24">bold</data>
+<data key="na23">20</data>
+<data key="na22">Arial</data>
 </node>
-<node id="n74">
-<data key="na21">Arial</data>
-<data key="na20">#000000</data>
-<data key="na33">-1</data>
-<data key="na32">SIMPLECHEMICAL</data>
-<data key="na31">glyph8</data>
-<data key="na30">text</data>
-<data key="na19">c</data>
-<data key="na18">center</data>
+<node id="n55">
+<data key="na21">#000000</data>
+<data key="na20">c</data>
+<data key="na34">-1</data>
+<data key="na33">SIMPLECHEMICAL</data>
+<data key="na32">glyph8</data>
+<data key="na31">text</data>
+<data key="na30">F</data>
+<data key="na19">center</data>
+<data key="na18">n74</data>
 <data key="na17">sbgnstadium</data>
 <data key="na16">0.0</data>
 <data key="na15">0</data>
@@ -951,18 +977,228 @@
 <data key="na4">255</data>
 <data key="na3">60.0</data>
 <data key="na2">60.0</data>
-<data key="na1">285.0</data>
-<data key="na29">F</data>
+<data key="na1">294.0</data>
+<data key="na29">0.0</data>
 <data key="na0">595.0</data>
 <data key="na28">0.0</data>
 <data key="na27">0.0</data>
 <data key="na26">0.0</data>
 <data key="na25">0.0</data>
-<data key="na24">0.0</data>
-<data key="na23">bold</data>
-<data key="na22">20</data>
+<data key="na24">bold</data>
+<data key="na23">20</data>
+<data key="na22">Arial</data>
 </node>
-<edge id="e0" source="n52" target="n51">
+<node id="n56">
+<data key="na21">#000000</data>
+<data key="na20">c</data>
+<data key="na34">-1</data>
+<data key="na33">BIOLOGICALACTIVITY</data>
+<data key="na31">text</data>
+<data key="na30">&lt;html&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;macromolecule&lt;br&gt;unit of information</data>
+<data key="na19">center</data>
+<data key="na17">rectangle</data>
+<data key="na16">0.0</data>
+<data key="na15">0</data>
+<data key="na14">255</data>
+<data key="na13">0</data>
+<data key="na9">0.0</data>
+<data key="na12">0</data>
+<data key="na8">0.0</data>
+<data key="na11">1.0</data>
+<data key="na7">255</data>
+<data key="na10"> 0.0</data>
+<data key="na6">255</data>
+<data key="na5">255</data>
+<data key="na4">255</data>
+<data key="na3">108.0</data>
+<data key="na2">50.0</data>
+<data key="na1">245.0</data>
+<data key="na29">0.0</data>
+<data key="na0">170.0</data>
+<data key="na28">0.0</data>
+<data key="na27">0.0</data>
+<data key="na26">0.0</data>
+<data key="na25">0.0</data>
+<data key="na24">italic</data>
+<data key="na23">20</data>
+<data key="na22">Times New Roman</data>
+</node>
+<node id="n57">
+<data key="na21">#000000</data>
+<data key="na20">c</data>
+<data key="na34">-1</data>
+<data key="na33">BIOLOGICALACTIVITY</data>
+<data key="na31">text</data>
+<data key="na30">&lt;html&gt;nucleic acid feature&lt;br&gt;&amp;nbsp;unit of information</data>
+<data key="na19">center</data>
+<data key="na17">rectangle</data>
+<data key="na16">0.0</data>
+<data key="na15">0</data>
+<data key="na14">255</data>
+<data key="na13">0</data>
+<data key="na9">0.0</data>
+<data key="na12">0</data>
+<data key="na8">0.0</data>
+<data key="na11">1.0</data>
+<data key="na7">255</data>
+<data key="na10"> 0.0</data>
+<data key="na6">255</data>
+<data key="na5">255</data>
+<data key="na4">255</data>
+<data key="na3">108.0</data>
+<data key="na2">50.0</data>
+<data key="na1">245.0</data>
+<data key="na29">0.0</data>
+<data key="na0">430.0</data>
+<data key="na28">0.0</data>
+<data key="na27">0.0</data>
+<data key="na26">0.0</data>
+<data key="na25">0.0</data>
+<data key="na24">italic</data>
+<data key="na23">20</data>
+<data key="na22">Times New Roman</data>
+</node>
+<node id="n58">
+<data key="na21">#000000</data>
+<data key="na20">c</data>
+<data key="na34">-1</data>
+<data key="na33">BIOLOGICALACTIVITY</data>
+<data key="na31">text</data>
+<data key="na30">&lt;html&gt;&amp;nbsp;simple chemical&lt;br&gt;unit of information</data>
+<data key="na19">center</data>
+<data key="na17">rectangle</data>
+<data key="na16">0.0</data>
+<data key="na15">0</data>
+<data key="na14">255</data>
+<data key="na13">0</data>
+<data key="na9">0.0</data>
+<data key="na12">0</data>
+<data key="na8">0.0</data>
+<data key="na11">1.0</data>
+<data key="na7">255</data>
+<data key="na10"> 0.0</data>
+<data key="na6">255</data>
+<data key="na5">255</data>
+<data key="na4">255</data>
+<data key="na3">108.0</data>
+<data key="na2">50.0</data>
+<data key="na1">245.0</data>
+<data key="na29">0.0</data>
+<data key="na0">690.0</data>
+<data key="na28">0.0</data>
+<data key="na27">0.0</data>
+<data key="na26">0.0</data>
+<data key="na25">0.0</data>
+<data key="na24">italic</data>
+<data key="na23">20</data>
+<data key="na22">Times New Roman</data>
+</node>
+<node id="n59">
+<data key="na21">#000000</data>
+<data key="na20">c</data>
+<data key="na34">-1</data>
+<data key="na33">BIOLOGICALACTIVITY</data>
+<data key="na31">text</data>
+<data key="na30">&lt;html&gt;&amp;nbsp;unspecified entity&lt;br&gt;unit of information</data>
+<data key="na19">center</data>
+<data key="na17">rectangle</data>
+<data key="na16">0.0</data>
+<data key="na15">0</data>
+<data key="na14">255</data>
+<data key="na13">0</data>
+<data key="na9">0.0</data>
+<data key="na12">0</data>
+<data key="na8">0.0</data>
+<data key="na11">1.0</data>
+<data key="na7">255</data>
+<data key="na10"> 0.0</data>
+<data key="na6">255</data>
+<data key="na5">255</data>
+<data key="na4">255</data>
+<data key="na3">108.0</data>
+<data key="na2">50.0</data>
+<data key="na1">415.0</data>
+<data key="na29">0.0</data>
+<data key="na0">175.0</data>
+<data key="na28">0.0</data>
+<data key="na27">0.0</data>
+<data key="na26">0.0</data>
+<data key="na25">0.0</data>
+<data key="na24">italic</data>
+<data key="na23">20</data>
+<data key="na22">Times New Roman</data>
+</node>
+<node id="n60">
+<data key="na21">#000000</data>
+<data key="na20">c</data>
+<data key="na34">-1</data>
+<data key="na33">BIOLOGICALACTIVITY</data>
+<data key="na31">text</data>
+<data key="na30">&lt;html&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;complex&lt;br&gt;unit of information</data>
+<data key="na19">center</data>
+<data key="na17">rectangle</data>
+<data key="na16">0.0</data>
+<data key="na15">0</data>
+<data key="na14">255</data>
+<data key="na13">0</data>
+<data key="na9">0.0</data>
+<data key="na12">0</data>
+<data key="na8">0.0</data>
+<data key="na11">1.0</data>
+<data key="na7">255</data>
+<data key="na10"> 0.0</data>
+<data key="na6">255</data>
+<data key="na5">255</data>
+<data key="na4">255</data>
+<data key="na3">108.0</data>
+<data key="na2">50.0</data>
+<data key="na1">415.0</data>
+<data key="na29">0.0</data>
+<data key="na0">430.0</data>
+<data key="na28">0.0</data>
+<data key="na27">0.0</data>
+<data key="na26">0.0</data>
+<data key="na25">0.0</data>
+<data key="na24">italic</data>
+<data key="na23">20</data>
+<data key="na22">Times New Roman</data>
+</node>
+<node id="n61">
+<data key="na21">#000000</data>
+<data key="na20">c</data>
+<data key="na34">-1</data>
+<data key="na33">BIOLOGICALACTIVITY</data>
+<data key="na31">text</data>
+<data key="na30">&lt;html&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;perturbation&lt;br&gt;unit of information</data>
+<data key="na19">center</data>
+<data key="na17">rectangle</data>
+<data key="na16">0.0</data>
+<data key="na15">0</data>
+<data key="na14">255</data>
+<data key="na13">0</data>
+<data key="na9">0.0</data>
+<data key="na12">0</data>
+<data key="na8">0.0</data>
+<data key="na11">1.0</data>
+<data key="na7">255</data>
+<data key="na10"> 0.0</data>
+<data key="na6">255</data>
+<data key="na5">255</data>
+<data key="na4">255</data>
+<data key="na3">108.0</data>
+<data key="na2">50.0</data>
+<data key="na1">415.0</data>
+<data key="na29">0.0</data>
+<data key="na0">690.0</data>
+<data key="na28">0.0</data>
+<data key="na27">0.0</data>
+<data key="na26">0.0</data>
+<data key="na25">0.0</data>
+<data key="na24">italic</data>
+<data key="na23">20</data>
+<data key="na22">Times New Roman</data>
+</node>
+<edge id="e0" source="n33" target="n32">
 <data key="ea19">15.0</data>
 <data key="ea18">org.graffiti.plugins.views.defaults.StraightLineEdgeShape</data>
 <data key="ea17">5.0</data>
@@ -986,7 +1222,7 @@
 <data key="ea1"/>
 <data key="ea0"/>
 </edge>
-<edge id="e1" source="n53" target="n51">
+<edge id="e1" source="n34" target="n32">
 <data key="ea19">15.0</data>
 <data key="ea18">org.graffiti.plugins.views.defaults.PolyLineEdgeShape</data>
 <data key="ea17">5.0</data>
@@ -1010,7 +1246,7 @@
 <data key="ea1"/>
 <data key="ea0"/>
 </edge>
-<edge id="e2" source="n55" target="n54">
+<edge id="e2" source="n36" target="n35">
 <data key="ea19">15.0</data>
 <data key="ea18">org.graffiti.plugins.views.defaults.StraightLineEdgeShape</data>
 <data key="ea17">5.0</data>
@@ -1034,7 +1270,7 @@
 <data key="ea1"/>
 <data key="ea0"/>
 </edge>
-<edge id="e3" source="n56" target="n54">
+<edge id="e3" source="n37" target="n35">
 <data key="ea19">15.0</data>
 <data key="ea18">org.graffiti.plugins.views.defaults.StraightLineEdgeShape</data>
 <data key="ea17">5.0</data>
@@ -1058,7 +1294,7 @@
 <data key="ea1"/>
 <data key="ea0"/>
 </edge>
-<edge id="e4" source="n58" target="n57">
+<edge id="e4" source="n39" target="n38">
 <data key="ea19">15.0</data>
 <data key="ea18">org.graffiti.plugins.views.defaults.StraightLineEdgeShape</data>
 <data key="ea17">5.0</data>
@@ -1082,7 +1318,7 @@
 <data key="ea1"/>
 <data key="ea0"/>
 </edge>
-<edge id="e5" source="n59" target="n57">
+<edge id="e5" source="n40" target="n38">
 <data key="ea19">15.0</data>
 <data key="ea18">org.graffiti.plugins.views.defaults.StraightLineEdgeShape</data>
 <data key="ea17">5.0</data>
@@ -1106,7 +1342,7 @@
 <data key="ea1"/>
 <data key="ea0"/>
 </edge>
-<edge id="e6" source="n61" target="n60">
+<edge id="e6" source="n42" target="n41">
 <data key="ea19">15.0</data>
 <data key="ea18">org.graffiti.plugins.views.defaults.StraightLineEdgeShape</data>
 <data key="ea17">5.0</data>
@@ -1130,7 +1366,7 @@
 <data key="ea1"/>
 <data key="ea0"/>
 </edge>
-<edge id="e7" source="n62" target="n60">
+<edge id="e7" source="n43" target="n41">
 <data key="ea19">15.0</data>
 <data key="ea18">org.graffiti.plugins.views.defaults.StraightLineEdgeShape</data>
 <data key="ea17">5.0</data>
@@ -1154,7 +1390,7 @@
 <data key="ea1"/>
 <data key="ea0"/>
 </edge>
-<edge id="e8" source="n64" target="n63">
+<edge id="e8" source="n45" target="n44">
 <data key="ea19">15.0</data>
 <data key="ea18">org.graffiti.plugins.views.defaults.StraightLineEdgeShape</data>
 <data key="ea17">5.0</data>
@@ -1178,7 +1414,7 @@
 <data key="ea1"/>
 <data key="ea0"/>
 </edge>
-<edge id="e9" source="n65" target="n63">
+<edge id="e9" source="n46" target="n44">
 <data key="ea19">15.0</data>
 <data key="ea18">org.graffiti.plugins.views.defaults.StraightLineEdgeShape</data>
 <data key="ea17">5.0</data>
@@ -1202,7 +1438,7 @@
 <data key="ea1"/>
 <data key="ea0"/>
 </edge>
-<edge id="e10" source="n67" target="n66">
+<edge id="e10" source="n48" target="n47">
 <data key="ea19">15.0</data>
 <data key="ea18">org.graffiti.plugins.views.defaults.StraightLineEdgeShape</data>
 <data key="ea17">5.0</data>
@@ -1226,7 +1462,7 @@
 <data key="ea1"/>
 <data key="ea0"/>
 </edge>
-<edge id="e11" source="n68" target="n66">
+<edge id="e11" source="n49" target="n47">
 <data key="ea19">15.0</data>
 <data key="ea18">org.graffiti.plugins.views.defaults.StraightLineEdgeShape</data>
 <data key="ea17">5.0</data>
